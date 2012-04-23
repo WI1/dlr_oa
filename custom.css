@@ -1981,5 +1981,5 @@ div.litecal .litecal-data .views-field.title {
 html.js input.form-autocomplete {
   background-image: url(/misc/throbber.gif);
   background-repeat: no-repeat;
-  background-position: 100% 2px;
+ /*background-position: 100% 2px;*/
 }
