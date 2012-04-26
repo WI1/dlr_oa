@@ -96,6 +96,9 @@ projects[wi1init][subdir] = "features"
   projects[panels][subdir] = "contrib"
   projects[panels][version] = "3.10"
 
+  projects[footermap][subdir] = "contrib"
+  projects[footermap][version] = "1.7"
+
 
 ;-- b.2 specific
 projects[dlr_atrium_overrides][download][type] = "git"
