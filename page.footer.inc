@@ -11,6 +11,6 @@
   <?php if ($palette): ?><div id='palette'><?php print $palette; ?></div><?php endif; ?>
 
   <?php print $closure ?>
-
+  
   </body>
 </html>

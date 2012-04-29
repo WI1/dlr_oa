@@ -1,5 +1,4 @@
 <?php include 'page.header.inc'; ?>
-
 <div id='left'><div class='page-region'>
   <?php if ($left) print $left ?>
 </div></div>

@@ -20,7 +20,7 @@
 		<p><?php print $node_read_more; ?></p>
 		<?php endif; ?>
   </div>
-	<?php print dlr_oa_addthis_button(); ?>
   <div class="links"><?php print $submitted; ?><?php if($links): ?> | <?php print $links; ?><?php endif; ?></div>
+<?php print dlr_oa_addthis_button(); ?>
 </div>
 <?php if(isset($after)) { print $after; }?>

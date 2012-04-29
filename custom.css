@@ -1975,7 +1975,7 @@ table th {
 }
 
 div.litecal .litecal-data .views-field.title { 
-  color:#48A; 
+  color:#404040; /*old 48A */ 
 }
 
 html.js input.form-autocomplete {

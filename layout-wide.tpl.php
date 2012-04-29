@@ -5,6 +5,7 @@
     <div class='page-content content-wrapper clear-block'><?php print $content ?></div>
   <?php endif; ?>
   <?php print $content_region ?>
-</div></div>
+</div>
+</div>
 
 <?php include 'page.footer.inc'; ?>
