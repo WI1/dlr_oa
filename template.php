@@ -446,6 +446,11 @@ function dlr_oa_preprocess_page(&$vars) {
   
   // Remove some User tabs from the Profile Page
   dlr_oa_remove_userprofile_tabs(&$vars);
+  
+  //Hide the title of the front page. It shows 'Home' for the dashboard
+  if($vars[is_front] == TRUE){
+    $vars[title] = "";
+  }
 }
 
 /**
