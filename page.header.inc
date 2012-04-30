@@ -35,11 +35,13 @@
   <div id='page-tools'><div class='limiter clear-block container_12'>
     <?php $active_space = spaces_get_space(); ?>
     <?php if($active_space->type == "og"): ?>
-      <h1 <?php print drupal_attributes($title_attr);?>><?php print $active_space->group->title; ?></h1>
+      <h1 <?php print drupal_attributes($title_attr);?>><a href="/<?php print $active_space->group->purl; ?>"><?php print $active_space->group->title; ?></a></h1>
       <p class="og-description"><?php print $active_space->group->og_description; ?></p>
       <?php $field = content_fields('field_projectlogo'); $filepath = isset($active_space->group->field_projectlogo[0]['filepath']) ? $active_space->group->field_projectlogo[0]['filepath'] : $field['widget']['default_image']['filepath']; ?>
+      <a href="/<?php print $active_space->group->purl; ?>">
       <?php print theme('imagecache', 'projectlogo_2c_landscape', $filepath, $active_space->group->og_description, $active_space->group->title, array('class' => 'group-logo imagecache imagecache-projectlogo_3c_landscape',)); ?>
-    <?php else : ?>	
+      </a>
+     <?php else : ?>	
       <?php if ($title): ?><h1 <?php print drupal_attributes($title_attr) ?>><?php print $title ?></h1><?php endif; ?>
       <?php if ($extrablanklines): // For better formatting of User Profile?><div ><?php print $extrablanklines ?></div><?php endif; ?>
       <?php if (isset($node) && !empty($node->og_description) && $node->og_description !== 'na'): ?><p class="long"><?php print $node->og_description; ?></p><?php endif; ?>
