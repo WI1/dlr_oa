@@ -24,7 +24,7 @@
     
   
 	<?php print dlr_oa_addthis_button(); ?>
-  <div class="links">Verfasst von <?php print $submitted; ?> am <?php if($links && strpos($links, "Print") == FALSE): ?> | <?php print $links; ?><?php endif; ?></div>
+  <div class="links">Verfasst von <?php print $submitted; ?> am <?php if($links && strpos($links, "print") == FALSE): ?> | <?php print $links; ?><?php endif; ?></div>
 
 </div>
 <?php if(isset($after)) { print $after; }?>
