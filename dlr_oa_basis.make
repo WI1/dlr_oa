@@ -69,9 +69,6 @@ projects[wi1init][subdir] = "features"
   projects[filefield][subdir] = "contrib"
   projects[filefield][version] = "3.10"
   
-  projects[feedmine][subdir] = "contrib"
-  projects[feedmine][version] = "1.0"
-  
   projects[footermap][subdir] = "contrib"
   projects[footermap][version] = "1.7"
 
