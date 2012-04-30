@@ -866,7 +866,7 @@ body.front #sidebar-right h2 {
 }
 
 body.front .node.event-nodeapi {
- color: #999;
+ color: #404040;  /* previous 999 */
 }
 
 #block-views-og_members_block-block_2 {

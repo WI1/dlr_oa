@@ -20,7 +20,12 @@
 		<p><?php print $node_read_more; ?></p>
 		<?php endif; ?>
   </div>
+<<<<<<< HEAD
   <div class="links"><?php print $submitted; ?><?php if($links): ?> | <?php print $links; ?><?php endif; ?></div>
 <?php print dlr_oa_addthis_button(); ?>
+=======
+	<?php print dlr_oa_addthis_button(); ?>
+  <div class="links"><?php print $submitted; ?><?php if($links && strpos($links, "Print") == FALSE): ?> | <?php print $links; ?><?php endif; ?></div>
+>>>>>>> 67e6e58958a2e9193cb14e9d6f205cce6c2729ed
 </div>
 <?php if(isset($after)) { print $after; }?>
