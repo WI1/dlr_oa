@@ -38,6 +38,7 @@
       <h1 <?php print drupal_attributes($title_attr);?>><a href="/<?php print $active_space->group->purl; ?>"><?php print $active_space->group->title; ?></a></h1>
       <p class="og-description"><?php print $active_space->group->og_description; ?></p>
       <?php $field = content_fields('field_projectlogo'); $filepath = isset($active_space->group->field_projectlogo[0]['filepath']) ? $active_space->group->field_projectlogo[0]['filepath'] : $field['widget']['default_image']['filepath']; ?>
+      <?php if(!isset($filepath)) $filepath = "demoscreen_oa/logo_light.png";?>
       <a href="/<?php print $active_space->group->purl; ?>">
       <?php print theme('imagecache', 'projectlogo_2c_landscape', $filepath, $active_space->group->og_description, $active_space->group->title, array('class' => 'group-logo imagecache imagecache-projectlogo_3c_landscape',)); ?>
       </a>
