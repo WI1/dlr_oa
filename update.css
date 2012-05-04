@@ -22,7 +22,7 @@ body {
 	
 	/* Links */
 	.node a, #sidebar-right .block a { color: #243D80 !important; }
-	.node a:hover, #sidebar-right .block a:hover { color: #EEE !important; }
+	.node a:hover, #sidebar-right .block a:hover { color: #404040 !important; }
 	
 	/* Headlines */
 	h1, h2, h3, h4, h5, h6 { margin-bottom: 0.6em; }
@@ -30,7 +30,7 @@ body {
 	body #project-sidebar .block h2, body .block .view-header, body #project-sidebar .block h2 a { background: none !important; }
 	#main-squeeze h1,#main-squeeze h2,#main-squeeze h3,#main-squeeze h4,#main-squeeze h5,#main-squeeze h6 { color: #404040 !important; }	
 	h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.node h1 a ,.node h2 a, .node h3 a ,.node h4 a { color: #404040 !important; }
-	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { color: #EEE !important; }
+	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { color: #404040 !important; } /*changed to no hover effect*/
 	
 	/* Page Title */
 	#page-tools .page-title, #page .node-title { height: auto !important; font-size: 18px; text-transform: uppercase; font-weight: bold;}
@@ -260,7 +260,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 body.node-type-balancewiki div.links.wiki { top: inherit !important; }
 
 /*.node .links { float: none !important; } Removed to make line on equal height as share button */ 
-.node .links .links, .node .links li { float: none !important; }
+.node .links .links, .node .links li { float: none !important; display: inline; } 
 
 /* Suche */
 .search-results dt a { color: #404040; font-size: 1.2em; }	

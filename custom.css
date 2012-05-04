@@ -802,6 +802,20 @@ border-top: 1px solid #ccc;
 clear: both;
 }
 
+
+.node .linkliste {
+   display: inline;
+
+ }
+ 
+ .node .byline {
+   display: inline;
+ }
+ 
+ .node .date {
+   display: inline;
+ }
+  
 .node .links a {
 color: #666;
 }
