@@ -1,6 +1,6 @@
 <?php if(isset($before)) { print $before; }?>
 <div id="node-<?php print $node->nid; ?>" class="node<?php if ($sticky) { print ' sticky'; } ?><?php if (!$status) { print ' node-unpublished'; } ?><?php if (isset($og_public) && $og_public === FALSE) { print ' node-private'; } ?> <?php if (isset($node_classes)) { print $node_classes; } ?> node-<?php print $type; ?> clear-block">
-	<?php if (!$page): ?>
+	<?php if (!$page || $page): ?> 
 		<h2 class="node-title"><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
 	<?php endif; ?>
 	<?php if(!$page && isset($focusgroups)): ?>
@@ -10,9 +10,10 @@
 		<?php endforeach; ?>
 		</div>
 	<?php endif; ?>
-	<?php if (isset($og_public) && $og_public === FALSE): ?>
+	<?php if (isset($og_public) && $og_public === FALSE): ?> 
 	<?php print dlr_oa_visibility($node->og_groups_both); ?>
 	<?php endif; ?>
+  <?php /* Zustaendig fuer das kleine Icon neben den Tags !! */ ?>
 
   <div class="content">
     <?php print $content ?>
@@ -24,7 +25,7 @@
     
   
 	<?php print dlr_oa_addthis_button(); ?>
-  <div class="links">Verfasst von <?php print $submitted; ?> am <?php if($links && strpos($links, "Print") == FALSE): ?> | <?php print $links; ?><?php endif; ?></div>
+  <div class="links"><div class="linkliste">Verfasst von <?php print $submitted; ?> <?php if($links && strpos($links, "Print") == FALSE): ?></div> | <?php print $links; ?><?php endif; ?></div>
 
 </div>
 <?php if(isset($after)) { print $after; }?>
