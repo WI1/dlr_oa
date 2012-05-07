@@ -220,3 +220,14 @@ libraries[tinymce][directory_name] = "tinymce"
 ; WYSIWYG
 projects[wysiwyg][subdir] = "contrib"
 
+  ; Twitter Modules
+  projects[twitter][subdir] = "contrib"
+  projects[twitter][version] = "3.0-beta9"
+
+  projects[autoload][subdir] = "contrib"
+  projects[autoload][version] = "2.1"
+
+  projects[oauth][subdir] = "contrib"
+  projects[oauth][version] = "3.0-beta4"
+
+
