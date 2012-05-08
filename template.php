@@ -4,6 +4,17 @@ function dlr_oa_node_more_link($node) {
 	return '<div class="node-more-link">&hellip; ' . l('weiterlesen', 'node/' . $node->nid) . '</div>';
 }
 
+/* needs workaround, tags/terms are wirtten in "content" by the
+ * gingko preprocessing function. I need a function deleting the
+ * already nested html-tags out of $vars content
+ */                                                                                                                                                                                                                                           
+function dlr_oa_preprocess_node(&$vars) {
+
+  
+  dpm($vars);
+}
+
+
 function dlr_oa_addthis_button() {
 	return '<div class="addthis_button_div">
 		<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=stoeckit"><img src="/sites/all/themes/dlr_oa/img/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/></a>
