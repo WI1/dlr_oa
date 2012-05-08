@@ -12,6 +12,7 @@ projects[pressflow][type] = "core"
 
 ; Profiles
 projects[openatrium][type] = "profile"
+projects[openatrium][version] = "1.2"
   
   ; Patches
   ; Patch for Boxes Module to fit Pressflow
@@ -237,5 +238,5 @@ projects[wysiwyg][subdir] = "contrib"
   projects[dlr_socialmedia][download][url] = "git@redmine.wi1projects.com:dlr/dlr-socialmedia.git"
   projects[dlr_socialmedia][type] = "module"
   projects[dlr_socialmedia][subdir] = "features"
-  
+
 
