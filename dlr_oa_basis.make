@@ -52,8 +52,8 @@ projects[wi1init][subdir] = "features"
   projects[services][subdir] = "contrib"
   projects[services][version] = "2.x-dev"
 
-  projects[content_access][subdir] = "contrib"
-  projects[content_access][version] = "1.2"
+  projects[nodeaccess][subdir] = "contrib"
+  projects[nodeaccess][version] = "1.3"
 
   projects[features_extra][subdir] = "contrib"
   projects[features_extra][version] = "1.x-dev"
@@ -221,7 +221,7 @@ libraries[tinymce][directory_name] = "tinymce"
 ; WYSIWYG
 projects[wysiwyg][subdir] = "contrib"
 
-  ; Twitter Modules
+  ; Twitter and Social Media Modules
   projects[twitter][subdir] = "contrib"
   projects[twitter][version] = "3.0-beta9"
 
@@ -233,6 +233,9 @@ projects[wysiwyg][subdir] = "contrib"
 
   projects[twitter_pull][subdir] = "contrib"
   projects[twitter_pull][version] = "1.2"
+
+  projects[custom_pub][subdir] = "contrib"
+  projects[custom_pub][version] = "1.4"
 
   projects[dlr_socialmedia][download][type] = "git"
   projects[dlr_socialmedia][download][url] = "git@redmine.wi1projects.com:dlr/dlr-socialmedia.git"
