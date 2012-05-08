@@ -230,4 +230,12 @@ projects[wysiwyg][subdir] = "contrib"
   projects[oauth][subdir] = "contrib"
   projects[oauth][version] = "3.0-beta4"
 
+  projects[twitter_pull][subdir] = "contrib"
+  projects[twitter_pull][version] = "1.2"
+
+  projects[dlr_socialmedia][download][type] = "git"
+  projects[dlr_socialmedia][download][url] = "git@redmine.wi1projects.com:dlr/dlr-socialmedia.git"
+  projects[dlr_socialmedia][type] = "module"
+  projects[dlr_socialmedia][subdir] = "features"
+  
 
