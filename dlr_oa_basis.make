@@ -234,7 +234,7 @@ projects[wysiwyg][subdir] = "contrib"
   projects[twitter_pull][version] = "1.2"
 
   projects[dlr_socialmedia][download][type] = "git"
-  projects[dlr_socialmedia][download][url] = "git://redmine.wi1projects.com/dlr/dlr-socialmedia.git"
+  projects[dlr_socialmedia][download][url] = "git@redmine.wi1projects.com:dlr/dlr-socialmedia.git"
   projects[dlr_socialmedia][type] = "module"
   projects[dlr_socialmedia][subdir] = "features"
   
