@@ -1658,6 +1658,11 @@ border:1px solid #BBBBBB;
 
 /** Changes to OA **/
 
+div.node {
+  border:  none !important;
+}
+
+
 .atrium-welcome-links a:hover, .atrium-welcome-links a:focus, .dropdown-blocks .block-toggle ul.links li a:hover, .dropdown-blocks .block-toggle ul.links li a:focus, .dropdown-blocks .block-toggle .item-list li a:hover, .dropdown-blocks .block-toggle .item-list li a:focus, .pager li.pager-current, .more-link a:hover, #navigation {
     background-color: #EEE;
 }
