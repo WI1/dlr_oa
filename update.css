@@ -260,7 +260,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 body.node-type-balancewiki div.links.wiki { top: inherit !important; }
 
 /*.node .links { float: none !important; } Removed to make line on equal height as share button */ 
-.node .links .links, .node .links li { float: none !important; display: inline; } 
+.node .links .links, .node .links li { float: none !important; display: inline !important; } 
 
 /* Suche */
 .search-results dt a { color: #404040; font-size: 1.2em; }	
