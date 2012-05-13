@@ -1845,10 +1845,18 @@ input.teaser-button, input.form-submit {
 	padding-top: 0;
 }
 
+#right {
+  border: none;
+ }
+
 #right .page-region {
 	padding: 20px 0 0 20px;
 }
 
+#page .limiter {
+  background-image: none !important;
+  /*deletes vertical greyish line between content and right sidebar*/
+}
 .page-region .block-content {
 	padding: 0;
 }
