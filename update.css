@@ -308,8 +308,8 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 /* Content */
 #content { border: none !important; padding: 15px 0 !important; }
 #content p {
-    font-size: 11px;
-    line-height: 16.5px;
+    font-size: 13.2px;
+    line-height: 19.8px;
 }
 /* Vermischtes */
 #main-squeeze p.long { color: #404040; width: auto; top: auto; }
