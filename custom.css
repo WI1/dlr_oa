@@ -967,7 +967,7 @@ left: 120px;
 dd li.field-item {
 display: block;
 margin: 0 20px 0 0;
-float: left;
+float: left !important;
 padding-bottom: 1em;
 }
 
