@@ -58,8 +58,9 @@ projects[wi1init][subdir] = "features"
   projects[features_extra][subdir] = "contrib"
   projects[features_extra][version] = "1.x-dev"
 
-  projects[features_override][subdir] = "contrib"
+  projects[features_override][subdir] = "patched"
   projects[features_override][version] = "1.0-beta2"
+  projects[features_override][patch][] = "http://drupal.org/files/features-override-1083354-1.patch"
 
   projects[features_plumber][subdir] = "contrib"
   projects[features_plumber][version] = "1.0-alpha1"
