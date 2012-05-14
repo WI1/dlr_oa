@@ -789,7 +789,10 @@ width: 30px;
 }
 
 .node-private .node-title {
-padding-left: 1.5em;
+  /*padding-left: 1.5em;
+  Einrueckung fuer Titel der Blogposts.
+  */
+  
 }
 
 .node .content {
@@ -967,7 +970,7 @@ left: 120px;
 dd li.field-item {
 display: block;
 margin: 0 20px 0 0;
-float: left;
+float: left !important;
 padding-bottom: 1em;
 }
 
@@ -1658,6 +1661,11 @@ border:1px solid #BBBBBB;
 
 /** Changes to OA **/
 
+div.node {
+  border:  none !important;
+}
+
+
 .atrium-welcome-links a:hover, .atrium-welcome-links a:focus, .dropdown-blocks .block-toggle ul.links li a:hover, .dropdown-blocks .block-toggle ul.links li a:focus, .dropdown-blocks .block-toggle .item-list li a:hover, .dropdown-blocks .block-toggle .item-list li a:focus, .pager li.pager-current, .more-link a:hover, #navigation {
     background-color: #EEE;
 }
@@ -1840,10 +1848,18 @@ input.teaser-button, input.form-submit {
 	padding-top: 0;
 }
 
+#right {
+  border: none;
+ }
+
 #right .page-region {
 	padding: 20px 0 0 20px;
 }
 
+#page .limiter {
+  background-image: none !important;
+  /*deletes vertical greyish line between content and right sidebar*/
+}
 .page-region .block-content {
 	padding: 0;
 }

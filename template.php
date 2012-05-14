@@ -9,7 +9,7 @@ function dlr_oa_node_more_link($node) {
  * already nested html-tags out of $vars content
  */                                                                                                                                                                                                                                           
 function dlr_oa_preprocess_node(&$vars) {
-  // TODO
+  // TODO  fuer $content variable aenderungen einfuerhen. zb Tags entfernen...
   //dpm($vars);
 }
 
