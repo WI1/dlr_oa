@@ -114,7 +114,7 @@ list-style-type: none;
 margin-left: 1em;
 }
 
-#sidebar-right h2, .block .view-header {
+.page-region .block .block-title {
     font-size: 14px;
     line-height: 16.8px;
   
