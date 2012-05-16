@@ -114,6 +114,21 @@ list-style-type: none;
 margin-left: 1em;
 }
 
+#sidebar-right h2, .block .view-header {
+    font-size: 14px;
+    line-height: 16.8px;
+  
+    -moz-border-bottom-colors: none !important;
+    -moz-border-image: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    background: none repeat scroll 0 0 transparent !important;
+    border-color: -moz-use-text-color -moz-use-text-color #CCCCCC !important;
+    border-style: none none solid !important;
+    border-width: medium medium 1px !important;
+}
+
 
 #block-focus_groups-0  h2 {
 background-color: transparent;
