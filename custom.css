@@ -1785,6 +1785,7 @@ margin-left: 0.4em;
 
 #space-tools .block-title:hover, #block-atrium-account .block-title:hover {
 	text-decoration: underline !important;
+  margin-bottom: 5px;
 }
 
 body #space-tools .block-title, body #header .block-widget .block-content, body #header .block .block-title{
