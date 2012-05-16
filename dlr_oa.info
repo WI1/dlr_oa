@@ -11,6 +11,7 @@ stylesheets[screen][] = famfamfam-silk-sprite.css
 stylesheets[screen][] = css/960.css
 stylesheets[screen][] = custom.css
 stylesheets[screen][] = update.css
+stylesheets[screen][] = style.css
 
 regions[left] = "Left sidebar"
 regions[right] = "Right sidebar"
