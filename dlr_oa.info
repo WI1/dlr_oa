@@ -11,6 +11,7 @@ stylesheets[screen][] = famfamfam-silk-sprite.css
 stylesheets[screen][] = css/960.css
 stylesheets[screen][] = custom.css
 stylesheets[screen][] = update.css
+stylesheets[screen][] = style.css
 
 regions[left] = "Left sidebar"
 regions[right] = "Right sidebar"
@@ -66,9 +67,11 @@ layouts[wide][description] = "Single one column wide page."
 layouts[wide][template] = "layout-wide"
 layouts[wide][regions][] = "content"
 layouts[wide][regions][] = "header"
+layouts[wide][regions][] = "footer"
 layouts[wide][regions][] = "space_tools"
 layouts[wide][regions][] = "page_tools"
 layouts[wide][regions][] = "palette"
+
 
 ; Layout: Login
 layouts[login][name] = "Login"

@@ -61,9 +61,11 @@ layouts[wide][description] = "Single one column wide page."
 layouts[wide][template] = "layout-wide"
 layouts[wide][regions][] = "content"
 layouts[wide][regions][] = "header"
+layouts[wide][regions][] = "footer"
 layouts[wide][regions][] = "space_tools"
 layouts[wide][regions][] = "page_tools"
 layouts[wide][regions][] = "palette"
+
 
 ; Layout: Login
 layouts[login][name] = "Login"
