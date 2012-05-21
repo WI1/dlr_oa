@@ -248,7 +248,7 @@ projects[feedmine][subdir] = "custom"
 ; TinyMCE 
 libraries[apachesolr][download][type] = "get"
 libraries[apachesolr][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.zip"
-libraries[tinymce][directory_name] = "SolrPhpClient"
+libraries[apachesolr][directory_name] = "SolrPhpClient"
 
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
