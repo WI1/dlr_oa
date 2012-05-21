@@ -243,4 +243,22 @@ projects[wysiwyg][subdir] = "contrib"
   projects[dlr_socialmedia][type] = "module"
   projects[dlr_socialmedia][subdir] = "features"
 
+; Maps feature
+projects[balancemap][download][type] = "git"
+projects[balancemap][download][url] = "git@redmine.wi1projects.com:balance/balancemap.git"
+projects[balancemap][type] = "module"
+projects[balancemap][subdir] = "features"
+
+projects[exhibit]subdir] = "contrib"
+projects[exhibit][version] = "1.0-beta1"
+
+projects[views_customfield]subdir] = "contrib"
+projects[views_customfield][version] = "1.0"
+
+ projects[book_helper]subdir] = "contrib"
+ projects[book_helper][version] = "1.0-beta1"
+
+ projects[addresses]subdir] = "contrib"
+ projects[addresses][version] = "1.12"
+
 
