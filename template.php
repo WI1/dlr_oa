@@ -582,3 +582,14 @@ function dlr_oa_remove_userprofile_tabs(&$vars) {
       $vars['title'] = NULL;
   }
 }
+
+/**
+ * Implements hook_form_alter().
+ 
+function dlr_oa_form_alter(&$form, &$form_state, $form_id) {
+  print_r("YOYO");
+  if (isset($form['type']) && $form['type']['#value'] . '_node_settings' == $form_id) {
+    //$grant_form = nodeaccess_grants_form(&$form_state, $node); 
+    //$form = 
+  }
+}*/
