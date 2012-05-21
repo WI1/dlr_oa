@@ -10,9 +10,14 @@
 /* Allgemein */
 body { 
 	background: #fff;
-	font-family: Arial, Helvetica, sans-serif;
 	color: #404040;
 }
+
+/* Overwrite for font sizes */
+input, select, textarea, body {
+    font: 11px/18px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 #page { padding: 0; width: 100%; overflow: hidden; margin: 0 auto; border: none; background: #fff url(img/bg/symbol.jpg) right no-repeat; }
 .one-sidebar.sidebar-right #main-squeeze { }
 
