@@ -31,7 +31,7 @@ projects[dlr_oa][type] = "theme"
 ;- a. non-contrib
 projects[atrium_folders][download][type] = "git"
 projects[atrium_folders][download][url] = "git://github.com/nuvoleweb/atrium_folders.git"
-projects[atrium_folders][type] = "theme"
+projects[atrium_folders][type] = "module"
 projects[atrium_folders][subdir] = "features"
   
   ; atrium_folders dependencies
@@ -100,6 +100,23 @@ projects[wi1init][subdir] = "features"
 
 
 ;-- b.2 specific
+projects[balancemap][download][type] = "git"
+projects[balancemap][download][url] = "git@redmine.wi1projects.com:balance/balancemap.git"
+projects[balancemap][type] = "module"
+projects[balancemap][subdir] = "features"
+
+projects[exhibit]subdir] = "contrib"
+projects[exhibit][version] = "1.0-beta1"
+
+projects[views_customfield]subdir] = "contrib"
+projects[views_customfield][version] = "1.0"
+
+ projects[book_helper]subdir] = "contrib"
+ projects[book_helper][version] = "1.0-beta1"
+
+ projects[addresses]subdir] = "contrib"
+ projects[addresses][version] = "1.12"
+
 projects[dlr_atrium_overrides][download][type] = "git"
 projects[dlr_atrium_overrides][download][url] = "git://github.com/WI1/dlr_atrium_overrides.git"
 projects[dlr_atrium_overrides][type] = "module"
@@ -174,6 +191,23 @@ projects[dlr_info][download][url] = "git://github.com/WI1/dlr_info.git"
 projects[dlr_info][type] = "module"
 projects[dlr_info][subdir] = "features"
 
+projects[dlr_search][download][type] = "git"
+projects[dlr_search][download][url] = "git@redmine.wi1projects.com:dlr/dlr-search.git"
+projects[dlr_search][type] = "module"
+projects[dlr_search][subdir] = "features"
+   
+   projects[apachesolr][subdir] = "contrib"
+   projects[apachesolr][version] = "1.6"
+
+   projects[apachesolr_autocomplete][subdir] = "contrib"
+   projects[apachesolr_autocomplete][version] = "1.3"
+
+
+projects[dlr_socialmedia][download][type] = "git"
+projects[dlr_socialmedia][download][url] = "git@redmine.wi1projects.com:dlr/dlr-socialmedia.git"
+projects[dlr_socialmedia][type] = "module"
+projects[dlr_socialmedia][subdir] = "features"
+
   
   ;- custom
   projects[balanceonline_og_like][download][type] = "git"
@@ -212,12 +246,17 @@ projects[feedmine][subdir] = "custom"
 ;- libraries
 
 ; TinyMCE 
+libraries[apachesolr][download][type] = "get"
+libraries[apachesolr][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.zip"
+libraries[tinymce][directory_name] = "SolrPhpClient"
+
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
 libraries[tinymce][directory_name] = "tinymce"
 
   ;- libraries dependency
   projects[libraries][subdir] = "contrib"
+  
 
 ; WYSIWYG
 projects[wysiwyg][subdir] = "contrib"
@@ -237,41 +276,3 @@ projects[wysiwyg][subdir] = "contrib"
 
   projects[custom_pub][subdir] = "contrib"
   projects[custom_pub][version] = "1.4"
-
-  projects[dlr_socialmedia][download][type] = "git"
-  projects[dlr_socialmedia][download][url] = "git@redmine.wi1projects.com:dlr/dlr-socialmedia.git"
-  projects[dlr_socialmedia][type] = "module"
-  projects[dlr_socialmedia][subdir] = "features"
-
-; Maps feature
-projects[balancemap][download][type] = "git"
-projects[balancemap][download][url] = "git@redmine.wi1projects.com:balance/balancemap.git"
-projects[balancemap][type] = "module"
-projects[balancemap][subdir] = "features"
-
-projects[exhibit]subdir] = "contrib"
-projects[exhibit][version] = "1.0-beta1"
-
-projects[views_customfield]subdir] = "contrib"
-projects[views_customfield][version] = "1.0"
-
- projects[book_helper]subdir] = "contrib"
- projects[book_helper][version] = "1.0-beta1"
-
- projects[addresses]subdir] = "contrib"
- projects[addresses][version] = "1.12"
-
-projects[dlr_search][download][type] = "git"
-projects[dlr_search][download][url] = "git://github.com/WI1/dlr_search.git"
-projects[dlr_search][type] = "module"
-projects[dlr_search][subdir] = "features"
-
-libraries[apachesolr][download][type] = "get"
-libraries[apachesolr][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.zip"
-libraries[tinymce][directory_name] = "SolrPhpClient"
-
- projects[apachesolr][subdir] = "contrib"
- projects[apachesolr][version] = "1.6"
-
- projects[apachesolr_autocomplete][subdir] = "contrib"
- projects[apachesolr_autocomplete][version] = "1.3"
