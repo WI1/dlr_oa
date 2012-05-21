@@ -45,7 +45,8 @@ input, select, textarea, body {
 p { margin-bottom: 1em; }
 dl, hr, pre, address, fieldset, ol, ul, table { margin-bottom: 2.5em; }
 dl dt { font-weight: bold; }
-dl dd { margin-left: 0; }
+dl dd { margin-left: 0px; }
+.page-content dl dd, .page-content dl dl { margin-left: 0px; /* keine einrueckung mehr*/ }
 
 /* Fliesstext */
 body.front .node .content p { display: block !important; }
