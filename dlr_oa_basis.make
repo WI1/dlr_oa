@@ -199,6 +199,9 @@ projects[dlr_search][subdir] = "features"
    projects[apachesolr][subdir] = "contrib"
    projects[apachesolr][version] = "1.6"
 
+   projects[apachesolr_attachments][subdir] = "contrib"
+   projects[apachesolr_attachments][version] = "1.0-beta3"
+   
    projects[apachesolr_autocomplete][subdir] = "contrib"
    projects[apachesolr_autocomplete][version] = "1.3"
 
@@ -246,9 +249,9 @@ projects[feedmine][subdir] = "custom"
 ;- libraries
 
 ; TinyMCE 
-libraries[apachesolr][download][type] = "get"
-libraries[apachesolr][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.zip"
-libraries[apachesolr][directory_name] = "SolrPhpClient"
+;libraries[apachesolr][download][type] = "get"
+;libraries[apachesolr][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.zip"
+;libraries[apachesolr][directory_name] = "SolrPhpClient"
 
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
