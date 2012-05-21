@@ -261,4 +261,17 @@ projects[views_customfield][version] = "1.0"
  projects[addresses]subdir] = "contrib"
  projects[addresses][version] = "1.12"
 
+projects[dlr_search][download][type] = "git"
+projects[dlr_search][download][url] = "git://github.com/WI1/dlr_search.git"
+projects[dlr_search][type] = "module"
+projects[dlr_search][subdir] = "features"
 
+libraries[apachesolr][download][type] = "get"
+libraries[apachesolr][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.zip"
+libraries[tinymce][directory_name] = "SolrPhpClient"
+
+ projects[apachesolr][subdir] = "contrib"
+ projects[apachesolr][version] = "1.6"
+
+ projects[apachesolr_autocomplete][subdir] = "contrib"
+ projects[apachesolr_autocomplete][version] = "1.3"
