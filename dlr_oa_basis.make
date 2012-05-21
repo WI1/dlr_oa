@@ -253,6 +253,11 @@ projects[feedmine][subdir] = "custom"
 ;libraries[apachesolr][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.zip"
 ;libraries[apachesolr][directory_name] = "SolrPhpClient"
 
+libraries[SolrPhpClient][download][type] = "get"
+libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
+libraries[SolrPhpClient][download][sha1] = "32fa0e387c92d02fe4da4ca2ebbbeddb2d6ce0a8"
+libraries[SolrPhpClient][destination] = "sites/all/modules/apachesolr"
+
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
 libraries[tinymce][directory_name] = "tinymce"
