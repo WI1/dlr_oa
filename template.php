@@ -313,7 +313,6 @@ function phptemplate_business_card($uid) {
 
 	if($uid) {
 		$user = user_load($uid);
-    profile_load_profile($user->uid); // for profile_firstname etc.
     
 		$hcard = array(
 			'url' => '/user/' . $user->uid,
