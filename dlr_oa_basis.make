@@ -256,7 +256,7 @@ projects[feedmine][subdir] = "custom"
 libraries[SolrPhpClient][download][type] = "get"
 libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
 libraries[SolrPhpClient][download][sha1] = "32fa0e387c92d02fe4da4ca2ebbbeddb2d6ce0a8"
-libraries[SolrPhpClient][destination] = "sites/all/modules/contrib/apachesolr"
+libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
 libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
 
 libraries[tinymce][download][type] = "get"
