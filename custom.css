@@ -974,6 +974,13 @@ float: left !important;
 padding-bottom: 1em;
 }
 
+dd li.field-itemanspr {
+display: block;
+margin: 0 20px 0 0;
+float: none !important;
+padding-bottom: 1em;
+}
+
 ul.ur-mutual-friends{
   width: 100%;
   background-color:red;
