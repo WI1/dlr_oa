@@ -313,11 +313,12 @@ function phptemplate_business_card($uid) {
 
 	if($uid) {
 		$user = user_load($uid);
-
+    profile_load_profile($user->uid); // for profile_firstname etc.
+    
 		$hcard = array(
 			'url' => '/user/' . $user->uid,
-			'given-name' => $user->profile_firstname,
-			'family-name' => $user->profile_lastname,
+			'given-name' => $user->profile_firstname, // right spelling?
+			'family-name' => $user->profile_lastname, // right spelling?
 			'street-address' => $user->addresses['street'],
 			'postal-code' => $user->addresses['postal_code'],
 			'locality' => $user->addresses['city'],
