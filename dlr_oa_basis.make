@@ -105,16 +105,16 @@ projects[balancemap][download][url] = "git@redmine.wi1projects.com:balance/balan
 projects[balancemap][type] = "module"
 projects[balancemap][subdir] = "features"
 
-projects[exhibit]subdir] = "contrib"
+projects[exhibit][subdir] = "contrib"
 projects[exhibit][version] = "1.0-beta1"
 
-projects[views_customfield]subdir] = "contrib"
+projects[views_customfield][subdir] = "contrib"
 projects[views_customfield][version] = "1.0"
 
  projects[book_helper]subdir] = "contrib"
  projects[book_helper][version] = "1.0-beta1"
 
- projects[addresses]subdir] = "contrib"
+ projects[addresses][subdir] = "contrib"
  projects[addresses][version] = "1.12"
 
 projects[dlr_atrium_overrides][download][type] = "git"
@@ -256,7 +256,7 @@ projects[feedmine][subdir] = "custom"
 libraries[SolrPhpClient][download][type] = "get"
 libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
 libraries[SolrPhpClient][download][sha1] = "32fa0e387c92d02fe4da4ca2ebbbeddb2d6ce0a8"
-libraries[SolrPhpClient][destination] = "sites/all/modules/apachesolr"
+libraries[SolrPhpClient][destination] = "contrib/apachesolr"
 
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
