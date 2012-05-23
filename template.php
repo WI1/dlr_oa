@@ -325,7 +325,8 @@ function phptemplate_business_card($uid) {
 			'country-name' => $user->addresses['country'],
 			'phone-work-value' => $user->addresses['phone'],
 			'fax-work-value' => $user->addresses['fax'],
-			'logo' => theme('user_picture', $user),
+      'logo' => theme('imagecache', 'user-m', $user->picture)
+		//	'logo' => theme('user_picture', $user), old version
 		);
 
 		$hcardOutput =
