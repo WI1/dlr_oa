@@ -2021,16 +2021,6 @@ div.litecal .litecal-data .views-field.title {
   color:#404040; /*old 48A */ 
 }
 
- #right .page-region .litecal-title .clear-block { 
-   border-bottom: 1px solid #CCC !important;
-   margin-bottom: 8px;
-}
-
-#right .page-region h3.litecal { 
-   color: #404040 !important;
-   font-size: 14px !important;
-}
-
 
 html.js input.form-autocomplete {
   background-image: url(/misc/throbber.gif);
