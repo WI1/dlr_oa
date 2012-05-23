@@ -260,7 +260,7 @@ libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
 libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
 
 libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
+libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.0.1.zip"
 libraries[tinymce][directory_name] = "tinymce"
 
   ;- libraries dependency
