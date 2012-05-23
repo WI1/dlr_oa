@@ -316,8 +316,9 @@ function phptemplate_business_card($uid) {
     
 		$hcard = array(
 			'url' => '/user/' . $user->uid,
-			'given-name' => $user->profile_firstname, // right spelling?
-			'family-name' => $user->profile_lastname, // right spelling?
+      'name' => $user->name,
+			//'given-name' => $user->profile_firstname, // right spelling?
+			//'family-name' => $user->profile_lastname, // right spelling?
 			'street-address' => $user->addresses['street'],
 			'postal-code' => $user->addresses['postal_code'],
 			'locality' => $user->addresses['city'],
@@ -332,7 +333,8 @@ function phptemplate_business_card($uid) {
 	<span class="logo">' . $hcard['logo'] . '</span>
 	<span class="fn n">
 		<a class="url" href="' . $hcard['url'] . '">
-			<span class="given-name">' . $hcard['given-name'] . '</span>
+      	<span class="given-name">' . $hcard['name'] . '</span>
+    	<span class="given-name">' . $hcard['given-name'] . '</span>
 			<span class="family-name">' . $hcard['family-name'] . '</span>
 		</a>
 	</span>
