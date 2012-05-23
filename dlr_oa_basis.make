@@ -108,7 +108,7 @@ projects[views_customfield][subdir] = "contrib"
 projects[views_customfield][version] = "1.0"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.0-dev"
+projects[views][version] = "3.0"
 
 projects[gmap][subdir] = "contrib"
 projects[gmap][version] = "1.1"
