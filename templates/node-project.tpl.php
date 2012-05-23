@@ -38,9 +38,12 @@
 <dt>Forschungsfragen</dt>
 <dd>
   <ul class="field-items">
-    <?php foreach ((array)$node->field_researchquestions as $item) { ?>
-      <li class="field-item"><?php print $item['view'] ?></li>
-    <?php } ?>
+    <?php foreach ((array)$node->field_researchquestions as $item) {
+      echo '<li class="field-itemanspr">'; 
+      print $item['view'];
+      echo 'asdfasdf';
+      echo '</li>';
+     } ?>
   </ul>
 </dd>
 

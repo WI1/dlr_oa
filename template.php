@@ -313,26 +313,29 @@ function phptemplate_business_card($uid) {
 
 	if($uid) {
 		$user = user_load($uid);
-
+    
 		$hcard = array(
 			'url' => '/user/' . $user->uid,
-			'given-name' => $user->profile_firstname,
-			'family-name' => $user->profile_lastname,
+      'name' => $user->name,
+			//'given-name' => $user->profile_firstname, // right spelling?
+			//'family-name' => $user->profile_lastname, // right spelling?
 			'street-address' => $user->addresses['street'],
 			'postal-code' => $user->addresses['postal_code'],
 			'locality' => $user->addresses['city'],
 			'country-name' => $user->addresses['country'],
 			'phone-work-value' => $user->addresses['phone'],
 			'fax-work-value' => $user->addresses['fax'],
-			'logo' => theme('user_picture', $user),
+      'logo' => theme('imagecache', 'user-m', $user->picture)
+		//	'logo' => theme('user_picture', $user), old version
 		);
 
 		$hcardOutput =
-'<div class="vcard" style="display: inline-block;">
-	<span class="logo">' . $hcard['logo'] . '</span>
-	<span class="fn n">
+'<div class="vcard">
+	<span class="logo" style="float: none;">' . $hcard['logo'] . '</span>
+	<span class="fn n" style="display: block;">
 		<a class="url" href="' . $hcard['url'] . '">
-			<span class="given-name">' . $hcard['given-name'] . '</span>
+      	<span class="given-name">' . $hcard['name'] . '</span>
+    	<span class="given-name">' . $hcard['given-name'] . '</span>
 			<span class="family-name">' . $hcard['family-name'] . '</span>
 		</a>
 	</span>
