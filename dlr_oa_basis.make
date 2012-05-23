@@ -265,10 +265,14 @@ libraries[tinymce][directory_name] = "tinymce"
 
   ;- libraries dependency
   projects[libraries][subdir] = "contrib"
-  
 
-; WYSIWYG
-projects[wysiwyg][subdir] = "contrib"
+  ; WYSIWYG
+  projects[wysiwyg][subdir] = "contrib"
+  projects[wysiwyg][version]= "3.0-beta9"
+
+  ; IMCE WYSIWYG BRIDGE
+  projects[imce_wysiwyg][subdir] = "contrib"
+  projects[imce_wysiwyg][version]= "6.x-1.1"
 
   ; Twitter and Social Media Modules
   projects[twitter][subdir] = "contrib"
