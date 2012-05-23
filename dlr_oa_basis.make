@@ -260,7 +260,7 @@ libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
 libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
 
 libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.2.7/tinymce_3_2_7.zip"
+libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.0.1.zip"
 libraries[tinymce][directory_name] = "tinymce"
 
   ;- libraries dependency
@@ -268,12 +268,16 @@ libraries[tinymce][directory_name] = "tinymce"
 
   ; WYSIWYG
   projects[wysiwyg][subdir] = "contrib"
-  projects[wysiwyg][version]= "3.0-beta9"
+  projects[wysiwyg][version]= "2.4"
 
   ; IMCE WYSIWYG BRIDGE
   projects[imce_wysiwyg][subdir] = "contrib"
-  projects[imce_wysiwyg][version]= "6.x-1.1"
+  projects[imce_wysiwyg][version]= "1.1"
 
+  ; IMCE
+  projects[imce][subdir] = "contrib"
+  projects[imce][version]= "2.3"
+  
   ; Twitter and Social Media Modules
   projects[twitter][subdir] = "contrib"
   projects[twitter][version] = "3.0-beta9"
@@ -289,3 +293,4 @@ libraries[tinymce][directory_name] = "tinymce"
 
   projects[custom_pub][subdir] = "contrib"
   projects[custom_pub][version] = "1.4"
+
