@@ -330,9 +330,9 @@ function phptemplate_business_card($uid) {
 		);
 
 		$hcardOutput =
-'<div class="vcard" style="display: inline-block;">
-	<span class="logo">' . $hcard['logo'] . '</span>
-	<span class="fn n">
+'<div class="vcard">
+	<span class="logo" style="float: none;">' . $hcard['logo'] . '</span>
+	<span class="fn n" style="display: block;">
 		<a class="url" href="' . $hcard['url'] . '">
       	<span class="given-name">' . $hcard['name'] . '</span>
     	<span class="given-name">' . $hcard['given-name'] . '</span>
