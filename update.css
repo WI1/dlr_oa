@@ -38,7 +38,7 @@ input, select, textarea, body {
 	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { color: #404040 !important; } /*changed to no hover effect*/
 	
 	/* Page Title */
-	#page-tools .page-title, #page .node-title { height: auto !important; font-size: 18px; text-transform: uppercase; font-weight: bold; line-height: 21.6px}
+	#page-tools .page-title, #page .node-title { height: auto !important; font-size: 18px; /*text-transform: uppercase;*/ font-weight: bold; line-height: 21.6px}
 
 
 /* Abstaende */
