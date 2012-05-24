@@ -101,14 +101,14 @@ projects[dlr_forschungslandkarte][download][url] = "git@redmine.wi1projects.com:
 projects[dlr_forschungslandkarte][type] = "module"
 projects[dlr_forschungslandkarte][subdir] = "features"
 
+projects[openlayers][subdir] = "contrib"
+projects[openlayers][version] = "2.0-beta1"
+
 projects[exhibit][subdir] = "contrib"
 projects[exhibit][version] = "1.0-beta1"
 
 projects[views_customfield][subdir] = "contrib"
 projects[views_customfield][version] = "1.0"
-
-projects[views][subdir] = "contrib"
-projects[views][version] = "3.0"
 
 projects[gmap][subdir] = "contrib"
 projects[gmap][version] = "1.1"
