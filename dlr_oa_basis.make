@@ -274,6 +274,7 @@ libraries[tinymce][directory_name] = "tinymce"
   ; WYSIWYG
   projects[wysiwyg][subdir] = "contrib"
   projects[wysiwyg][version]= "2.4"
+  projects[wysiwyg][patch][]= "http://drupal.org/files/wysiwyg.tinymce-lists.682160.7.patch"
 
   ; IMCE WYSIWYG BRIDGE
   projects[imce_wysiwyg][subdir] = "contrib"
