@@ -457,6 +457,8 @@ function phptemplate_preprocess_custom_pager(&$vars) {
 function dlr_oa_preprocess_page(&$vars) {
   $vars['logo'] = l(check_plain(variable_get('site_name', 'Drupal')), '/', array('attributes' => array('class' => 'logo'),'external' => TRUE));
   
+  //Insert node title in class for node specific formatting
+  $vars['attr']['class'] = $vars['attr']['class']." ".strtolower($vars['node']->title); 
   // Remove some User tabs from the Profile Page
   dlr_oa_remove_userprofile_tabs(&$vars);
   
