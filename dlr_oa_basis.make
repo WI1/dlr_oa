@@ -272,7 +272,7 @@ libraries[tinymce][directory_name] = "tinymce"
   projects[libraries][subdir] = "contrib"
 
   ; WYSIWYG
-  projects[wysiwyg][subdir] = "contrib"
+  projects[wysiwyg][subdir] = "patched"
   projects[wysiwyg][version]= "2.4"
   projects[wysiwyg][patch][]= "http://drupal.org/files/wysiwyg.tinymce-lists.682160.7.patch"
 
