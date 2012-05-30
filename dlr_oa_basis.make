@@ -300,4 +300,3 @@ libraries[tinymce][directory_name] = "tinymce"
   projects[custom_pub][subdir] = "contrib"
   projects[custom_pub][version] = "1.4"
 
-
