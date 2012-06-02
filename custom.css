@@ -1086,28 +1086,28 @@ background-color: #ffaa00 !important;
 }
 
 .sponsoren #bmbf {
-	background-position: -19px 0;
+	background-position: -14px 0;
 }
 .sponsoren #esf {
-	background-position: -145px 0;
+	background-position: -125px 0;
 }
 .sponsoren #europa {
 	width: 87px;
-	background-position: -305px 0;
+	background-position: -255px 0;
 }
 .sponsoren #dlr {
 	width: 118px;
-	background-position: -441px 0;
+	background-position: -368px 0;
 }
 .sponsoren #balance{
 	width: 146px;
-	background-position: -628px 0;
+	background-position: -525px 0;
 }
-.sponsoren #unierlangen {
+/*.sponsoren #unierlangen {
 	width: 115px;
 	background-position: -820px 0;
 }
-
+*/
 #footer div {
 	clear: both;
 }
