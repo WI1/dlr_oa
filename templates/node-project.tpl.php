@@ -41,7 +41,6 @@
     <?php foreach ((array)$node->field_researchquestions as $item) {
       echo '<li class="field-itemanspr">'; 
       print $item['view'];
-      echo 'asdfasdf';
       echo '</li>';
      } ?>
   </ul>

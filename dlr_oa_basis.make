@@ -95,21 +95,26 @@ projects[wi1init][subdir] = "features"
   projects[panels][subdir] = "contrib"
   projects[panels][version] = "3.10"
 
-  projects[footermap][subdir] = "contrib"
-  projects[footermap][version] = "1.7"
-
-
 ;-- b.2 specific
-projects[balancemap][download][type] = "git"
-projects[balancemap][download][url] = "git@redmine.wi1projects.com:balance/balancemap.git"
-projects[balancemap][type] = "module"
-projects[balancemap][subdir] = "features"
+projects[dlr_forschungslandkarte][download][type] = "git"
+projects[dlr_forschungslandkarte][download][url] = "git@redmine.wi1projects.com:dlr/dlr-forschungslandkarte.git"
+projects[dlr_forschungslandkarte][type] = "module"
+projects[dlr_forschungslandkarte][subdir] = "features"
+
+projects[openlayers][subdir] = "contrib"
+projects[openlayers][version] = "2.0-beta1"
 
 projects[exhibit][subdir] = "contrib"
 projects[exhibit][version] = "1.0-beta1"
 
 projects[views_customfield][subdir] = "contrib"
 projects[views_customfield][version] = "1.0"
+
+projects[gmap][subdir] = "contrib"
+projects[gmap][version] = "1.1"
+
+projects[location][subdir] = "contrib"
+projects[location][version] = "3.1"
 
  projects[book_helper]subdir] = "contrib"
  projects[book_helper][version] = "1.0-beta1"
@@ -267,8 +272,9 @@ libraries[tinymce][directory_name] = "tinymce"
   projects[libraries][subdir] = "contrib"
 
   ; WYSIWYG
-  projects[wysiwyg][subdir] = "contrib"
+  projects[wysiwyg][subdir] = "patched"
   projects[wysiwyg][version]= "2.4"
+  projects[wysiwyg][patch][]= "http://drupal.org/files/wysiwyg.tinymce-lists.682160.7.patch"
 
   ; IMCE WYSIWYG BRIDGE
   projects[imce_wysiwyg][subdir] = "contrib"

@@ -24,6 +24,9 @@ regions[palette] = "Palette"
 
 features[] = ""
 
+scripts[] = scripts/scripts.js
+scripts[] = scripts/addthis_widget.js
+
 ; Layout: Default
 layouts[default][name] = "Default"
 layouts[default][description] = "Simple two column page."

@@ -7,7 +7,7 @@
     <?php print $ie ?>
     <title><?php print $head_title ?></title>
   </head>
-  <body <?php print drupal_attributes($attr) ?>>
+  <body <?php print drupal_attributes($attr) ?> >
 
   <?php print $skipnav ?>
 

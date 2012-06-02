@@ -16,7 +16,7 @@ function dlr_oa_preprocess_node(&$vars) {
 
 function dlr_oa_addthis_button() {
 	return '<div class="addthis_button_div">
-		<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=stoeckit"><img src="/sites/all/themes/dlr_oa/img/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/></a>
+		<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=demoscreen"><img src="/sites/all/themes/dlr_oa/img/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/></a>
 	</div>';
 }
 
@@ -457,6 +457,8 @@ function phptemplate_preprocess_custom_pager(&$vars) {
 function dlr_oa_preprocess_page(&$vars) {
   $vars['logo'] = l(check_plain(variable_get('site_name', 'Drupal')), '/', array('attributes' => array('class' => 'logo'),'external' => TRUE));
   
+  //Insert node title in class for node specific formatting
+  $vars['attr']['class'] = $vars['attr']['class']." ".strtolower($vars['node']->title); 
   // Remove some User tabs from the Profile Page
   dlr_oa_remove_userprofile_tabs(&$vars);
   
