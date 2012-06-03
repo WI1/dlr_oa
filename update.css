@@ -155,7 +155,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 
 /* Nodes */
 
-	.node { /*margin-bottom: 40px !important;*/ }
+	.node { margin-bottom: 0px !important; /* 40px before*/ }
 	.node .content { padding: 0 0 10px 0 !important; }
 	.node-more-link { margin-bottom: 10px; }
 	.addthis_button_div { margin: 0 !important; display: inline !important;}
