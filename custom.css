@@ -801,10 +801,10 @@ width: 30px;
 }
 
 .node .links {
-color: #ccc;
-border-top: 1px solid #ccc;
-clear: both;
-padding-bottom: 50px;
+    color: #ccc;
+    border-top: 1px solid #ccc;
+    clear: both;
+    padding-bottom: 10px; /* 50px before */
 }
 
 
