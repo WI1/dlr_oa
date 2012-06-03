@@ -835,15 +835,15 @@ float: right;
 }
 
 div.content ul {
-    list-style: square outside none;
+    list-style: square outside none !important;
 }
 
 div.content ol {
-   list-style: decimal;
+   list-style: decimal !important;
 }
 
 div.content li {
-  margin-left: 30px;
+  margin-left: 30px !important;
 }
 
 
