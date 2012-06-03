@@ -838,6 +838,10 @@ div.content ul {
     list-style: square outside none !important;
 }
 
+div.content ul li {
+    list-style: square outside none !important;
+}
+
 div.content ol {
    list-style: decimal !important;
 }
