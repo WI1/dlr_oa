@@ -3,10 +3,18 @@
   <dd><?php print $node->field_projectfkz[0]['view'] ?></dt>
 
 <dt>Projektziele / Angestrebtes Ergebnis</dt>
-<dd><?php print $node->field_projektgoals[0]['view'] ?></dd>
+<dd>
+  <div class="collapsible">
+          <?php print $node->field_projektgoals[0]['view'] ?>
+  </div>
+</dd>
 
 <dt>Projektexposé</dt>
- <dd><?php print $node->field_synopsis[0]['view'] ?></dd>
+ <dd>
+    <div class="collapsible">
+        <?php print $node->field_synopsis[0]['view'] ?>
+    </div>
+ </dd>
 
  <dt>Projektsteckbrief</dt>
  <dd><?php print $node->field_steckbrief[0]['view'] ?></dd>
@@ -38,11 +46,13 @@
 <dt>Forschungsfragen</dt>
 <dd>
   <ul class="field-items">
+    <div class="collapsible">
     <?php foreach ((array)$node->field_researchquestions as $item) {
       echo '<li class="field-itemanspr">'; 
       print $item['view'];
       echo '</li>';
      } ?>
+    </div>
   </ul>
 </dd>
 
@@ -54,7 +64,11 @@
 <?php print $node->field_projecttheories[0]['view'] ?></dd>
 
 <dt>Vorgehen</dt>
- <dd><?php print $node->field_projectapproach[0]['view'] ?></dd>
+ <dd>
+   <div class="collapsible">
+        <?php print $node->field_projectapproach[0]['view'] ?>
+   </div>
+  </dd>
 
 <?php if($node->tags[5]): // vid of taxonomy "Methoden" ?>
 <dt>Methoden</dt>
