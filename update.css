@@ -320,17 +320,6 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
     line-height: 19.8px;
 }
 
-div.content ul {
-    list-style: square outside none;
-}
-
-div.content ol {
-   list-style: decimal;
-}
-
-div.content li {
-  margin-left: 30px;
-}
 
 /* Vermischtes */
 #main-squeeze p.long { color: #404040; width: auto; top: auto; }

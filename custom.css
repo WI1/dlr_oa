@@ -834,6 +834,19 @@ font-size: 10px;
 float: right;
 }
 
+div.content ul {
+    list-style: square outside none;
+}
+
+div.content ol {
+   list-style: decimal;
+}
+
+div.content li {
+  margin-left: 30px;
+}
+
+
 #balance-node-edit, #balance-user-edit {
 float: right; 
 background-color: #eee; 
