@@ -2036,6 +2036,9 @@ div.litecal .litecal-title h3.litecal-title{
    border: none;
 }
 
+div.litecal .litecal-header { 
+    margin-top: 8px;
+}
 
 html.js input.form-autocomplete {
   background-image: url(/misc/throbber.gif);
