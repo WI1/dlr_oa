@@ -1072,7 +1072,7 @@ background: none;
 #footer #block-menu-secondary-links {
 width: 100%;
 height: 20px;
-background-color: #ffaa00 !important;
+bac kground-color: #ffaa00 !important;
 }
 
 /**** Logoleiste ***/
@@ -1141,12 +1141,15 @@ height: 200px;
 width: 100%;
 }
 
-#block-footermap-0  li {
-border-right: 0 !important;
-margin: 0 !important;
-padding: 0 !important;
-width: 100px;
+#block-footermap-0 li {
+     border-right: 0 !important;
+     margin: 0 !important;
+     padding: 0 !important;
+     width: 120px;
+     font-size: 9px;
 }
+ 
+
 
 #block-footermap-0  li.expanded ul {
 margin: 0 !important;
