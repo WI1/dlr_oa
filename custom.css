@@ -1145,7 +1145,7 @@ width: 100%;
      border-right: 0 !important;
      margin: 0 !important;
      padding: 0 !important;
-     width: 120px;
+     width: 120px !important;
      font-size: 9px;
 }
  
