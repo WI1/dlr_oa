@@ -598,3 +598,16 @@ function dlr_oa_form_alter(&$form, &$form_state, $form_id) {
     //$form = 
   }
 }*/
+
+
+
+/**
+ * Implements hook_cron().
+ *
+ */
+
+function dlr_oa_cron() {
+  if (function_exists('set_time_limit')) {
+    @set_time_limit(2400);
+  }
+}
