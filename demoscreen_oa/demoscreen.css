@@ -10,6 +10,11 @@
 }
 
 #navigation a.logo {
+  background-image: url("images/sprite_skin_fsp.png") !important;
+  width: 120px;
+}
+
+body.demoscreen_book #navigation a.logo {
   background-image: url("images/sprite_skin.png") !important;
   width: 120px;
 }

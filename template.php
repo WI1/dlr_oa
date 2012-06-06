@@ -457,9 +457,16 @@ function phptemplate_preprocess_custom_pager(&$vars) {
 function dlr_oa_preprocess_page(&$vars) {
   $vars['logo'] = l(check_plain(variable_get('site_name', 'Drupal')), '/', array('attributes' => array('class' => 'logo'),'external' => TRUE));
   
-  //Insert node title in class for node specific formatting
-  $vars['attr']['class'] = $vars['attr']['class']." ".strtolower($vars['node']->title); 
-  // Remove some User tabs from the Profile Page
+  //Insert node title in class for node specific formatting  $vars['attr']['class'] = $vars['attr']['class']." ".strtolower(str_replace(" ", "_",  $vars['node']->title)); 
+  
+  //If page is Metaproject Demoscreen BOOK page, then insert flag for CSS logo change
+  if(isset($vars['node']) && $vars['node']->type == 'book'){
+    $book_node = node_load($vars['node']->book['bid']);
+    if($book_node->title == "Metaprojekt DemoScreen")
+       $vars['attr']['class'] = $vars['attr']['class']." demoscreen_book"; 
+  }
+  
+  // Remove some User tabs from the Profile Pag
   dlr_oa_remove_userprofile_tabs(&$vars);
   
   //Hide the title of the front page. It shows 'Home' for the dashboard
