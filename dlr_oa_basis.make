@@ -284,17 +284,16 @@ libraries[tinymce][directory_name] = "tinymce"
   projects[imce][version]= "2.3"
   
   ; Twitter and Social Media Modules
-  projects[twitter][subdir] = "contrib"
+  projects[twitter][subdir] = "custom"
   projects[twitter][version] = "3.0-beta9"
+  projects[twitter][download][type] = "git"
+  projects[twitter][download][url] = "git://github.com/WI1/dlr_twitter.git"
 
   projects[autoload][subdir] = "contrib"
   projects[autoload][version] = "2.1"
 
   projects[oauth][subdir] = "contrib"
   projects[oauth][version] = "3.0-beta4"
-
-  projects[twitter_pull][subdir] = "contrib"
-  projects[twitter_pull][version] = "1.2"
 
   projects[custom_pub][subdir] = "contrib"
   projects[custom_pub][version] = "1.4"
