@@ -320,6 +320,12 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
     line-height: 19.8px;
 }
 
+#content img {
+  float: left;
+  margin: 10px;
+  margin-left: 0px;
+}
+
 
 /* Vermischtes */
 #main-squeeze p.long { color: #404040; width: auto; top: auto; }

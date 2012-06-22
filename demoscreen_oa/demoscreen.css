@@ -9,6 +9,10 @@
   background-color: #7E2B97 !important;
 }
 
+#navigation {
+   background-image: url("img/menuhintergrund.jpg"); 
+}
+
 #navigation a.logo {
   background-image: url("images/sprite_skin_fsp.png") !important;
   width: 120px;
