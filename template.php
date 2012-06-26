@@ -618,3 +618,10 @@ function dlr_oa_cron() {
     @set_time_limit(2400);
   }
 }
+/**
+ * Disabling 'All Day' label on events.
+ *
+ */
+function dlr_oa_date_all_day_label() {
+  return '';
+}
