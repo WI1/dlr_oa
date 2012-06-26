@@ -146,7 +146,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 	.page-region .block h2, .page-region .block .block-title { /*font-size: 13px !important;*/ }
 		
 	.page-region .block h2, .block .view-header, .page-region .block .block-title { background: none !important; border: none !important; /* border-bottom: #ccc 1px solid !important; no border anymore*/}
-	.page-region .block h2, .block .view-header, .page-region .block .block-title , .page-region .block h2 a, .block .view-header a, .page-region .block .block h2 a { color: #404040 !important;  font-size: 14px !important; padding: 0 0 3px 0 !important; }
+	.page-region .block h2, .block .view-header, .page-region .block .block-title , .page-region .block h2 a, .block .view-header a, .page-region .block .block h2 a { color: #404040 !important;  font-size: 18px !important; padding: 0 0 3px 0 !important; }
 	
 	.page-region .block h3 { font-size: 13px; }
 	
@@ -326,12 +326,13 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
     line-height: 19.8px;
 }
 
+/* needs antoher solution
 #content img {
   float: left;
   margin: 10px;
   margin-left: 0px;
 }
-
+*/
 
 /* Vermischtes */
 #main-squeeze p.long { color: #404040; width: auto; top: auto; }
