@@ -273,7 +273,7 @@ body.logged-in #block-atrium-account .block-title {
 
   #footer a { color:#666; }
 
-#footer .footer-message { float:left; }
+#footer .footer-message { float:left; visibility:hidden}
 
 #footer ul.links { float:right; }
 
