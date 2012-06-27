@@ -574,7 +574,8 @@ function dlr_oa_keeptabs(&$vars,$tabname,$labels) {
 function dlr_oa_fetchtab(&$vars,$tabname,$label) {
   $tabs = explode("\n", $vars[$tabname]);
   foreach ($tabs as $tab){
-    if (strpos($tab, '>' . $label . '<') !== FALSE) {
+   // if (strpos($tab, '>' . $label . '<') !== FALSE) {
+     if (strpos($tab, '/' . $label . '"') !== FALSE) {
        return $tab;
     }
   }
@@ -586,7 +587,7 @@ function dlr_oa_remove_userprofile_tabs(&$vars) {
   if (isset($pageitem['path']) && strpos($pageitem['path'], "user/%") !== FALSE) {
     dlr_oa_keeptabs(&$vars, 'tabs2', array('1' => 'edit', '2' => 'profile', '3' => 'picture'));
     if(strpos($pageitem['path'], "user/%/edit") !== FALSE){
-      $vars['tabs2'] .= dlr_oa_fetchtab($vars, 'tabs', 'Notifications') . "\n</ul>";
+      $vars['tabs2'] .= dlr_oa_fetchtab($vars, 'tabs', 'notifications') . "\n</ul>";
       $vars[context_links] = "";
     }
     dlr_oa_removetab(&$vars, 'tabs', NULL);
