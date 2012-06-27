@@ -14,14 +14,14 @@
 	<?php if (isset($og_public) && $og_public === FALSE): ?>
 	<?php print dlr_oa_visibility($node->og_groups_both); ?>
 	<?php endif; ?>
-
+  <div> 
   <div class="content">
     <?php print $content ?>
 		<?php if (!$page && $node_read_more): ?>
 		<p><?php print $node_read_more; ?></p>
 		<?php endif; ?>
   </div>
-      
+  </div>    
     
   
 	<?php print dlr_oa_addthis_button(); ?>

@@ -497,6 +497,7 @@ function dlr_oa_theme() {
 * The function is named themename_formid.
 */
 function dlr_oa_project_node_form($form) {
+  
   // Selects all fieldgroups from the $form array
   $fieldgroups = array();
   $fieldgroup = array();
@@ -621,7 +622,16 @@ function dlr_oa_cron() {
 /**
  * Disabling 'All Day' label on events.
  *
- */
+*/
+
 function dlr_oa_date_all_day_label() {
   return '';
+} 
+
+
+/**
+ * Implementation of hook_form_alter().
+ */
+function dlr_oa_form_alter(&$form, $form_state, $form_id) {
+  
 }
