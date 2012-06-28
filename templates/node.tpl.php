@@ -23,9 +23,9 @@
   </div>
   </div>    
     
-  
-	<?php print dlr_oa_addthis_button(); ?>
-  <div class="links">Verfasst von <?php print $name; ?> am <?php print $date; ?><?php if($links && strpos($links, "print") == FALSE): ?> | <?php print $links; ?><?php endif; ?></div>
-
+  <div>  
+    <?php print dlr_oa_addthis_button(); ?>
+    <div class="links">Verfasst von <?php print $name; ?> am <?php print $date; ?><?php if($links && strpos($links, "print") == FALSE): ?> | <?php print $links; ?><?php endif; ?></div>
+  </div>
 </div>
 <?php if(isset($after)) { print $after; }?>
