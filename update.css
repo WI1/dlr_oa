@@ -42,7 +42,7 @@ input, select, textarea, body {
 	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { color: #404040 !important; } /*changed to no hover effect*/
 	
 	/* Page Title */
-	#page-tools .page-title, #page .node-title { height: auto !important; font-size: 18px; /*text-transform: uppercase;*/ font-weight: bold; line-height: 21.6px}
+	#page-tools .page-title, #page .node-title, #context-block-region-content .node-title { height: auto !important; font-size: 18px; /*text-transform: uppercase;*/ font-weight: bold; line-height: 21.6px}
 
 
 /* Abstaende */
@@ -146,7 +146,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 	.page-region .block h2, .page-region .block .block-title { /*font-size: 13px !important;*/ }
 		
 	.page-region .block h2, .block .view-header, .page-region .block .block-title { background: none !important; border: none !important; /* border-bottom: #ccc 1px solid !important; no border anymore*/}
-	.page-region .block h2, .block .view-header, .page-region .block .block-title , .page-region .block h2 a, .block .view-header a, .page-region .block .block h2 a { color: #404040 !important;  font-size: 18px !important; padding: 0 0 3px 0 !important; }
+	.page-region .block h2, .block .view-header, .page-region .block .block-title , .page-region .block h2 a, .block .view-header a, .page-region .block .block h2 a { color: #404040 !important;  font-size: 14px !important; padding: 0 0 3px 0 !important; }
 	
 	.page-region .block h3 { font-size: 13px; }
 	
@@ -271,7 +271,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 /* Gefaellt mir */
 body.node-type-balancewiki div.links.wiki { top: inherit !important; }
 
-/*.node .links { float: none !important; } Removed to make line on equal height as share button */ 
+.node .links { float: none !important; }
 .node .links .links, .node .links li { float: left !important; display: inline !important; } 
 .node .field-item odd .imagecache { display: none; /*remove user-pic from .links*/ }
 
