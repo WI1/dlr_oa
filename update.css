@@ -375,3 +375,17 @@ padding-left:25px !important;
 .dropzone.dropzone-upload #attachments { width: 100%; position:relative; left: -100%; }
 .dropzone.dropzone-upload #attachments .left { width: 70% }
 .dropzone.dropzone-upload #attachments .right {width: 28% }
+
+
+/* Twitter Form Field */
+#twitter-toggle-wrapper {
+  margin-top: -5px;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-left: 9px;
+}
+
+#twitter-textfield-wrapper {
+  margin-left: 26px;
+  padding-top: 0px;
+}
