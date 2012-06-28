@@ -272,7 +272,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 body.node-type-balancewiki div.links.wiki { top: inherit !important; }
 
 .node .links { float: none !important; }
-.node .links .links, .node .links li { float: left !important; display: inline !important; } 
+.node .links .links, .node .links li { display: inline !important; } 
 .node .field-item odd .imagecache { display: none; /*remove user-pic from .links*/ }
 
 
