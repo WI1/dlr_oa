@@ -690,10 +690,10 @@ body.page-access-denied .access-denied { background-image:url(images/403.png); }
 	
 /* Forschungslandkarte */
 /* Exhibit generell */
-#map-type-facet div exhibit-flowingFacet-value span {
+#map-type-facet div .exhibit-flowingFacet-value span {
   font-size: 13px;
 }
-#map-type-facet div exhibit-flowingFacet-value p {
+#map-type-facet div .exhibit-flowingFacet-value p {
 	float: left;
 	margin-right: 5px;
 	font-size: 13px;
