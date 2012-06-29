@@ -1937,7 +1937,7 @@ table th {
 	visibility: hidden;
 }
 
-#page-tools .context-links { padding: 0; } 
+#page-tools .context-links { padding: 0; margin-top: 19px; } 
 .context-links ul { margin-bottom: 0; }
 
 #right .page-region .block .block-title {
