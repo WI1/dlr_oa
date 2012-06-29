@@ -1747,6 +1747,7 @@ margin-left: 0.4em;
 	background: transparent;
 	border: 0;
 	height: auto !important;
+	margin-top: 30px;
 }
 
 
@@ -1864,7 +1865,7 @@ input.teaser-button, input.form-submit {
  }
 
 #right .page-region {
-	padding: 20px 0 0 20px;
+	padding: 13px 0 0 20px;
 }
 
 #page .limiter {
