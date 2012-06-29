@@ -1407,6 +1407,12 @@ background: #EEE;
 /* Exhibit */
 /* Image Facet */
 
+.exhibit-flowingFacet {
+ display: block;
+ clear: both;
+ margin-top: 1em;
+}
+
 .exhibit-busyIndicator {
  width: 25%;
 }
@@ -1470,11 +1476,6 @@ display: block;
 width: 900px;
 }
 
-body.node-type-exhibit #map-type-facet {
-height: 70px;
-margin-top: 10px;
-}
-
 body.node-type-exhibit #map-type-facet div .exhibit-flowingFacet-value span {
   font-size: 13px;
 }
@@ -1483,22 +1484,6 @@ body.node-type-exhibit #map-type-facet div .exhibit-flowingFacet-value p {
 	float: left;
 	margin-right: 5px;
 	font-size: 13px;
-}
-
-body.node-type-exhibit #map-image-facet {
-height: 287px;
-   position: relative;
-    top: -4px;
-}
-
-body.node-type-exhibit span.exhibit-flowingFacet-value-count {
-    float: right;
-    position: relative;
-    top: -16px;
-}
-
-body.node-type-exhibit .exhibit-flowingFacet-value-link p {
-margin-bottom: 0 !important;
 }
 
 
