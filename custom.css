@@ -192,9 +192,9 @@ color: #999 !important;
 /****************************/
 
 div.tabs {
-display: block;
-position: relative;
-top: -6px;
+ clear: both;
+ display: block;
+ width: 960px;
 }
 
 #page-tools ul.primary-tabs {
