@@ -1406,31 +1406,37 @@ background: #EEE;
 
 /* Exhibit */
 /* Image Facet */
+
+.exhibit-busyIndicator {
+ width: 25%;
+}
+
 div.exhibit-facet-header {
-    padding: 2px 0;
+  padding: 2px 0;
 }
 
 .exhibit-imageFacet-value .countDiv {
-    border: 0;
-    bottom: 4px;
-    font-size: 6pt;
-    height: 10px;
-    line-height: 0;
-    margin-right: 3px;
-    position: absolute;
-    right: -3px;
-    width: 10px;
+border: 0;
+bottom: 5px;
+font-size: 13px;
+height: 18px;
+line-height: 0;
+margin-right: 3px;
+position: absolute;
+right: -3px;
+width: 10px;
 }
 
 .exhibit-imageFacet-value .countDiv div.text {
-    bottom: 0.1em;
-    height: 5px;
-    left: 0.2em;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0.5em;
+bottom: 0.1em;
+height: 18px;
+left: 0.4em;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 0.7em;
 }
+
 .exhibit-imageFacet-value div.wrapper {
 padding: 0 !important;
 }
@@ -1458,64 +1464,45 @@ clear: both;
 }
 
 /* Forschungslandkarte */
-body.forschungslandkarte .content {
-padding-bottom: 0 !important;
-z-index: 0;
-}
 
-body.forschungslandkarte #right {
-display: none;
-}
-
-body.forschungslandkarte #Forschungslandkarte {
-margin-bottom: 0 !important;
-}
-
-body.forschungslandkarte .exhibit-mapView-map {
-top: -44px;
-width: 750px;
-height: 550px;
-}
-
-body.forschungslandkarte .exhibit-views-header {
-position: relative; 
-left: 420px; 
-top: -54px;
-}
-
-body.forschungslandkarte .exhibit-cloudFacet-body {
+body.node-type-exhibit #forschungslandkarte-cloud .exhibit-cloudFacet-body {
 display: block; 
 width: 900px;
 }
 
-body.forschungslandkarte #map-type-facet {
+body.node-type-exhibit #map-type-facet {
 height: 70px;
 margin-top: 10px;
 }
 
-body.forschungslandkarte #map-image-facet {
+body.node-type-exhibit #map-type-facet div .exhibit-flowingFacet-value span {
+  font-size: 13px;
+}
+
+body.node-type-exhibit #map-type-facet div .exhibit-flowingFacet-value p {
+	float: left;
+	margin-right: 5px;
+	font-size: 13px;
+}
+
+body.node-type-exhibit #map-image-facet {
 height: 287px;
    position: relative;
     top: -4px;
 }
 
-body.forschungslandkarte span.exhibit-flowingFacet-value-count {
+body.node-type-exhibit span.exhibit-flowingFacet-value-count {
     float: right;
     position: relative;
     top: -16px;
 }
 
-body.forschungslandkarte .exhibit-flowingFacet-value-link p {
+body.node-type-exhibit .exhibit-flowingFacet-value-link p {
 margin-bottom: 0 !important;
 }
 
-body.forschungslandkarte .messages,
-body.forschungslandkarte #balance-node-edit,
-body.forschungslandkarte .tabs {
-display: none;
-}
 
-/*Videos VIEW */
+/* Videos VIEW */
 
 .view-bo-videos td {
 vertical-align: top !important;
