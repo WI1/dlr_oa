@@ -837,11 +837,6 @@ font-size: 10px;
 color: #666;
 }
 
-.node .links li {
-font-size: 10px;
-float: right;
-}
-
 div.content ul {
     list-style: square outside none !important;
 }

@@ -176,7 +176,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 	.node .content { padding: 0 0 10px 0 !important; }
 	.node-more-link { margin-bottom: 10px; }
 	.addthis_button_div { margin: 0 !important; display: inline !important;}
-	.node .links { margin: -20px 0 10px 0; border: none !important; font-size: 10px; width: 430px; float: left; }
+	.node .links { margin: 0 0 10px 0; border: none !important; font-size: 10px; width: 430px; float: left; }
 
 /* Kommentare */
 
@@ -185,7 +185,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 	#comments h2 { margin-top: 0; }	
 	.preview { border-color: #404040; color: #404040; }
 
-/* Tabs */
+/* Feature Links */
 	
 	/* div */
 	#page-tools .tabs { height: 31px; margin: 10px 0; top: auto;  padding: 0; }
