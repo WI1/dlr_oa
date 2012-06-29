@@ -1470,6 +1470,9 @@ clear: both;
 }
 
 /* Forschungslandkarte */
+body.node-type-exhibit .exhibit-facet-header, body.node-type-exhibit .exhibit-flowingFacet-header 7
+  margin-bottom: 1em;
+}
 
 body.node-type-exhibit #forschungslandkarte-cloud .exhibit-cloudFacet-body {
 display: block; 
