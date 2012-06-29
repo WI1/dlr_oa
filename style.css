@@ -686,3 +686,15 @@ body.page-access-denied .access-denied { background-image:url(images/403.png); }
     color:#fff;
     background:#999 url(images/sprite_bleeds.png) 0px -360px repeat-x;
     }
+	
+	
+/* Forschungslandkarte */
+/* Exhibit generell */
+#map-type-facet div exhibit-flowingFacet-value span {
+  font-size: 13px;
+}
+#map-type-facet div exhibit-flowingFacet-value p {
+	float: left;
+	margin-right: 5px;
+	font-size: 13px;
+}

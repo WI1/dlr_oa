@@ -345,11 +345,8 @@ color: #666;
 .og-context #page-tools .page-title, .og-context #page-tools .og-description {
     width: 700px;
     float: left;
-<<<<<<< HEAD
     font-size: 14px;
-=======
     font-size: 18px;
->>>>>>> dbe2a4122f08b873cc8e1f4a5568a62603844232
  }
 
 .og-context #page-tools .group-logo {
