@@ -342,9 +342,12 @@ color: #666;
 /* Page Title */
 /****************************/
 
-.og-context #page-tools .page-title {
+ .og-context #page-tools .page-title, .og-context #page-tools .og-description {
     width: 700px;
     float: left;
+    }
+   
+ .og-context #page-tools .page-title {
     font-size: 18px;
  }
  
