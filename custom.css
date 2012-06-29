@@ -1474,6 +1474,7 @@ clear: both;
 body.node-type-exhibit #forschungslandkarte-cloud .exhibit-cloudFacet-body {
 display: block; 
 width: 960px;
+margin-bottom: 4em;
 }
 
 body.node-type-exhibit #map-type-facet div .exhibit-flowingFacet-value span {
