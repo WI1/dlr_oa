@@ -1470,7 +1470,7 @@ clear: both;
 }
 
 /* Forschungslandkarte */
-body.node-type-exhibit .exhibit-facet-header, body.node-type-exhibit .exhibit-flowingFacet-header 7
+body.node-type-exhibit .exhibit-facet-header, body.node-type-exhibit .exhibit-flowingFacet-header {
   margin-bottom: 1em;
 }
 
