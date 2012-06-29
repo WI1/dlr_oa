@@ -1761,6 +1761,8 @@ margin-left: 0.4em;
 	margin-bottom: 8px;
 	line-height: 22px;
 	text-indent: 0;
+	width: 65%;
+	float: left;
 }
 
 #page-tools .context-links {
