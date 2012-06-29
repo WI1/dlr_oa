@@ -342,12 +342,16 @@ color: #666;
 /* Page Title */
 /****************************/
 
-.og-context #page-tools .page-title, .og-context #page-tools .og-description {
+.og-context #page-tools .page-title {
     width: 700px;
     float: left;
-    font-size: 14px;
     font-size: 18px;
  }
+ 
+ .og-context #page-tools .og-description { 
+    font-size: 13px;
+ }
+ 
 
 .og-context #page-tools .group-logo {
  margin-top: 16px;
