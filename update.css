@@ -35,11 +35,11 @@ input, select, textarea, body {
 	
 	/* Headlines */
 	h1 { font-size: 18px; }
-    h2 { font-size: 18px; }
-    h3 { font-size: 16px; }
-    h4 { font-size: 14px; }
-    h5 { font-size: 12px; }
-    h6 { font-size: 11px; }
+  h2 { font-size: 18px; }
+  h3 { font-size: 16px; }
+  h4 { font-size: 14px; }
+  h5 { font-size: 12px; }
+  h6 { font-size: 11px; }
 	h1, h2, h3, h4, h5, h6 { margin-bottom: 0.6em; }
 	h4,h5,h6 { margin-top: 1em; margin-bottom: 0.4em; }
 	body #project-sidebar .block h2, body .block .view-header, body #project-sidebar .block h2 a { background: none !important; }
@@ -145,6 +145,10 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 	#sidebar-left li.leaf, #sidebar-left li.expanded { border-color: #404040; border-style: solid; padding: 6px 2px; }
 	#sidebar-left li.leaf a, #sidebar-left li.expanded a { color: #404040; }
 	#sidebar-left li.leaf.active, #sidebar-left li.expanded.active { font-weight: bold;}
+
+/* Navigation im Rechten Block */
+  .block .menu ul, .block .menu ul ul { border-color: #fff; margin-bottom: 0;}
+  
 
 /* Bloecke */
 	
