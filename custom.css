@@ -192,9 +192,9 @@ color: #999 !important;
 /****************************/
 
 div.tabs {
-display: block;
-position: relative;
-top: -6px;
+ clear: both;
+ display: block;
+ width: 960px;
 }
 
 #page-tools ul.primary-tabs {
@@ -1747,6 +1747,7 @@ margin-left: 0.4em;
 	background: transparent;
 	border: 0;
 	height: auto !important;
+	margin-top: 30px;
 }
 
 
@@ -1760,6 +1761,8 @@ margin-left: 0.4em;
 	margin-bottom: 8px;
 	line-height: 22px;
 	text-indent: 0;
+	width: 65%;
+	float: left;
 }
 
 #page-tools .context-links {
@@ -1864,7 +1867,7 @@ input.teaser-button, input.form-submit {
  }
 
 #right .page-region {
-	padding: 20px 0 0 20px;
+	padding: 13px 0 0 20px;
 }
 
 #page .limiter {
@@ -1934,7 +1937,7 @@ table th {
 	visibility: hidden;
 }
 
-#page-tools .context-links { padding: 0; } 
+#page-tools .context-links { padding: 0; margin-top: 19px; } 
 .context-links ul { margin-bottom: 0; }
 
 #right .page-region .block .block-title {
@@ -2026,12 +2029,11 @@ div.litecal .litecal-data .views-field.title {
 }
 
 div.litecal .litecal-title { 
-  line-height: 18px;
-  font-size: 14px !important;
   border-bottom: 1px solid #ccc;
 }
 
-div.litecal .litecal-title h3.litecal-title{ 
+div.litecal .litecal-title h3.litecal-title { 
+   font-size: 14px !important;
    border: none;
 }
 
