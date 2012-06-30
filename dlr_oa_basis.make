@@ -4,7 +4,6 @@ core = 6.x
 api = 2
 
 
-
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
 projects[pressflow][download][type] = "get"
@@ -283,6 +282,14 @@ libraries[tinymce][directory_name] = "tinymce"
   ; IMCE
   projects[imce][subdir] = "contrib"
   projects[imce][version]= "2.3"
+  
+  ; FLOWPLAYER
+  projects[flowplayer][subdir] = "contrib"
+  projects[flowplayer][version]= "1.0-beta1"
+  
+  ; VIDEOFIELD
+  projects[videofield][subdir] = "contrib"
+  projects[videofield][version]= "1.35"
   
   ; Twitter and Social Media Modules
   projects[twitter][subdir] = "custom"
