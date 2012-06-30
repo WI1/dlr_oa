@@ -291,6 +291,10 @@ libraries[tinymce][directory_name] = "tinymce"
   projects[videofield][subdir] = "contrib"
   projects[videofield][version]= "1.35"
   
+  ; WYSIWYG FIELDS
+  projects[wysiwyg_fields][subdir] = "contrib"
+  projects[wysiwyg_fields][version]= "1.x-dev"
+  
   ; Twitter and Social Media Modules
   projects[twitter][subdir] = "custom"
   projects[twitter][version] = "3.0-beta9"
