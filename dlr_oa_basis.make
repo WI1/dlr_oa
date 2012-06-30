@@ -4,6 +4,7 @@ core = 6.x
 api = 2
 
 
+
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
 projects[pressflow][download][type] = "get"
