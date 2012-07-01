@@ -1765,6 +1765,12 @@ margin-left: 0.4em;
 	float: left;
 }
 
+.node-title h2 {
+  width 65%;
+  float: left;
+  margin-top: 7px;
+}
+
 #page-tools .context-links {
 	border-left: 0;
     	
@@ -1937,7 +1943,7 @@ table th {
 	visibility: hidden;
 }
 
-#page-tools .context-links { padding: 0; margin-top: 19px; } 
+#page-tools .context-links { padding: 0; margin-top: 12px; } 
 .context-links ul { margin-bottom: 0; }
 
 #right .page-region .block .block-title {
