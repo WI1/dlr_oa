@@ -56,6 +56,7 @@
     <?php if ($page_tools): ?><div class='tabs clear-block features-menu'><?php print $page_tools ?></div><?php endif; ?>
     <?php if($active_space->type == "og" && isset($node) && $node->type != $active_space->group->type): //Display title below Group Title?>
       <h2 class="node-title"><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
+      <?php if ($context_links): ?><div class='context-links'><?php print $context_links ?></div><?php endif; ?>
     <?php else : ?>	
       <?php if ($context_links): ?><div class='context-links'><?php print $context_links ?></div><?php endif; ?>
       <?php if ($extrablanklines): // For better formatting of User Profile?><div ><?php print $extrablanklines ?></div><?php endif; ?>
