@@ -15,18 +15,21 @@
 
 #navigation a.logo {
   background-image: url("images/sprite_skin_fsp.png") !important;
-  width: 120px;
+  width: 60px;
 }
 
 body.demoscreen_book #navigation a.logo {
   background-image: url("images/sprite_skin.png") !important;
-  width: 120px;
+  width: 60px;
 }
 
 .block .minipager li.pager-current span {
   color: #fff !important;	
 }
 
+ul#nice-menu-1 li a.active, ul#main-menu li a.active {
+  color: #ff00ff;
+}
 
 /* FOOTER */
 .sponsoren a {
@@ -45,4 +48,5 @@ body.demoscreen_book #navigation a.logo {
 	width: 125px;
 	background-position: -865px 0;
 }
+
 
