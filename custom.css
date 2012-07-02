@@ -1310,6 +1310,11 @@ background-color: #eee !important
 
 table.views-view-grid td {
 padding: 0;
+padding-bottom: 10px;
+}
+
+table.views-view-grid tr:hover td {
+  background-color: transparent;
 }
 
 /*** Wiki ***/
