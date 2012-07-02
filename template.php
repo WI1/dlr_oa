@@ -15,10 +15,12 @@ function dlr_oa_preprocess_node(&$vars) {
 
 
 function dlr_oa_addthis_button() {
-	return '<div class="addthis_button_div">
+	/*return '<div class="addthis_button_div">
 		<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=demoscreen"><img src="/sites/all/themes/dlr_oa/img/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/></a>
-	</div>';
+	</div>';*/
+  return '<div class="addthis_button_div"><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4fbddc036affeaa2"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fbddc036affeaa2"></script></div>';
 }
+
 
 /**
  * Overrides theme_event_more_link: the 'read more' link for events
@@ -486,8 +488,9 @@ function dlr_oa_theme() {
     'project_node_form' => array(
       // Forms always take the form argument.
       'arguments' => array('form' => NULL),
-    ),
-    
+    ),// 'atrium_search_form' => array(
+      // Forms always take the form argument.
+      //'arguments' => array('form' => NULL),),
   );
 }
 
@@ -632,8 +635,13 @@ function dlr_oa_date_all_day_label() {
 
 
 /**
- * Implementation of hook_form_alter().
- */
-function dlr_oa_form_alter(&$form, $form_state, $form_id) {
+ * Implementation of hook_form().
+
+function dlr_oa_atrium_search_form($form) {
+ // $form['#action']  = explode('search', $form['#action']); 
+  $form['#action'] = 'search';
+  unset($form['#space']);
   
+  return drupal_render($form);
 }
+ */  
