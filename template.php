@@ -510,23 +510,23 @@ function dlr_oa_project_node_form($form) {
       $fieldgroups[] = $form_element;
     }
   }
-  
+
   // Selects all nodereference fields from the field_info section of $form array
   $fields = array();
   $field = array();
   foreach ($form['#field_info'] as $field) {
-    if ($field['module'] == 'nodereference' || $field['module'] == 'userreference' ) {
+    if ($field['module'] == 'nodereference' || $field['module'] == 'userreference') {
       $fields[] = $field;
     }
   }
 
- // Adds label element to noderefence multiple fields, as title is usually shown within table header
+  // Adds label element to noderefence multiple fields, as title is usually shown within table header
   foreach ($fieldgroups as $fieldgroup) {
     foreach ($fields as $field) {
-      if (isset($fieldgroup[$field['field_name']]) && $fieldgroup[$field['field_name']]['#theme'] = 'content_multiple_values' && $fieldgroup[$field['field_name']]['#type'] != 'nodereference_select' ) {
-	$form[$fieldgroup['#parents'][0]][$field['field_name']]['#prefix'] .= '<label>' . $fieldgroup[$field['field_name']]['#title'] . ':</label>';
+      if (isset($fieldgroup[$field['field_name']]) && $fieldgroup[$field['field_name']]['#theme'] == 'content_multiple_values' && $fieldgroup[$field['field_name']]['#type'] != 'nodereference_select' && $field['multiple'] != 0) {
+        $form[$fieldgroup['#parents'][0]][$field['field_name']]['#prefix'] .= '<label>' . $fieldgroup[$field['field_name']]['#title'] . ':</label>';
       }
-    } 
+    }
   }
 
 return drupal_render($form);
