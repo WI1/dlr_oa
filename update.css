@@ -176,7 +176,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 	.node .content { padding: 0 0 10px 0 !important; }
 	.node-more-link { margin-bottom: 10px; }
 	.addthis_button_div { margin: 0 !important; display: inline !important;}
-	.node .links { margin: 0 0 10px 0; border: none !important; font-size: 10px; width: 430px; float: left; }
+	.node .links { margin: 0 0 10px 0; border: none !important; font-size: 10px; float: left; }
    
    ul.links.inline, ul.links.inline li, ul.links.inline li a { margin-left: 0 !important; }
 
