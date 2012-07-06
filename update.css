@@ -1,5 +1,6 @@
 /* blau #243D80 */
 /* orange #EEE */
+/* this stylesheet mainly provides format for generic elements or standard drupal classes, for site specific classes see custom.css */
 
 /*** TEMP!!! ***/
 #navigation #search-theme-form {
@@ -333,8 +334,6 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 
 /* Footer */
 #footer { margin-bottom: 0 !important; }
-#footer .footer-message { visibility:hidden; }
-
 
 /* Content */
 #content { border: none !important; padding: 15px 0 !important; }
@@ -382,27 +381,4 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 
 #forum tr td.forum {
 padding-left:25px !important;
-}
-
-/* OA Folders features */
-.atrium-folders-navigator .left { width: 28%; }
-.atrium-folders-navigator a { color: #fff !important; }
-.atrium-folders-navigator ul.links  { width: 100% !important; margin: 0 0 10px 0; }
-
-.dropzone.dropzone-upload #attachments { width: 100%; position:relative; left: -100%; }
-.dropzone.dropzone-upload #attachments .left { width: 70% }
-.dropzone.dropzone-upload #attachments .right {width: 28% }
-
-
-/* Twitter Form Field */
-#twitter-toggle-wrapper {
-margin-top: -25px;
-padding-bottom: 0;
-padding-top: 0;
-margin-left: 0;
-}
-
-#twitter-textfield-wrapper {
-  margin-left: 16px;
-  padding-top: 0px;
 }

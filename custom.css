@@ -1,6 +1,7 @@
 /* BALANCE Stylesheet */
 /* Main color: #EEEEEE */
 /* Dark grey: #404040 */
+/* this stylesheet formats specific areas of the site, for general formats see update.css */
 
 .mendeley_title {
 	text-decoration: underline;
@@ -910,6 +911,10 @@ div.content .view-blog-listing ol, div.content .view-blog-listing ul, div.conten
 
 .page-region .block .item-list li {
   border-bottom: 0;
+}
+.page-region .view-blog-listing .item-list li {
+  padding-top: 4px;
+  padding-bottom: 5px;
 }
 
 body.front #main {
@@ -2083,4 +2088,27 @@ html.js input.form-autocomplete {
 
 div.pager .minipager .clear-block {
   border-style: none;
+}
+
+/* OA Folders features */
+.atrium-folders-navigator .left { width: 28%; }
+.atrium-folders-navigator a { color: #fff !important; }
+.atrium-folders-navigator ul.links  { width: 100% !important; margin: 0 0 10px 0; }
+
+.dropzone.dropzone-upload #attachments { width: 100%; position:relative; left: -100%; }
+.dropzone.dropzone-upload #attachments .left { width: 70% }
+.dropzone.dropzone-upload #attachments .right {width: 28% }
+
+
+/* Twitter Form Field */
+#twitter-toggle-wrapper {
+margin-top: -25px;
+padding-bottom: 0;
+padding-top: 0;
+margin-left: 0;
+}
+
+#twitter-textfield-wrapper {
+  margin-left: 16px;
+  padding-top: 0px;
 }
