@@ -453,8 +453,13 @@ border: 1px solid #666;
 }
 
 fieldset.collapsible {
-border: 1px solid #999;
+border: 1px solid #ccc;
 /*padding: 0.8em 1.3em;*/
+}
+
+body.node-type-project fieldset.collapsible {
+border: 1px solid #ccc;
+padding: .6em 1em 1em 1em;
 }
 
 #user-profile-form legend {
@@ -1313,7 +1318,7 @@ padding: 0;
 padding-bottom: 10px;
 }
 
-table.views-view-grid tr:hover td, .views-table tr:hover {
+table.views-view-grid tr:hover td, .views-table tr:hover td {
   background-color: transparent;
 }
 
