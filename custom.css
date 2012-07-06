@@ -2036,6 +2036,11 @@ table th {
   margin-bottom: 1em;
 }
 
+.node-type-project .field-type-nodereference .field-item {
+  float: left;
+  width: 116px;
+}
+
 div.litecal .litecal-data .views-field.title { 
   color:#404040; /*old 48A */ 
 }
