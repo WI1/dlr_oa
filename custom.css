@@ -897,6 +897,8 @@ display: inline;
 
 body.front .node h2 {
 	margin-top: 0;
+	display: block;
+	float: none;
 }
 
 body.front #main {
