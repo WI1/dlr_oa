@@ -165,10 +165,9 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 	
 	#block-projecttabs-2 li { width: 70px !important; overflow: hidden; height:115px; }
     
-	 .page-region .block .block-content {
-		 background: 0;
-		 border: 0;
-	 }
+	.page-region .block .block-content { background: 0; border: 0; }
+	.block, .item-list { border: 0; }
+ 
 
 /* Nodes */
 
