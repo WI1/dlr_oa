@@ -333,6 +333,7 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 
 /* Footer */
 #footer { margin-bottom: 0 !important; }
+#footer .footer-message { visibility:hidden; }
 
 
 /* Content */
