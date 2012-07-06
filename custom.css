@@ -2041,6 +2041,10 @@ table th {
   width: 116px;
 }
 
+.node-type-project .field-type-nodereference {
+clear: both;
+}
+
 div.litecal .litecal-data .views-field.title { 
   color:#404040; /*old 48A */ 
 }

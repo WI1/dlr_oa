@@ -302,7 +302,7 @@ body.node-type-balancewiki div.links.wiki { top: inherit !important; }
 
 
 /* Fields */
-.field { padding: 0 0 30px 0; }
+.field { padding: 0 0 1em 0 !important; }
 
 /* Messages */
 .messages { margin: 20px 0; }
