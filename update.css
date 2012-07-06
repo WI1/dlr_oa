@@ -394,13 +394,13 @@ padding-left:25px !important;
 
 /* Twitter Form Field */
 #twitter-toggle-wrapper {
-  margin-top: -5px;
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-left: 9px;
+margin-top: -25px;
+padding-bottom: 0;
+padding-top: 0;
+margin-left: 0;
 }
 
 #twitter-textfield-wrapper {
-  margin-left: 26px;
+  margin-left: 16px;
   padding-top: 0px;
 }
