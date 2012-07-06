@@ -299,6 +299,8 @@ body.node-type-balancewiki div.links.wiki { top: inherit !important; }
 .views-exposed-form .views-exposed-widget { clear: left; padding-top: 0; }
 .field-label { text-indent: 0 !important; }
 
+
+
 /* Fields */
 .field { padding: 0 0 30px 0; }
 
@@ -313,8 +315,9 @@ tr.even, tr.odd { /*background: #F9F9F9;*/ }
 
 /* Announcement */
 #announcement .block { background-color: #F9F9F9; border-color: #404040; }
+.node.sticky { border: 1px solid #404040 !important; background-color: #f9f9f9 !important; padding: 1em; }
 
-/* Forms */
+/* Forms */ 
 input, select { padding: 2px; border: none !important; }
 input[type=text],input[type=password], select { border: #404040 1px solid !important;  }
 input[type=submit] { padding: 2px 4px; }
