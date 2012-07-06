@@ -907,6 +907,9 @@ div.content .view-blog-listing ol, div.content .view-blog-listing ul, .view-blog
  list-style: none;
  border: 0;
 }
+.page-region .block .item-list li {
+  border-bottom: 0;
+}
 
 body.front #main {
 width: 541px;
