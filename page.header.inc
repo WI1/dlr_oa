@@ -31,10 +31,10 @@
     <?php 
           $block = drupal_get_form('atrium_search_form');
           $block = '<div id="search" class="container-inline">'.$block.'</div>';
-    // print $block;   
+     print $block;   
      
      ?>
-    <?php if ($search_box): ?><?php print $search_box ?><?php endif; ?>
+    <?php// if ($search_box): ?><?php// print $search_box ?><?php // endif; ?>
   </div></div>
   <?php endif; ?>
   
