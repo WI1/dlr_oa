@@ -464,8 +464,12 @@ function dlr_oa_preprocess_page(&$vars) {
   //If page is Metaproject Demoscreen BOOK page, then insert flag for CSS logo change
   if(isset($vars['node']) && $vars['node']->type == 'book'){
     $book_node = node_load($vars['node']->book['bid']);
-    if($book_node->title == "Metaprojekt DemoScreen")
+    if($book_node->title == "Metaprojekt DemoScreen"){
        $vars['attr']['class'] = $vars['attr']['class']." demoscreen_book"; 
+       $book_firstpage = book_next($book_node->book);
+       $vars['logo'] = l(check_plain(variable_get('site_name', 'Drupal')), $book_firstpage['link_path'], array('attributes' => array('class' => 'logo'),'external' => FALSE));
+       
+    }
   }
   
   // Remove some User tabs from the Profile Pag
