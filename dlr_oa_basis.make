@@ -310,3 +310,10 @@ libraries[tinymce][directory_name] = "tinymce"
   projects[custom_pub][subdir] = "contrib"
   projects[custom_pub][version] = "1.4"
 
+; Email field and spam filter
+
+  projects[email][subdir] = "contrib"
+  projects[email][version] = "1.2"
+
+  projects[spamspan][subdir] = "contrib"
+  projects[spamspan][version] = "1.6"

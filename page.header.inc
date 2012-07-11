@@ -31,11 +31,10 @@
     <?php 
           $block = drupal_get_form('atrium_search_form');
           $block = '<div id="search" class="container-inline">'.$block.'</div>';
-     print $block;   
-     //  $search_box = str_replace('id="search-theme-form"','id="atrium-search-form"',$search_box);
-          //$search_box = str_replace('value="search_theme_form"','value="atrium_search_form"',$search_box)
+    // print $block;   
+     
      ?>
-    <?php if (0 && $search_box): ?><?php print $search_box ?><?php endif; ?>
+    <?php if ($search_box): ?><?php print $search_box ?><?php endif; ?>
   </div></div>
   <?php endif; ?>
   
