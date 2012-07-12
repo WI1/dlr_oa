@@ -492,9 +492,9 @@ function dlr_oa_theme() {
     'project_node_form' => array(
       // Forms always take the form argument.
       'arguments' => array('form' => NULL),
-    ),// 'atrium_search_form' => array(
+    ),// 'views_pre_render' => array( 
       // Forms always take the form argument.
-      //'arguments' => array('form' => NULL),),
+      //'arguments' => array('view' => NULL),),
   );
 }
 
