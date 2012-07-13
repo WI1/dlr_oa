@@ -9,32 +9,7 @@ function dlr_oa_node_more_link($node) {
  * already nested html-tags out of $vars content
  */                                                                                                                                                                                                                                           
 function dlr_oa_preprocess_node(&$vars) {
-  if ($node->type != 'project') {
-    if (!empty($vars['terms'])) {
-      $label = t('Tagged');
-      $terms = "<div class='field terms clear-block'><span class='field-label-inline-first'>{$label}:</span> {$vars['terms']}</div>";
-      $vars['content'] =  $terms . $vars['content'];
-    }
-  
-    $vars['title'] = check_plain($vars['node']->title);
-  }
-  $vars['layout'] = FALSE;
-
-  // Add node-page class.
-  $vars['attr']['class'] .= $vars['node'] === menu_get_object() ? ' node-page' : '';
-
-  // Don't show the full node when a comment is being previewed.
-  $vars = context_get('comment', 'preview') == TRUE ? array() : $vars;
-
-  // Clear out catchall template file suggestions like those made by og.
-  // TODO refactor
-  if (!empty($vars['template_files'])) {
-    foreach ($vars['template_files'] as $k => $f) {
-      if (strpos($f, 'node-'.$vars['type']) === FALSE) {
-        unset($vars['template_files'][$k]);
-      }
-    }
-  }
+ // override the rewriting of terms from ginko...
 }
 
 
