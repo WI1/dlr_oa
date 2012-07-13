@@ -332,7 +332,7 @@ tr.even, tr.odd { /*background: #F9F9F9;*/ }
 
 /* Announcement */
 #announcement .block { background-color: #F9F9F9; border-color: #404040; }
-.node.sticky { border: 1px solid #ccc !important; background-color: #f9f9f9 !important; padding: 1em; }
+.node.sticky { border: 1px solid #ccc !important; background-color: #f9f9f9 !important; padding: 1em; margin: 1em 0 1em 0;}
 
 /* Forms */ 
 input, select { padding: 2px; border: none !important; }
@@ -371,6 +371,8 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 #content .panel-region-separator {
     height: 45px; 
 }
+
+
 
 /* Vermischtes */
 #main-squeeze p.long { color: #404040; width: auto; top: auto; }
