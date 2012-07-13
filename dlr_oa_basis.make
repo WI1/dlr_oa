@@ -238,6 +238,11 @@ projects[dlr_socialmedia][subdir] = "features"
   projects[projecttabs][type] = "module"
   projects[projecttabs][subdir] = "custom"
 
+  projects[content_spaces][download][type] = "git"
+  projects[content_spaces][download][url] = "git://github.com/WI1/content_spaces.git"
+  projects[content_spaces][type] = "module"
+  projects[content_spaces][subdir] = "custom"
+
 ;-- b.3 redmine connection
 projects[feedmine][download][type] = "git"
 projects[feedmine][download][url] = "git://github.com/WI1/feedmine.git"
@@ -275,14 +280,18 @@ libraries[tinymce][directory_name] = "tinymce"
   projects[wysiwyg][version]= "2.4"
   projects[wysiwyg][patch][]= "http://drupal.org/files/wysiwyg.tinymce-lists.682160.7.patch"
 
-  ; IMCE WYSIWYG BRIDGE
   projects[imce_wysiwyg][subdir] = "contrib"
   projects[imce_wysiwyg][version]= "1.1"
 
-  ; IMCE
+  projects[imce_wysiwyg][subdir] = "contrib"
+  projects[imce_wysiwyg][version]= "1.1"
+
   projects[imce][subdir] = "contrib"
   projects[imce][version]= "2.3"
   
+  projects[wysiwyg_filter][subdir] = "contrib"
+  projects[wysiwyg_filter][version]= "1.5"
+
   ; FLOWPLAYER
   projects[flowplayer][subdir] = "contrib"
   projects[flowplayer][version]= "1.0-beta1"
