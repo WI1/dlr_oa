@@ -368,6 +368,10 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
   margin: 0.55em 0.8em 0.05em 0em;
 }
 
+#content .panel-region-separator {
+    height: 45px;
+}
+
 /* Vermischtes */
 #main-squeeze p.long { color: #404040; width: auto; top: auto; }
 #views_slideshow_singleframe_main_1 { margin-bottom: 20px; }
