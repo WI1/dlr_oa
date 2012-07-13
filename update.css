@@ -50,8 +50,11 @@ input, select, textarea, body {
 	
 	/* Page Title */
 	#page-tools .page-title, #page .node-title, #context-block-region-content .node-title { height: auto !important; font-size: 18px; text-transform: uppercase; font-weight: bold; line-height: 21.6px}
-  #page .view-content h2.node-title, #context-block-region-content .view-content h2.node-title { font-size: 14px; }
-
+  #page .view-content h2.node-title, #context-block-region-content .view-content h2.node-title { text-transform: none; font-size: 18px;}
+  #page .view-content h2.node-title a, #context-block-region-content .view-content h2.node-title a { font-size: 18px; }
+  
+  .views-table .views-field.title a { font-size: 13px; }
+  
 /* Abstaende */
 p { margin-bottom: 1em; }
 dl, hr, pre, address, fieldset, ol, ul, table { margin-bottom: 2.5em; }
@@ -87,6 +90,14 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 #edit-search-wrapper, #edit-search-1-wrapper { float: left; display: inline-block; margin: 0; padding: 0; width: 200px; }
 #edit-search, #edit-search-1{ border: none !important; line-height: 22px !important; background: transparent !important; font-size: 16px !important; color: #404040; width: 185px; margin: 4px 0 0 5px !important; padding: 0; height: 22px !important; }
 #search .form-submit { display: block !important; background: transparent !important; width: 30px !important; height: 30px !important; margin: 0 !important; padding: 0 !important; border: 0 !important; text-indent: 900px; overflow: hidden; cursor: pointer; /*visibility:hidden*/}
+
+body.page-search div.box { margin: 0, padding: 0; background: none; border: 0; }
+body.page-search div.box-content { padding: 0 }
+body.page-search dl.search-results { margin: 0; }
+body.page-search dl.search-results dt.title { font-size: 14px; margin-bottom: 0.6em }
+body.page-search dl.search-results dd { padding-bottom: 2.5em; }
+body.page-search dl.search-results dd p.search-info { font-size: 10px !important; color: #ccc; }
+body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 
 /* Navigation */
 
@@ -157,7 +168,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 	.page-region .block h2, .page-region .block .block-title { /*font-size: 13px !important;*/ }
 		
 	.page-region .block h2, .block .view-header, .page-region .block .block-title, .exhibit-facet-header, .exhibit-flowingFacet-header { background: none !important; border: none !important;  border-bottom: 1px solid #ccc; }
-	.page-region .block h2, .block .view-header, .page-region .block .block-title , .page-region .block h2 a, .block .view-header a, .page-region .block .block h2 a, .exhibit-facet-header-title, .exhibit-flowingFacet-header-title { color: #404040 !important;  font-size: 14px !important; padding: 0 0 3px 0 !important; }
+	.page-region .block h2, .block .view-header, .page-region .block .block-title , .page-region .block h2 a, .block .view-header a, .page-region .block .block h2 a, .exhibit-facet-header-title, .exhibit-flowingFacet-header-title { color: #404040;  font-size: 14px; padding: 0 0 3px 0 !important; }
 	.page-region .block-content h2, .block-content .view-header, .page-region .block-content .block-title { border-bottom: 0; }
 	
 	.page-region .block h3 { font-size: 13px; }
@@ -178,8 +189,10 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 	.addthis_button_div { margin: 0 !important; display: inline !important;}
 	.node .links { margin: 0 0 10px 0; border: none !important; font-size: 10px; float: left; }
   .node.sticky .links { margin-bottom: 0; padding-bottom: 0; }
-   ul.links.inline, ul.links.inline li, ul.links.inline li a { margin-left: 0 !important; }
-
+   ul.links.inline, ul.links.inline li, ul.links.inline li a { margin-left: 0 !important; padding-bottom: 0;}
+   .item-list .node .field.terms { padding-bottom: 0 !important; }
+   .pager ul.pager-list { margin-bottom: 0 !important; }
+   div.pager { height: 28px;}
 /* Kommentare */
 
 	#comments { background: #f9f9f9; padding: 5px; margin: 0; }
@@ -366,7 +379,7 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 #block-projecttabs-2 ul, #block-projecttabs-2 ul li, #block-focus_groups-0 ul li, ul.no-bullets li { list-style-image: none !important; }
 */
 .comment { padding: 10px; }
-.field-field-smallteaser { padding: 0 20px 5px 0 !important; }
+.field-field-smallteaser, .field-field-eventteaser { padding: 0 20px 5px 0 !important; }
 
 /* Card */
 .card { background: none !important; border: none !important; }

@@ -149,6 +149,9 @@ projects[dlr_groups][subdir] = "features"
   projects[buildmodes][subdir] = "contrib"
   projects[buildmodes][version] = "1.x-dev"
   
+  projects[content_taxonomy][subdir] = "contrib"
+  projects[content_taxonomy][version] = "1.0-rc2"
+  
   projects[context_og][subdir] = "contrib"
   projects[context_og][version] = "3.0"
   
@@ -183,6 +186,9 @@ projects[dlr_groups][subdir] = "features"
 
   projects[reference_preview][subdir] = "contrib"
   projects[reference_preview][version] = "2.x-dev"
+
+  projects[reference_views][subdir] = "contrib"
+  projects[reference_views][version] = "2.1"
 
   projects[reverse_node_reference][subdir] = "contrib"
   projects[reverse_node_reference][version] = "1.0"
