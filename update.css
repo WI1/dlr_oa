@@ -52,6 +52,8 @@ input, select, textarea, body {
 	#page-tools .page-title, #page .node-title, #context-block-region-content .node-title { height: auto !important; font-size: 18px; text-transform: uppercase; font-weight: bold; line-height: 21.6px}
   #page .view-content h2.node-title, #context-block-region-content .view-content h2.node-title { text-transform: none; font-size: 18px;}
   #page .view-content h2.node-title a, #context-block-region-content .view-content h2.node-title a { font-size: 18px; }
+  #page-tools h2.node-title { font-size: 18px; font-weight: 700; text-transform: uppercase;}
+  
   
   .views-table .views-field.title a { font-size: 13px; }
   
@@ -360,7 +362,6 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
     float: right;
     margin: 0.8em 0em 0.8em 1em;
 }
-
 /* float fix for tinymce editor. */
 #content img.left {
   float: left;
