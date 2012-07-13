@@ -369,7 +369,7 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 }
 
 #content .panel-region-separator {
-    height: 45px;
+    height: 45px; 
 }
 
 /* Vermischtes */
