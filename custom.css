@@ -875,11 +875,6 @@ margin-left:2px;
 vertical-align:super;
 }
 
-body.front .node .title,
-body.front .story .taxonomy {
-display: none;
-}
-
 body.front .node {
 font-size: 1.2em;
 margin-bottom: 30px;
