@@ -373,6 +373,14 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 }
 
 
+/* loescht redundante titel und beschreibungsinformationen im project info*/
+#page .view-content h2.node-title {
+  display: none;
+}
+
+#page .view-content .content .form-item.form-item-labeled {
+  display: none;
+}
 
 /* Vermischtes */
 #main-squeeze p.long { color: #404040; width: auto; top: auto; }
