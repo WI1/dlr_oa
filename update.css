@@ -23,6 +23,10 @@ input, select, textarea, body {
     font: 11px/18px "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#page .page-content .content fieldset {
+    font-size: 13.2px;
+}
+
 #page { padding: 0; width: 100%; overflow: hidden; margin: 0 auto; border: none; background: #fff url(img/bg/symbol.jpg) right no-repeat; }
 .one-sidebar.sidebar-right #main-squeeze { }
 
