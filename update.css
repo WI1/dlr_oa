@@ -376,6 +376,9 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
     height: 45px; 
 }
 
+div.node .field .field-label-inline-first {
+  font-size: 10px;
+}
 
 /* loescht redundante titel und beschreibungsinformationen im project info*/
 #page .view-content h2.node-title {
