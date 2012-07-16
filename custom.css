@@ -1323,6 +1323,10 @@ background-color: #eee !important
      display: block;
 }
 
+.page-user #block-views-activity_listing-block_3 {
+  margin-top: 2.4em;
+} 
+
 .views-row .node-wiki .content {
 	display: none;
 }
