@@ -1,4 +1,4 @@
-<?php if(isset($before)) { print $before; }?>
+<?php if (isset($before)) { print $before; }?>
 <div id="node-<?php print $node->nid; ?>" class="node<?php if ($sticky) { print ' sticky'; } ?><?php if (!$status) { print ' node-unpublished'; } ?><?php if (isset($og_public) && $og_public === FALSE) { print ' node-private'; } ?> <?php if (isset($node_classes)) { print $node_classes; } ?> node-<?php print $type; ?> clear-block">
 	<?php $active_space = spaces_get_space(); ?>
   <?php if (!$page): ?>
@@ -14,7 +14,8 @@
 	<?php if (isset($og_public) && $og_public === FALSE ): ?>
 	<?php print dlr_oa_visibility($node, $node->og_groups_both); ?>
 	<?php endif; ?>
-  <div> 
+  <div>
+  <?php if ($teaser) { $content = strip_tags($content, '<p><a>'); } ?>
   <div class="content">
     <?php print $content ?>
 		<?php if (!$page && $node_read_more): ?>
