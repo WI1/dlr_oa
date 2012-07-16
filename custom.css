@@ -845,19 +845,11 @@ width: 30px;
     padding-bottom: 25px; /* 50px before */
 }
 
-
-.node .linkliste {
+.node .byline {
    display: inline;
  }
  
- .node .byline {
-   display: inline;
- }
  
- .node .date {
-   display: inline;
- }
-  
 .node .links a {
 color: #666;
 }

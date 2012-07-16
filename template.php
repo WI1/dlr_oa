@@ -13,7 +13,7 @@ function dlr_oa_preprocess_node(&$vars) {
 }
 
 function phptemplate_preprocess_node(&$vars) {
-
+  dpm($vars);
 }
 
 
