@@ -48,6 +48,9 @@ projects[wi1init][subdir] = "features"
   ; wi1init dependencies
   projects[adminrole][subdir] = "contrib"
   projects[adminrole][version] = "1.3"
+  
+  projects[custom_formatters][subdir] = "contrib"
+  projects[custom_formatters][version] = "1.6" 
 
   projects[services][subdir] = "contrib"
   projects[services][version] = "2.x-dev"
