@@ -381,7 +381,7 @@ div.node .field .field-label-inline-first {
 }
 
 /* loescht redundante titel und beschreibungsinformationen im project info*/
-.view-info-listing h2.node-title {
+.view-info-listing .view-content h2.node-title {
   display: none;
 }
 
