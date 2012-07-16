@@ -381,11 +381,11 @@ div.node .field .field-label-inline-first {
 }
 
 /* loescht redundante titel und beschreibungsinformationen im project info*/
-#page .view-content h2.node-title {
+.view-info-listing h2.node-title {
   display: none;
 }
 
-#page .view-content .content .form-item.form-item-labeled {
+.view-info-listing .content .form-item.form-item-labeled {
   display: none;
 }
 
