@@ -11,8 +11,8 @@
 		<?php endforeach; ?>
 		</div>
 	<?php endif; ?>
-	<?php if (isset($og_public) && $og_public === FALSE): ?>
-	<?php print dlr_oa_visibility($node->og_groups_both); ?>
+	<?php if (isset($og_public) && $og_public === FALSE ): ?>
+	<?php print dlr_oa_visibility($node, $node->og_groups_both); ?>
 	<?php endif; ?>
   <div> 
   <div class="content">
