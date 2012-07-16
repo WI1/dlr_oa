@@ -152,6 +152,9 @@ projects[dlr_groups][subdir] = "features"
   projects[buildmodes][subdir] = "contrib"
   projects[buildmodes][version] = "1.x-dev"
   
+  projects[cck_plain_text_linebreaks][subdir] = "contrib"
+  projects[cck_plain_text_linebreaks][version] = "1.0"
+  
   projects[content_taxonomy][subdir] = "contrib"
   projects[content_taxonomy][version] = "1.0-rc2"
   
