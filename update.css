@@ -389,6 +389,11 @@ div.node .field .field-label-inline-first {
   display: none;
 }
 
+body.node-type-project .field.terms,
+.view-info-listing .view-content .field.terms {
+  display: none;
+} 
+
 /* Vermischtes */
 #main-squeeze p.long { color: #404040; width: auto; top: auto; }
 #views_slideshow_singleframe_main_1 { margin-bottom: 20px; }
