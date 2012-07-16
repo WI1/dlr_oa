@@ -1,4 +1,4 @@
-/* blau #243D80 */
+/* blau #48A */
 /* orange #EEE */
 /* this stylesheet mainly provides format for generic elements or standard drupal classes, for site specific classes see custom.css */
 
@@ -35,7 +35,7 @@ input, select, textarea, body {
 /* Fonts */
 	
 	/* Links */
-	.node a, #sidebar-right .block a { color: #243D80 !important; }
+	.node a, #sidebar-right .block a { color: #48A !important; }
 	.node a:hover, #sidebar-right .block a:hover { color: #404040 !important; }
 	
 	/* Headlines */
@@ -154,7 +154,7 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 
 	.item-list .pager { margin: 35px 0 0 0 !important; padding: 15px 0 !important; border-top: #404040 1px solid; text-align: left !important; }
 	.item-list .pager li { display: inline-block !important; padding: 3px !important; margin: 0 !important; }
-	.item-list .pager li a { color: #243D80; padding: 2px 4px !important; display: inline-block; }
+	.item-list .pager li a { color: #48A; padding: 2px 4px !important; display: inline-block; }
 	.item-list .pager li a:hover { color: #EEE; }
 
 
@@ -311,7 +311,7 @@ body.node-type-balancewiki div.links.wiki { top: inherit !important; }
 
 /* Suche */
 .search-results dt a { color: #404040; font-size: 1.2em; }	
-.search-results dt a:hover { color: #243D80; }
+.search-results dt a:hover { color: #48A; }
 
 
 /* Views */
