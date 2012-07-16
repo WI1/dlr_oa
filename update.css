@@ -224,7 +224,6 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 	#page-tools ul.primary-tabs li, #page-tools .tabs #block-menu-features.block ul.menu li { 
 		font-weight: bold !important; 
 		float: left; 
-		padding: 0 10px !important; 
 		height: 30px; 
 		line-height: 30px; 
 		margin: 0 !important; 
@@ -240,7 +239,7 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 		border: none !important; 
 		font-weight: bold !important; 
 		background: none !important; 
-		padding: 0 !important; 
+		padding: 1px 10px 0 10px !important; 
 		margin: 0 !important; 
 		height: 29px !important; 
 		color: #404040 !important; 
@@ -248,6 +247,7 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 		display: block !important;
 		width: auto;
 		line-height: 30px; 
+		-moz-border-radius: 0;
 	}
 	
 	#page-tools .tabs #block-menu-features.block ul.menu li a { font-size: 14px; }
