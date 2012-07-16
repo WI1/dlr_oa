@@ -28,7 +28,7 @@ body.demoscreen_book #navigation a.logo {
 }
 
 ul#nice-menu-1 li a.active, ul#main-menu li a.active,
-ul#nice-menu-1 li a.active-trail, ul#main-menu li a.active-trail {
+ul#nice-menu-1 li.active-trail a, ul#main-menu li.active-trail a {
   color: #E2007A;
 }
 
