@@ -15,7 +15,6 @@
 	<?php print dlr_oa_visibility($node, $node->og_groups_both); ?>
 	<?php endif; ?>
   <div>
-  <?php if ($teaser) { $content = strip_tags($content, '<p><a>'); } ?>
   <div class="content">
     <?php print $content ?>
 		<?php if (!$page && $node_read_more): ?>
