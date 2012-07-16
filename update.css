@@ -233,7 +233,7 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
         width: auto;		
 	}
 	ul.tabs li:hover { background: #fff !important; }
-			
+
 	/* a */
 	#page-tools ul.primary-tabs li a, #secondary-tabs li a, #page-tools .tabs #block-menu-features.block ul.menu li a { 
 		border: none !important; 
@@ -265,7 +265,7 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 
 	/* active */	
 	#page-tools ul.primary-tabs li.active, #page-tools .tabs ul.primary-links li.active { border-bottom: 1px solid #fff !important; background: #fff !important; }
-	#page-tools ul.primary-tabs li.active a, #secondary-tabs li.active a,#page-tools .tabs ul.primary-links li.active a { font-weight: bold !important; border: none !important; padding: 0 !important; margin: 0 !important; }
+	#page-tools ul.primary-tabs li.active a, #secondary-tabs li.active a,#page-tools .tabs ul.primary-links li.active a { font-weight: bold !important; border: none !important; padding: 1px 10px 0 10px !important; margin: 0 !important; }
 	#page-tools ul.primary-tabs li.active a:hover, #page-tools .tabs ul.primary-links li.active a:hover { color: #404040 !important;  }
 	/* Tabs HG fuer Fokusseiten */
 	.fg1 #page-tools ul.primary-tabs li.active, .fg1 #page-tools ul.primary-tabs li.active:hover, .fg1 #main-squeeze #page-tools ul.primary-tabs li.active a  { background: #E32D6E !important; color: #fff !important; }
