@@ -350,14 +350,14 @@ color: #666;
 .field-type-content-taxonomy ul li {
   list-style-type: none;
   display: inline;
-  
+  margin-left: 0;
 }
 
 .field-type-content-taxonomy ul li:after {
   content: ", ";
 }
 
-.field-type-content-taxonomy ul:last-child:after 
+.field-type-content-taxonomy ul:last-child:after {
   content: "";
 }
 
