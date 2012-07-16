@@ -340,24 +340,24 @@ font-weight: normal !important;
 color: #666;
 }
 
-.field-type-content-taxonomy ul {
+div.content .field-type-content-taxonomy ul {
   list-style-type: none;
   margin-bottom: 0; 
   margin-left: 0;
   clear: both;
 }
 
-.field-type-content-taxonomy ul li {
+div.content .field-type-content-taxonomy ul li {
   list-style-type: none;
   display: inline;
   margin-left: 0 !important;
 }
 
-.field-type-content-taxonomy ul li:after {
+div.content .field-type-content-taxonomy ul li:after {
   content: ", ";
 }
 
-.field-type-content-taxonomy ul:last-child:after {
+div.content .field-type-content-taxonomy ul:last-child:after {
   content: "";
 }
 
