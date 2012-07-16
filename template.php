@@ -12,6 +12,14 @@ function dlr_oa_preprocess_node(&$vars) {
  // override the rewriting of terms from ginko...
 }
 
+function phptemplate_preprocess_node(&$vars) {
+  if (!empty($vars['terms'])) {
+    $label = t('Tagged');
+    $terms = "<div class='field terms clear-block'><span class='field-label-inline-first'>{$label}:</span> {$vars['terms']}</div>";
+    $vars['content'] =  $terms . $vars['content'];
+  }
+}
+
 
 function dlr_oa_addthis_button() {
 	/*return '<div class="addthis_button_div">
@@ -51,8 +59,10 @@ function dlr_oa_event_upcoming_item($node, $types = array()) {
  * @param array $groups
  *   e.g. 45 => 'ACHTINO' (og_groups_both)
  */
-function dlr_oa_visibility($groups) {
-	$output = sprintf('<div class="visibility" title="Sichtbar für %s"></div>', implode(' | ', $groups));
+function dlr_oa_visibility($node, $groups) {
+  if(node_access('view', $node, 0))
+      return '';
+  $output = sprintf('<div class="visibility" title="Sichtbar für %s"></div>', implode(' | ', $groups));
 	return $output;
 }
 
