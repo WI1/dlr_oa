@@ -343,10 +343,13 @@ color: #666;
 .field-type-content-taxonomy ul {
   list-style-type: none;
   margin-bottom: 0; 
+  margin-left: 0;
+  clear: both;
 }
 
 .field-type-content-taxonomy ul li {
-  float: left;
+  list-style-type: none;
+  display: inline;
   
 }
 
