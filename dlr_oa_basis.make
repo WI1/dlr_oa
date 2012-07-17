@@ -48,6 +48,9 @@ projects[wi1init][subdir] = "features"
   ; wi1init dependencies
   projects[adminrole][subdir] = "contrib"
   projects[adminrole][version] = "1.3"
+  
+  projects[custom_formatters][subdir] = "contrib"
+  projects[custom_formatters][version] = "1.6" 
 
   projects[services][subdir] = "contrib"
   projects[services][version] = "2.x-dev"
@@ -148,6 +151,9 @@ projects[dlr_groups][subdir] = "features"
   ;- contrib
   projects[buildmodes][subdir] = "contrib"
   projects[buildmodes][version] = "1.x-dev"
+  
+  projects[cck_plain_text_linebreaks][subdir] = "contrib"
+  projects[cck_plain_text_linebreaks][version] = "1.0"
   
   projects[content_taxonomy][subdir] = "contrib"
   projects[content_taxonomy][version] = "1.0-rc2"

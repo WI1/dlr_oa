@@ -339,6 +339,29 @@ font-size: 12px;
 font-weight: normal !important;
 color: #666;
 }
+
+div.content .field-type-content-taxonomy ul {
+  list-style-type: none;
+  margin-bottom: 0; 
+  margin-left: 0;
+  clear: both;
+}
+
+div.content .field-type-content-taxonomy ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 0 !important;
+}
+
+div.content .field-type-content-taxonomy ul li:after {
+  content: ", ";
+}
+
+div.content .field-type-content-taxonomy ul li:last-child:after {
+  content: "";
+}
+
+
 /*****************************/
 /* Page Title */
 /****************************/
@@ -822,19 +845,11 @@ width: 30px;
     padding-bottom: 25px; /* 50px before */
 }
 
-
-.node .linkliste {
+.node .byline {
    display: inline;
  }
  
- .node .byline {
-   display: inline;
- }
  
- .node .date {
-   display: inline;
- }
-  
 .node .links a {
 color: #666;
 }
@@ -1322,6 +1337,10 @@ background-color: #eee !important
 .page-user .block-user_relationship_blocks {
      display: block;
 }
+
+.page-user #block-views-activity_listing-block_3 {
+  margin-top: 2.4em;
+} 
 
 .views-row .node-wiki .content {
 	display: none;
