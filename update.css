@@ -277,7 +277,9 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 	.fg7 #page-tools ul.primary-tabs li.active, .fg7 #page-tools ul.primary-tabs li.active:hover, .fg7 #main-squeeze #page-tools ul.primary-tabs li.active a { background: #0E72B5 !important; color: #fff !important; }
 	.fg8 #page-tools ul.primary-tabs li.active, .fg8 #page-tools ul.primary-tabs li.active:hover, .fg8 #main-squeeze #page-tools ul.primary-tabs li.active a { background: #921F75 !important; color: #fff !important; }
 
-
+  #page-tools .limiter div br { /* deleting 10 additional pixels height on profile*/
+    display: none;
+  }
     
 /* Node Forms */	
 	/* Vertical Tabs */
