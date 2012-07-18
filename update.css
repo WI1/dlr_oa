@@ -35,7 +35,7 @@ input, select, textarea, body {
 /* Fonts */
 	
 	/* Links */
-	.node a, #sidebar-right .block a { color: #48A; }
+	.node a, #sidebar-right .block a, .node .links a { color: #48A; }
 	.buttons .node a { color: white }
 	.node a:hover, #sidebar-right .block a:hover { color: #404040 !important; }
 	
