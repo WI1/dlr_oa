@@ -54,3 +54,8 @@ ul#nice-menu-1 li.active-trail a, ul#main-menu li.active-trail a {
   text-transform: none;
 }
 
+/* OA Folders Feature */
+.view-folders-navigation .views-row.active a {
+  background-color: #7E2B97;
+}
+

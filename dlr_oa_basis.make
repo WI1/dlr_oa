@@ -51,6 +51,9 @@ projects[wi1init][subdir] = "features"
   
   projects[custom_formatters][subdir] = "contrib"
   projects[custom_formatters][version] = "1.6" 
+  
+  projects[extlink][subdir] = "contrib"
+  projects[extlink][version] = "1.11"
 
   projects[services][subdir] = "contrib"
   projects[services][version] = "2.x-dev"

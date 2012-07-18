@@ -35,8 +35,12 @@ input, select, textarea, body {
 /* Fonts */
 	
 	/* Links */
-	.node a, #sidebar-right .block a { color: #48A !important; }
+	.node a, #sidebar-right .block a, .node .links a { color: #48A; }
+	.buttons .node a { color: white }
 	.node a:hover, #sidebar-right .block a:hover { color: #404040 !important; }
+	
+	.buttons ul li { margin-left: 0; }
+	.buttons ul { padding-bottom: 0; }
 	
 	/* Headlines */
 	h1 { font-size: 18px; }
@@ -337,11 +341,12 @@ thead th { background: #e5e5e5; border-bottom: #404040 1px solid; }
 .node .content tbody tr th, .node .content tbody tr td { padding: 4px 8px !important;  }
 tbody td { border: none; }
 tr.even, tr.odd { /*background: #F9F9F9;*/ }
+tbody td.mceToolbar { padding: 0; }
 
 /* Announcement */
 #announcement .block { background-color: #F9F9F9; border-color: #404040; }
-.node.sticky { border: 1px solid #ccc !important; background-color: #f9f9f9 !important; padding: 1em; margin: 1em 0 1em 0;}
-
+.node.sticky { border: 1px solid #ccc; background-color: #f9f9f9; padding: 1em; margin: 1em 0 1em 0; }
+body.node-type-blog .node.sticky, body.node-type-event .node.sticky  { border: 0; background-color: transparent; padding: 0; margin: 0; }
 /* Forms */ 
 input, select { padding: 2px; border: none !important; }
 input[type=text],input[type=password], select { border: #404040 1px solid !important;  }
@@ -360,7 +365,7 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 
 /* Content */
 #content { border: none !important; padding: 15px 0 !important; }
-#content p {
+#content p, #content li {
     font-size: 13.2px;
     line-height: 19.8px;
 }
