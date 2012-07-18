@@ -1712,7 +1712,7 @@ border:1px solid #BBBBBB;
 /** Changes to OA **/
 
 div.node {
-  border:  none !important;
+  border:  none;
 }
 
 
