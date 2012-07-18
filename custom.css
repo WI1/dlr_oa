@@ -2100,8 +2100,7 @@ div.pager .minipager .clear-block {
 .atrium-folders-navigator div.buttons { padding: 0; }
 
 .dropzone.dropzone-upload #attachments { width: 100%; position:relative; }
-.dropzone.dropzone-upload #attachments .left { width: 70% }
-.dropzone.dropzone-upload #attachments .right {width: 28% }
+
 
 
 /* Twitter Form Field */
