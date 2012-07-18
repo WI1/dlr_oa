@@ -15,12 +15,16 @@
 
 #navigation a.logo {
   background-image: url("images/sprite_skin_fsp.png") !important;
-  width: 60px;
+  width: 400px;
+  /* fuer breiteres logo auf hauptseite*/
+  margin-left: -180px;
 }
 
 body.demoscreen_book #navigation a.logo {
   background-image: url("images/sprite_skin.png") !important;
   width: 60px;
+  /* fuer schmaeleres logo auf demoscreen book seite*/
+  margin-left: 0px;
 }
 
 .block .minipager li.pager-current span {
