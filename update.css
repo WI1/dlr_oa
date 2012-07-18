@@ -280,6 +280,8 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
   #page-tools .limiter div br { /* deleting 10 additional pixels height on profile*/
     display: none;
   }
+  
+
     
 /* Node Forms */	
 	/* Vertical Tabs */
