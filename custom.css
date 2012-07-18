@@ -2094,10 +2094,11 @@ div.pager .minipager .clear-block {
 
 /* OA Folders features */
 .atrium-folders-navigator .left { width: 28%; }
-.atrium-folders-navigator a { color: #fff !important; }
+.atrium-folders-navigator a { color: #fff !important; margin-left: 0;}
 .atrium-folders-navigator ul.links  { width: 100% !important; margin: 0 0 10px 0; }
+.atrium-folders-navigator div.buttons { padding: 0; }
 
-.dropzone.dropzone-upload #attachments { width: 100%; position:relative; left: -100%; }
+.dropzone.dropzone-upload #attachments { width: 100%; position:relative; }
 .dropzone.dropzone-upload #attachments .left { width: 70% }
 .dropzone.dropzone-upload #attachments .right {width: 28% }
 

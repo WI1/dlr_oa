@@ -36,7 +36,11 @@ input, select, textarea, body {
 	
 	/* Links */
 	.node a, #sidebar-right .block a { color: #48A !important; }
+	.buttons .node a { color: white !important; }
 	.node a:hover, #sidebar-right .block a:hover { color: #404040 !important; }
+	
+	.buttons ul li { margin-left: 0; }
+	.buttons ul { padding-bottom: 0; }
 	
 	/* Headlines */
 	h1 { font-size: 18px; }
