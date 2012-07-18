@@ -38,7 +38,11 @@ input, select, textarea, body {
 	.node a, #sidebar-right .block a, .node .links a { color: #48A; }
 	.buttons .node a { color: white }
 	.node a:hover, #sidebar-right .block a:hover { color: #404040 !important; }
-	
+  /* quickfix unscheinbare links hervorheben bei mouseover*/
+	.node h3 strong a:hover {
+    color: #7E2B97 !important;
+  }
+  
 	.buttons ul li { margin-left: 0; }
 	.buttons ul { padding-bottom: 0; }
 	
@@ -411,6 +415,9 @@ div.content div.field-items span.date-display-single {
 div.content ul.links {
   font-size: 13.2px;
 }
+
+
+
 
 
 /* loescht redundante titel und beschreibungsinformationen im project info*/
