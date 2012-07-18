@@ -30,7 +30,7 @@
     <?php if (isset($secondary_links)): ?><?php print theme('links', $secondary_links, array('id' => 'main-menu', 'class' => 'links primary-links')) ?><?php endif;?>
     <?php 
           $block = drupal_get_form('atrium_search_form');
-          $block = '<div id="search" class="container-inline apachesolr-autocomplete unprocessed">'.$block.'</div>';
+          $block = '<div id="search" class="container-inline">'.$block.'</div>';
           print $block;   
      ?>
     <?php// if ($search_box): ?><?php// print $search_box ?><?php // endif; ?>
