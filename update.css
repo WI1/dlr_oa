@@ -395,6 +395,13 @@ div.node .field .field-label-inline-first {
   margin: 0 10px 5px 0;
 }
 
+.page-dashboard .view-content .node .field {
+  padding-bottom: 4px;
+}
+
+div.node .terms ul.links li a {
+padding: 2px 10px 2px 0;
+}
 
 /* Termin: */
 div.content div.field-items span.date-display-single {
