@@ -393,7 +393,7 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 div.node .field .field-label-inline-first {
   font-size: 10px;
   padding: 0px 5px;
-  width: 70px !important;
+  width: 60px !important;
   display: block;
   float: left;
   margin: 0 10px 5px 0;
