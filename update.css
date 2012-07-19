@@ -374,6 +374,8 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
     line-height: 19.8px;
 }
 
+#content li.node_read_more { font-size: 10px; }
+
 /* float fix for tinymce editor. */
 .content img.right {
     float: right;
