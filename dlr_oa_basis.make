@@ -228,6 +228,9 @@ projects[dlr_socialmedia][download][url] = "git@redmine.wi1projects.com:dlr/dlr-
 projects[dlr_socialmedia][type] = "module"
 projects[dlr_socialmedia][subdir] = "features"
 
+  projects[twitter_pull][subdir] = "contrib"
+  projects[twitter_pull][version = "1.2"
+
   
   ;- custom
   projects[balanceonline_og_like][download][type] = "git"
