@@ -661,7 +661,7 @@ function dlr_oa_atrium_search_form($form) {
  *
  */
  
-function ginkgo_preprocess_views_view_table(&$vars) {
+function dlr_oa_preprocess_views_view_table(&$vars) {
   $view = $vars['view'];
   if ($view->name != 'noderelationships_noderef') {
     foreach ($view->field as $field => $handler) {
