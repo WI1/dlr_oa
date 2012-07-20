@@ -653,4 +653,21 @@ function dlr_oa_atrium_search_form($form) {
   
   return drupal_render($form);
 }
- */  
+ */ 
+ 
+/**
+ *
+ * Override of ginkgo_preprocess_views_view_table(&$vars), which breaks noderelationships add and reference
+ *
+ */
+ 
+function ginkgo_preprocess_views_view_table(&$vars) {
+  $view = $vars['view'];
+  if ($view->name != 'noderelationships_noderef') {
+    foreach ($view->field as $field => $handler) {
+      if (isset($vars['fields'][$field]) && $class = _ginkgo_get_views_field_class($handler)) {
+        $vars['fields'][$field] = $class;
+      }
+    }
+  }
+} 
