@@ -410,7 +410,10 @@ padding: 2px 10px 2px 0;
 }
 
 /* Termin: */
-div.content div.field-items span.date-display-single {
+div.content div.field-items span.date-display-single,
+div.content div.field-items span.date-display-start, 
+div.content div.field-items span.date-display-separator, 
+div.content div.field-items span.date-display-end {
   font-size: 13.2px;
 }
 

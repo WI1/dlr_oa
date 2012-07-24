@@ -146,6 +146,9 @@ projects[dlr_groups][subdir] = "features"
   
   projects[domain_admin][subdir] = "contrib"
   projects[domain_admin][version] = "1.1"
+  
+  projects[domain_bonus][subdir] = "contrib"
+  projects[domain_bonus][version] = "1.x-dev"
 
   ; dlr_groups dependencies
   ;- contrib
