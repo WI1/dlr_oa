@@ -455,7 +455,7 @@ body.node-type-project .field.terms,
 #block-projecttabs-2 ul, #block-projecttabs-2 ul li, #block-focus_groups-0 ul li, ul.no-bullets li { list-style-image: none !important; }
 */
 .comment { padding: 10px; }
-.field-field-smallteaser, .field-field-eventteaser { padding: 0 20px 5px 0 !important; }
+.field-field-smallteaser, .field-field-eventteaser { padding: 3px 20px 0 0 !important; }
 
 /* Card */
 .card { background: none !important; border: none !important; }
