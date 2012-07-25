@@ -2070,7 +2070,7 @@ table th {
 }
 
 .node-type-project .field-field-ref-projectinstitutions .views-row-first .title a:after {
-   content: "<br />Konsortialführer";
+   content: " (Konsortialführer)";
 }
 
 div.litecal .litecal-data .views-field.title { 
