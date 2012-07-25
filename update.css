@@ -168,8 +168,8 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 /* Navigation im Rechten Block */
   .block .menu ul, .block .menu ul ul { border-color: #fff; margin-bottom: 0;}
   .block .menu a, .drilldown .menu a { margin-left: 0; padding-left: 25px; }
-  .block .menu a.collapsed:hover, .drilldown .menu a.collapsed:hover { color: #fff !important; background: #7E2B97 url(/profiles/openatrium/themes/ginkgo/images/sprite_base.png) 0px -60px no-repeat !important;}
-  .block .menu a.leaf:hover, .drilldown .menu a.leaf:hover { color: #fff !important; background: #7E2B97 url(/profiles/openatrium/themes/ginkgo/images/sprite_base.png) 0px -110px no-repeat !important; }
+  .block .menu li.collapsed a:hover, .drilldown .menu li.collapsed a:hover { color: #fff !important; background: #7E2B97 url(/profiles/openatrium/themes/ginkgo/images/sprite_base.png) 0px -60px no-repeat !important;}
+  .block .menu li.leaf a:hover, .drilldown .menu li.leaf a:hover { color: #fff !important; background: #7E2B97 url(/profiles/openatrium/themes/ginkgo/images/sprite_base.png) 0px -110px no-repeat !important; }
   
 /* Bloecke */
 	
