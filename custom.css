@@ -2065,6 +2065,14 @@ table th {
   margin-bottom: 1em;
 }
 
+.node-type-project .field-field-ref-projectinstitutions .views-row-first .title a {
+  font-weight: bold;
+}
+
+.node-type-project .field-field-ref-projectinstitutions .views-row-first .title a:after {
+   content: "<br />Konsortialführer";
+}
+
 div.litecal .litecal-data .views-field.title { 
   color:#404040; /*old 48A */ 
 }
