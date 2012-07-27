@@ -193,14 +193,21 @@ projects[dlr_groups][subdir] = "features"
   projects[realname_userreference][subdir] = "contrib"
   projects[realname_userreference][version] = "1.2"
 
-  projects[reference_preview][subdir] = "contrib"
+  projects[reference_preview][subdir] = "patched"
   projects[reference_preview][version] = "2.x-dev"
+  projects[reference_prview][patch][996106] = "http://drupal.org/files/reference_preview-noderefcreate-996106-4.patch"
 
+  projects[noderefcreate][subdir] = "contrib"
+  projects[noderefcreate][version] = "1.0"
+ 
   projects[reference_views][subdir] = "contrib"
   projects[reference_views][version] = "2.1"
 
   projects[reverse_node_reference][subdir] = "contrib"
   projects[reverse_node_reference][version] = "1.0"
+
+  projects[unique_field][subdir] = "contrib"
+  projects[unique_field][version] = "1.4"
 
   projects[viewfield][subdir] = "contrib"
   projects[viewfield][version] = "1.2"

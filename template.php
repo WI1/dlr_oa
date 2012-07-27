@@ -670,4 +670,7 @@ function dlr_oa_preprocess_views_view_table(&$vars) {
       }
     }
   }
-} 
+}
+
+
+
