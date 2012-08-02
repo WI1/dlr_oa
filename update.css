@@ -159,10 +159,10 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 
 /* Paginierung */
 
-	.item-list .pager { margin: 35px 0 0 0 !important; padding: 15px 0 !important; border-top: #404040 1px solid; text-align: left !important; }
-	.item-list .pager li { display: inline-block !important; padding: 3px !important; margin: 0 !important; }
-	.item-list .pager li a { color: #48A; padding: 2px 4px !important; display: inline-block; }
-	.item-list .pager li a:hover { color: #EEE; }
+	.item-list .pager, .content .item-list .pager { margin: 35px 0 0 0 !important; padding: 15px 0 !important; border-top: #404040 1px solid; text-align: left !important; }
+	.item-list .pager li, .content .item-list .pager li { display: inline-block !important; padding: 3px !important; margin: 0 !important; }
+	.item-list .pager li a, .content .item-list .pager li a  { color: #48A; padding: 2px 4px !important; display: inline-block; }
+	.item-list .pager li a:hover, .content .item-list .pager li a:hover { color: #EEE; }
 
 
 /* Navigation im Rechten Block */
