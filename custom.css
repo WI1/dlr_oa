@@ -2157,15 +2157,14 @@ display: none;
 .block-content .view-event-listing table {
   border-collapse: separate;
 }
-.block-content .view-event-listing td {
-  vertical-align: top; 
+.block-content .view-event-listing td.views-field-title {
+  padding: 0 0 0 2px;
 }
 
 .block-content .view-event-listing td.views-field-date {
   width: 50px;
   border-right: 1px solid #ccc;
   padding: 0 6px 0 0;
-
 }
 
 .block-content .view-event-listing .date-display-end {
