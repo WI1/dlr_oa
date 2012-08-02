@@ -2154,10 +2154,13 @@ display: none;
 }
 
 /* latest events on frontpage */
+.block-content .view-event-listing table {
+  border-collapse: separate;
+}
 
 .block-content .view-event-listing td.views-field-date {
   width: 50px;
-  border-right: 1px solid #404040;
+  border-right: 1px solid #ccc;
 }
 
 .block-content .view-event-listing .date-display-end {
