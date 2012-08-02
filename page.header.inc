@@ -53,6 +53,12 @@
     <?php endif; ?>
     <?php if ($page_tools): ?><div class='tabs clear-block features-menu'><?php print $page_tools ?></div><?php endif; ?>
     <?php if ($tabs && $is_admin): ?><div class='tabs clear-block'><?php print $tabs ?></div><?php endif; ?>
+    <?php if($active_space->type == "og" && isset($node) && $node->type != $active_space->group->type):?>
+        <?php if ($context_links): ?><div class='context-links'><?php print $context_links ?></div><?php endif; ?>
+      <?php else : ?>	
+        <?php if ($context_links): ?><div class='context-links'><?php print $context_links ?></div><?php endif; ?>
+        <?php if ($extrablanklines): // For better formatting of User Profile?><div ><?php print $extrablanklines ?></div><?php endif; ?>
+   	  <?php endif; ?>
     <?php if ($tabs2 && $is_admin): ?>
        <div id='secondary-tabs'><?php print $tabs2 ?></div>
     <?php endif; ?>
