@@ -221,6 +221,7 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 	
 	/* ul */	
 	#page-tools ul.primary-tabs, #page-tools .tabs #block-menu-features ul, #page-tools .tabs .block #block-menu-features, #page-tools .tabs #block-menu-features.block .block-content { margin: 0; padding: 0; }
+	#page-tools ul.primary-tabs { width: 65%; float: left; }
 	 div#secondary-tabs { margin: 0; padding: 0;  border-bottom: 0}
 
 	/* li */

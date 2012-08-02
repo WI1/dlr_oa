@@ -2148,3 +2148,7 @@ margin-left: 0;
   margin-left: 16px;
   padding-top: 0px;
 }
+
+.node-76 > .links {
+display: none;
+}
