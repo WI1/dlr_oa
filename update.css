@@ -363,7 +363,7 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 #footer { margin-bottom: 0 !important; }
 
 /* Content */
-#content { border: none !important; padding: 15px 0 !important; }
+#content { border: none !important; padding: 0 0 15px 0 !important; }
 #content p, #content li {
     font-size: 13.2px;
     line-height: 19.8px;

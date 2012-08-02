@@ -2002,7 +2002,7 @@ table th {
 }
 
 #right .context-links a:active { background-position:0px 100%; }
-#right .context-links { padding: 0; margin-top: 12px; } 
+#right .context-links { padding: 0; } 
 #right .context-links ul { margin-bottom: 0; }
 
 #right .page-region .block .block-title {
