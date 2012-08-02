@@ -2152,3 +2152,15 @@ margin-left: 0;
 #node-76 > .links {
 display: none;
 }
+
+/* latest events on frontpage */
+
+.block-content .view-event-listing td.views-field-date {
+  width: 50px;
+  border-right: 1px solid #404040;
+}
+
+.block-content .view-event-listing .date-display-end {
+  display: block;
+  clear: both;
+}
