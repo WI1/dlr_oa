@@ -2158,7 +2158,8 @@ display: none;
   border-collapse: separate;
 }
 .block-content .view-event-listing td.views-field-title {
-  padding: 0 0 0 2px;
+  padding: 0 0 0 4px;
+  margin-bottom: 6px;
 }
 
 .block-content .view-event-listing td.views-field-date {
