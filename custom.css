@@ -1995,15 +1995,16 @@ table th {
     -webkit-border-radius:5px;
     }
 
+#page-tools .context-links,
 #right .context-links {
 	border-left: 0;
   position: relative;
   z-index: 10;
 }
 
-#right .context-links a:active { background-position:0px 100%; }
-#right .context-links { padding: 0; } 
-#right .context-links ul { margin-bottom: 0; }
+#page-tools .context-links, a:active, #right .context-links a:active { background-position:0px 100%; }
+#page-tools .context-links, #right .context-links { padding: 0; } 
+#page-tools .context-links ul ,#right .context-links ul { margin-bottom: 0; }
 
 #right .page-region .block .block-title {
   border-bottom: 1px solid #CCC !important;
