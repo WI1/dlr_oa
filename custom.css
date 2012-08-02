@@ -1810,11 +1810,10 @@ h2.node-title {
   margin-top: 7px;
 }
 
-#page-tools .context-links {
+.context-links {
 	border-left: 0;
-    	
-	position: relative;
-    z-index: 10;
+  position: relative;
+  z-index: 10;
 }
 
 #features-menu li {
@@ -1978,8 +1977,33 @@ table th {
 	visibility: hidden;
 }
 
-#page-tools .context-links { padding: 0; margin-top: 12px; } 
-.context-links ul { margin-bottom: 0; }
+#right .context-links {
+  border-left:1px solid #ccc;
+  padding:7px 0px 7px 5px;
+  height:25px;
+  line-height:15px;
+  overflow:hidden;
+  }
+
+#right .context-links a {
+    font-size:11px;
+    font-weight:bold;
+    color:#fff;
+    background:#666 url(images/sprite_bleeds.png) 0px -400px repeat-x;
+    text-shadow:#444 0px 1px 0px;
+
+    border:1px solid #555;
+    border-color:#555 #555 #333;
+
+    margin-left:5px;
+    padding:4px 9px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    }
+
+#right .context-links a:active { background-position:0px 100%; }
+#right .context-links { padding: 0; margin-top: 12px; } 
+#right .context-links ul { margin-bottom: 0; }
 
 #right .page-region .block .block-title {
   border-bottom: 1px solid #CCC !important;
