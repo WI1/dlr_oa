@@ -2173,3 +2173,24 @@ display: none;
   display: block;
   clear: both;
 }
+
+/* latest events on event page */
+.block-content .view-calendar-upcoming table {
+  border-collapse: separate;
+}
+.block-content .view-calendar-upcoming td.views-field-title {
+  padding: 0 0 0 4px;
+  border-bottom: 10px solid #fff;
+}
+
+.block-content .view-calendar-upcoming td.views-field-date {
+  width: 50px;
+  border-right: 1px solid #ccc;
+  padding: 0 6px 0 0;
+  border-bottom: 10px solid #fff;
+}
+
+.block-content .view-calendar-upcoming .date-display-end {
+  display: block;
+  clear: both;
+}
