@@ -15,7 +15,7 @@
     
   <div id='global'><div class='limiter clear-block container_12'>
     <?php print $breadcrumb ?>
-      <?php if ($header): ?>
+      <?php if ($header && $user->uid): ?>
       <div id='header' class='dropdown-blocks toggle-blocks clear-block'>
          <?php print $header ?>
        </div>
