@@ -468,4 +468,4 @@ body.node-type-project .field.terms,
 padding-left:25px !important;
 }
 
-.page-region .page-content .node{ float: left;}
+.page-region .page-content .node{ clear: both;}
