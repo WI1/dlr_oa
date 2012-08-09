@@ -467,3 +467,5 @@ body.node-type-project .field.terms,
 #forum tr td.forum {
 padding-left:25px !important;
 }
+
+.page-region .page-content { float: left;}
