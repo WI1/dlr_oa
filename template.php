@@ -304,7 +304,22 @@ function phptemplate_group_list_item($g, $withTitle = TRUE, $withCreateLink = FA
  */
 
 function dlr_oa_menu_item_link($link) {
-	if ($link['path']=='node/%/edit') { 
+	// This code snippet will activate menus depending on the context
+  if (empty($link['localized_options'])) {
+    $link['localized_options'] = array();
+  }
+
+  // Check if we match a context rule
+  $contexts = context_active_contexts();
+  foreach($contexts as $context) {
+    if (isset($context->reactions['menu'])
+        && $context->reactions['menu'] == $link['href']) {
+      $link['localized_options']['attributes']['class'] .= ' active_trail';
+    }
+  }
+  // end of snippet
+  
+  if ($link['path']=='node/%/edit') { 
 		$link['localized_options']['attributes']['hide'] .= 'true';
 	}
 	return l($link['title'], $link['href'], $link['localized_options']);
