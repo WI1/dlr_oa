@@ -303,6 +303,7 @@ function phptemplate_group_list_item($g, $withTitle = TRUE, $withCreateLink = FA
  * @param object $node
  */
 
+
 function dlr_oa_menu_item_link($link) {
 	// This code snippet will activate menus depending on the context
   if (empty($link['localized_options'])) {
