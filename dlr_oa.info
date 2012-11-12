@@ -12,6 +12,8 @@ stylesheets[screen][] = css/960.css
 stylesheets[screen][] = custom.css
 stylesheets[screen][] = update.css
 stylesheets[screen][] = style.css
+stylesheets[screen][] = thorsten.css
+
 
 regions[left] = "Left sidebar"
 regions[right] = "Right sidebar"
