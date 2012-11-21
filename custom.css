@@ -1534,7 +1534,7 @@ body.node-type-exhibit #map-type-facet div .exhibit-flowingFacet-value p {
 	margin-right: 5px;
 	font-size: 13px;
 }
-body.node-type-exhibit .forschungslandkarte-page #exhibit-size-legend {
+body.node-type-exhibit #forschungslandkarte-page #exhibit-size-legend {
   display: none;
 }
 
