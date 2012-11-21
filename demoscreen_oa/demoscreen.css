@@ -14,7 +14,8 @@
 }
 
 #navigation a.logo {
-  background-image: url("images/sprite_skin_fsp.png") !important;
+  background-image: url("images/sprite_skin.png") !important;
+  
   width: 400px;
   /* fuer breiteres logo auf hauptseite*/
   margin-left: -180px;

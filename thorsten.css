@@ -1,0 +1,14 @@
+
+/* ------ CSS-Changes Thorsten ------ */
+
+.content .field-item {
+	clear: both;
+}
+
+.upload_attachments.last > a {
+	font-size: 10px;
+}
+
+.upload_attachments.last >a:before {
+	content: " | ";
+;
