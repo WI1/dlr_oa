@@ -525,7 +525,7 @@ function dlr_oa_theme() {
 * The function is named themename_formid.
 */
 function dlr_oa_project_node_form($form) {
-  
+  /*
   // Selects all fieldgroups from the $form array
   $fieldgroups = array();
   $fieldgroup = array();
@@ -552,8 +552,8 @@ function dlr_oa_project_node_form($form) {
         $form[$fieldgroup['#parents'][0]][$field['field_name']]['#prefix'] .= '<label>' . $fieldgroup[$field['field_name']]['#title'] . ':</label>';
       }
     }
-  }
-
+  }*/
+unset ($form['preview']);
 return drupal_render($form);
 }
 /**
