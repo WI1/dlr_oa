@@ -59,7 +59,7 @@
         <?php if ($context_links): ?><div class='context-links'><?php print $context_links ?></div><?php endif; ?>
         <?php if ($extrablanklines): // For better formatting of User Profile?><div ><?php print $extrablanklines ?></div><?php endif; ?>
    	  <?php endif; ?>
-    <?php if ($tabs2 && $is_admin): ?>
+    <?php if ($tabs2 && ($is_admin || $extrablanklines)): ?>
        <div id='secondary-tabs'><?php print $tabs2 ?></div>
     <?php endif; ?>
   </div></div>
