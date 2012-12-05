@@ -222,7 +222,7 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 	/* ul */	
 	#page-tools ul.primary-tabs, #page-tools .tabs #block-menu-features ul, #page-tools .tabs .block #block-menu-features, #page-tools .tabs #block-menu-features.block .block-content { margin: 0; padding: 0; }
 	#page-tools ul.primary-tabs { width: 65%; float: left; }
-	 div#secondary-tabs { margin: 0; padding: 0;  border-bottom: 0}
+	 div#secondary-tabs { margin: 0; padding: 0;  border-bottom: 0; float: left}
 
 	/* li */
 	#page-tools ul.primary-tabs li, #page-tools .tabs #block-menu-features.block ul.menu li { 
@@ -391,7 +391,7 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 div.node .field .field-label-inline-first {
   font-size: 10px;
   padding: 0px 5px;
-  width: 60px !important;
+  width: 120px !important;
   display: block;
   float: left;
   margin: 0 10px 5px 0;
