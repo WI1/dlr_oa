@@ -63,7 +63,7 @@ $(document).ready(function() {
 
 /*
  *  this is copied from /misc/collapse.js
- *  for being maintainable.
+ *  for being maintainable. 
  *  
  *  Fixes the collapsible behavior of fieldsets in projects.
  *  Added some JS-inline fixing.
