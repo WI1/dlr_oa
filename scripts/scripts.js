@@ -59,3 +59,43 @@ $(document).ready(function() {
     return $(this).parent().next().find('a').attr('href');
   });
 });
+
+
+/*
+ *  this is copied from /misc/collapse.js
+ *  for being maintainable.
+ *  
+ *  Fixes the collapsible behavior of fieldsets in projects.
+ *  Added some JS-inline fixing.
+ */
+
+Drupal.behaviors.collapse = function (context) {
+  $('fieldset.collapsible > legend:not(.collapse-processed)', context).each(function() {
+    var fieldset = $(this.parentNode);
+    // Expand if there are errors inside
+    if ($('input.error, textarea.error, select.error', fieldset).size() > 0) {
+      fieldset.removeClass('collapsed');
+    }
+
+    // Turn the legend into a clickable link and wrap the contents of the fieldset
+    // in a div for easier animation
+    var text = this.innerHTML;
+    var hide = '';
+    if ($(fieldset).is('.collapsed')) {hide = 'style = "display:none"'; }
+   
+      $(this).empty().append($('<a href="#">'+ text +'</a>').click(function() {
+        var fieldset = $(this).parents('fieldset:first')[0];
+        // Don't animate multiple times
+        if (!fieldset.animating) {
+          fieldset.animating = true;
+          Drupal.toggleFieldset(fieldset);
+        }
+        return false;
+      }))
+      
+      .after($('<div class="fieldset-wrapper"'+hide+'></div>')
+      .append(fieldset.children(':not(legend):not(.action)')))
+      .addClass('collapse-processed');
+  });
+  
+};
