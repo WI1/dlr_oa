@@ -2040,12 +2040,12 @@ table th {
 	display: block;
 	/* float: left; crashes the behaviour while dragging! dragging still works... but corrupt*/
 	overflow: hidden;
-	width: 100%; /* before: 116px looked nice with logos, but crashes file uploads like pdf*/
+	width: 100%;  /* before: 116px looked nice with logos, but crashes file uploads like pdf*/
 }
 
 .node-type-project #node-form .tabledrag-processed tbody tr.even div.node,  .node-type-project #node-form .tabledrag-processed tbody tr.odd div.node {
 	height: 100px;
-	width: 116px;
+	width: 116px; /* see above, maybe needs fix too?*/
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
