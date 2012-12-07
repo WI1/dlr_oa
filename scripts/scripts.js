@@ -72,6 +72,7 @@ $(document).ready(function() {
 Drupal.behaviors.collapse = function (context) {
   $('fieldset.collapsible > legend:not(.collapse-processed)', context).each(function() {
     var fieldset = $(this.parentNode);
+    if($(fieldset).is('.fieldgroup')){
     // Expand if there are errors inside
     if ($('input.error, textarea.error, select.error', fieldset).size() > 0) {
       fieldset.removeClass('collapsed');
@@ -81,8 +82,8 @@ Drupal.behaviors.collapse = function (context) {
     // in a div for easier animation
     var text = this.innerHTML;
     var hide = '';
-    if ($(fieldset).is('.collapsed')) {hide = 'style = "display:none"'; }
-   
+    if ($(fieldset).is('.collapsed') && $(fieldset).is('.fieldgroup')) {hide = 'style = "display:none"'; }
+
       $(this).empty().append($('<a href="#">'+ text +'</a>').click(function() {
         var fieldset = $(this).parents('fieldset:first')[0];
         // Don't animate multiple times
@@ -92,10 +93,11 @@ Drupal.behaviors.collapse = function (context) {
         }
         return false;
       }))
-      
+
       .after($('<div class="fieldset-wrapper"'+hide+'></div>')
       .append(fieldset.children(':not(legend):not(.action)')))
       .addClass('collapse-processed');
+    }
   });
-  
+
 };

@@ -507,7 +507,9 @@ function dlr_oa_preprocess_page(&$vars) {
 *
 * Register custom theme functions.
 */
+
 function dlr_oa_theme() {
+  
   return array(
     // The form ID.
     'project_node_form' => array(
@@ -517,7 +519,12 @@ function dlr_oa_theme() {
       // Forms always take the form argument.
       //'arguments' => array('view' => NULL),),
   );
+
+  
 }
+
+
+
 
 /**
 * Theme override for node page form.
