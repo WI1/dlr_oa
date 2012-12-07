@@ -2038,9 +2038,9 @@ table th {
 
 .node-type-project #node-form .tabledrag-processed tbody tr.even,  .node-type-project #node-form .tabledrag-processed tbody tr.odd {
 	display: block;
-	float: left;
+	/* float: left; crashes the behaviour while dragging! dragging still works... but corrupt*/
 	overflow: hidden;
-	width: 116px;
+	width: 100%; /* before: 116px looked nice with logos, but crashes file uploads like pdf*/
 }
 
 .node-type-project #node-form .tabledrag-processed tbody tr.even div.node,  .node-type-project #node-form .tabledrag-processed tbody tr.odd div.node {
