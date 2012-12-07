@@ -72,7 +72,7 @@ $(document).ready(function() {
 Drupal.behaviors.collapse = function (context) {
   $('fieldset.collapsible > legend:not(.collapse-processed)', context).each(function() {
     var fieldset = $(this.parentNode);
-    if($(fieldset).is('.fieldgroup')){
+    if($(fieldset).is('.fieldgroup')){ 
     // Expand if there are errors inside
     if ($('input.error, textarea.error, select.error', fieldset).size() > 0) {
       fieldset.removeClass('collapsed');
