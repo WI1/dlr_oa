@@ -11,4 +11,10 @@
 
 .upload_attachments.last >a:before {
 	content: " | ";
-;
+}
+
+#global .breadcrumb .divider,
+#global .breadcrumb .link-1,
+#global .breadcrumb .link-2 {
+	visibility: hidden;
+}

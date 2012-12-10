@@ -21,6 +21,6 @@
 		<?php endif; ?>
   </div>
 	<?php print dlr_oa_addthis_button(); ?>
-  <div class="links"><?php print $submitted; ?><?php if($links): ?> | <?php print $links; ?><?php endif; ?></div>
+  <div class="links"><?php print $submitted; ?><?php if($links): ?> | <?php print $links; ?> <?php endif; ?></div>
 </div>
 <?php if(isset($after)) { print $after; }?>

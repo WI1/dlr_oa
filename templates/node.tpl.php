@@ -22,6 +22,6 @@
 		<?php endif; ?>
   </div>
   </div>    
-    <div class="links">Verfasst von <?php print $name; ?> am <?php print $date; ?><?php if($links && strpos($links, "print") == FALSE): ?> | <?php print $links; ?><?php endif; ?><?php print dlr_oa_addthis_button(); ?></div>
+   <div class="links">Verfasst von <?php print $name; ?> am <?php print $date; ?><?php if($links && strpos($links, "print") == FALSE): ?> | <?php print $links; ?><?php endif; ?><?php print dlr_oa_addthis_button(); ?></div>
 </div>
 <?php if(isset($after)) { print $after; }?>
