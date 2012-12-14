@@ -482,7 +482,7 @@ function dlr_oa_preprocess_page(&$vars) {
   
   //Insert node title in class for node specific formatting  $vars['attr']['class'] = $vars['attr']['class']." ".strtolower(str_replace(" ", "_",  $vars['node']->title)); 
   
-  //If page is Metaproject Demoscreen BOOK page, then insert flag for CSS logo change
+ //If page is Metaproject Demoscreen BOOK page, then insert flag for CSS logo change
   if(isset($vars['node']) && $vars['node']->type == 'book'){
     $book_node = node_load($vars['node']->book['bid']);
     if($book_node->title == "Metaprojekt DemoScreen"){
