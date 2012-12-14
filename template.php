@@ -1,5 +1,5 @@
 <?php
-// $Id:
+ // $Id:
 function dlr_oa_node_more_link($node) {
 	return '<div class="node-more-link">&hellip; ' . l('weiterlesen', 'node/' . $node->nid) . '</div>';
 }
