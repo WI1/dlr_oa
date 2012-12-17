@@ -486,11 +486,12 @@ function dlr_oa_preprocess_page(&$vars) {
   if(isset($vars['node']) && $vars['node']->type == 'book'){
     $book_node = node_load($vars['node']->book['bid']);
     //debug// echo "<script type=\"text/javascript\">alert('$book_node->title')</script>";
+
     if($book_node->title == "Metaprojekt DemoScreen"){
        $vars['attr']['class'] = $vars['attr']['class']." demoscreen_book"; 
        $book_firstpage = book_next($book_node->book);
        $vars['logo'] = l(check_plain(variable_get('site_name', 'Drupal')), $book_firstpage['link_path'], array('attributes' => array('class' => 'demoscreenlogo'),'external' => FALSE));
-       
+        
     }
   }
   

@@ -196,7 +196,7 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 	.node .content { padding: 0 0 10px 0 !important; }
 	.node-more-link { margin-bottom: 10px; }
 	.addthis_button_div { margin: 0 !important; display: inline !important;}
-	.node .links { margin: 0 0 10px 0; border: none !important; font-size: 10px; float: left; }
+	.node .links { margin: 0 0 10px 0; border: none !important; font-size: 10px !important; float: left; }
   .node.sticky .links { margin-bottom: 0; padding-bottom: 0; }
    ul.links.inline, ul.links.inline li, ul.links.inline li a { margin-left: 0 !important; padding-bottom: 0;}
    .item-list .node .field.terms { padding-bottom: 0 !important; }

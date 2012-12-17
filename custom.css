@@ -1743,8 +1743,8 @@ div.node {
 }
 
 body #header .block-widget .block-content, body #header .block .block-title {
-    background-color: #eee;
-	color: #404040
+    background-color: #404040;
+    color: white;
 }
 
 /*************************/
@@ -1858,8 +1858,8 @@ h2.node-title {
 }
 
 body #space-tools .block-title, body #header .block-widget .block-content, body #header .block .block-title{
-	background-color: transparent!important;
-	color: #fff !important;
+	/*background-color: transparent!important;
+	color: #fff !important; */
 	font-size: 16px;
 	font-weight: normal!important;
 }
