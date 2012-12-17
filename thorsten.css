@@ -18,3 +18,24 @@
 #global .breadcrumb .link-2 {
 	visibility: hidden;
 	}
+
+  
+  
+  
+  /*  ----- changes Philipp ---- */
+  
+ .comment_add.first > a {
+    font-size: 10px;
+}
+
+.comment_add.first  >a:after {
+	content: " | ";
+}
+
+ .comment_comments.first > a {
+    font-size: 10px;
+}
+
+.comment_comments.first  >a:after {
+	content: " | ";
+}
