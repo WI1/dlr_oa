@@ -917,6 +917,7 @@ body.front .node h2, .view-blog-listing h2.node-title {
 div.content .view-blog-listing ol, div.content .view-blog-listing ul, div.content .view-blog-listing li, div.content .view-frontpage-listing li {
  margin-left: 0 !important;
  padding-left: 0;
+ padding-right: 0;
  list-style: none;
  border: 0;
 }
