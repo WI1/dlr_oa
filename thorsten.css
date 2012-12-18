@@ -20,7 +20,7 @@
 }
 
 .links .comment_add.first  >a:after {
-	content: " | ";
+	content: " |";
 }
 
 .links .comment_comments.first > a {
@@ -28,7 +28,7 @@
 }
 
 .links .comment_comments.first  >a:after {
-	content: " | ";
+	content: " |";
 }
 
 /* ------ Hide of Breadcrumb-Divider (top left after Logo) ------ */
