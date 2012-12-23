@@ -351,3 +351,13 @@ libraries[tinymce][directory_name] = "tinymce"
 
   projects[spamspan][subdir] = "contrib"
   projects[spamspan][version] = "1.6"
+
+; Additional Imagecache actions
+
+  projects[imagecache_actions][subdir] = "contrib"
+  projects[imagecache_actions][version] = "1.9"
+
+; 
+
+  projects[better_formats][subdir] = "contrib"
+  projects[better_formats][version] = "1.2"
