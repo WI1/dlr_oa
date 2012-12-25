@@ -393,11 +393,12 @@ label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #
 div.node .field .field-label-inline-first {
   font-size: 10px;
   padding: 0px 5px;
-  width: 120px !important;
+  width: 150px !important;
   display: block;
   float: left;
   margin: 0 10px 5px 0;
 }
+
 
 .page-dashboard .view-content .node .field {
   padding-bottom: 4px;

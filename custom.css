@@ -341,11 +341,12 @@ font-weight: normal !important;
 color: #666;
 }
 
+/* projekte fix, umbrueche*/
 div.content .field-type-content-taxonomy ul {
   list-style-type: none;
   margin-bottom: 0; 
   margin-left: 0;
-  clear: both;
+  clear: none !important; /* vorher: clear: both; */ 
 }
 
 div.content .field-type-content-taxonomy ul li {
