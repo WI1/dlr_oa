@@ -70,3 +70,6 @@ ul#nice-menu-1 li.active-trail a, ul#main-menu li.active-trail a {
   background-color: #7E2B97;
 }
 
+.view-profile-display .field-content .gmap-control{
+padding: 0px;
+} 

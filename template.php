@@ -489,7 +489,7 @@ function dlr_oa_preprocess_page(&$vars) {
 
     if($book_node->title == "Metaprojekt DemoScreen"){
        $vars['attr']['class'] = $vars['attr']['class']." demoscreen_book"; 
-       $book_firstpage = book_next($book_node->book);
+       $book_firstpage = $book_node->book;
        $vars['logo'] = l(check_plain(variable_get('site_name', 'Drupal')), $book_firstpage['link_path'], array('attributes' => array('class' => 'demoscreenlogo'),'external' => FALSE));
         
     }
@@ -698,4 +698,14 @@ function dlr_oa_preprocess_views_view_table(&$vars) {
 }
 
 
+/**
+ *
+ * Hiding comment preview as its breaking
+ *
+ */
 
+
+function dlr_oa_comment_form($form) {
+    unset($form['preview']);
+    return drupal_render($form);
+}
