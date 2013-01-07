@@ -509,7 +509,7 @@ function dlr_oa_preprocess_page(&$vars) {
 *
 * Register custom theme functions.
 */
-
+/*
 function dlr_oa_theme() {
   
   return array(
@@ -517,13 +517,17 @@ function dlr_oa_theme() {
     'project_node_form' => array(
       // Forms always take the form argument.
       'arguments' => array('form' => NULL),
-    ),// 'views_pre_render' => array( 
+    ),
+      'focusgroup_node_form' => array(
+    // Forms always take the form argument.
+    'arguments' => array('form' => NULL),)
+      ////// 'views_pre_render' => array( 
       // Forms always take the form argument.
       //'arguments' => array('view' => NULL),),
   );
 
   
-}
+}*/
 
 
 
@@ -533,38 +537,44 @@ function dlr_oa_theme() {
 *
 * The function is named themename_formid.
 */
-function dlr_oa_project_node_form($form) {
+function dlr_oa_project_node_form(&$form) {
   /*
-  // Selects all fieldgroups from the $form array
-  $fieldgroups = array();
-  $fieldgroup = array();
-  $form_element = array();
-  foreach ($form as $form_element) {
+    // Selects all fieldgroups from the $form array
+    $fieldgroups = array();
+    $fieldgroup = array();
+    $form_element = array();
+    foreach ($form as $form_element) {
     if (is_array($form_element) && isset($form_element['#type']) && $form_element['#type'] == 'fieldset') {
-      $fieldgroups[] = $form_element;
+    $fieldgroups[] = $form_element;
     }
-  }
+    }
 
-  // Selects all nodereference fields from the field_info section of $form array
-  $fields = array();
-  $field = array();
-  foreach ($form['#field_info'] as $field) {
+    // Selects all nodereference fields from the field_info section of $form array
+    $fields = array();
+    $field = array();
+    foreach ($form['#field_info'] as $field) {
     if ($field['module'] == 'nodereference' || $field['module'] == 'userreference') {
-      $fields[] = $field;
+    $fields[] = $field;
     }
-  }
+    }
 
-  // Adds label element to noderefence multiple fields, as title is usually shown within table header
-  foreach ($fieldgroups as $fieldgroup) {
+    // Adds label element to noderefence multiple fields, as title is usually shown within table header
+    foreach ($fieldgroups as $fieldgroup) {
     foreach ($fields as $field) {
-      if (isset($fieldgroup[$field['field_name']]) && $fieldgroup[$field['field_name']]['#theme'] == 'content_multiple_values' && $fieldgroup[$field['field_name']]['#type'] != 'nodereference_select' && $field['multiple'] != 0) {
-        $form[$fieldgroup['#parents'][0]][$field['field_name']]['#prefix'] .= '<label>' . $fieldgroup[$field['field_name']]['#title'] . ':</label>';
-      }
+    if (isset($fieldgroup[$field['field_name']]) && $fieldgroup[$field['field_name']]['#theme'] == 'content_multiple_values' && $fieldgroup[$field['field_name']]['#type'] != 'nodereference_select' && $field['multiple'] != 0) {
+    $form[$fieldgroup['#parents'][0]][$field['field_name']]['#prefix'] .= '<label>' . $fieldgroup[$field['field_name']]['#title'] . ':</label>';
     }
-  }*/
-unset ($form['preview']);
-return drupal_render($form);
+    }
+    } */
+  unset($form['buttons']['preview']);
+  unset($form['buttons']['preview-changes']);
+  $form['spaces_preset']['#access'] = FALSE;
+  $output = drupal_render($form);
+  return $output;
 }
+
+
+
 /**
 * Remove undesired local task tabs.
 * Set $label as NULL to remove the whole tab group
@@ -634,17 +644,6 @@ function dlr_oa_remove_userprofile_tabs(&$vars) {
       $vars['title'] = NULL;
   }
 }
-
-/**
- * Implements hook_form_alter().
- 
-function dlr_oa_form_alter(&$form, &$form_state, $form_id) {
-  print_r("YOYO");
-  if (isset($form['type']) && $form['type']['#value'] . '_node_settings' == $form_id) {
-    //$grant_form = nodeaccess_grants_form(&$form_state, $node); 
-    //$form = 
-  }
-}*/
 
 
 

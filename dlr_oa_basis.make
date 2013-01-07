@@ -357,7 +357,13 @@ libraries[tinymce][directory_name] = "tinymce"
   projects[imagecache_actions][subdir] = "contrib"
   projects[imagecache_actions][version] = "1.9"
 
-; 
+; Utility and modules that allow configuration of look and feel (theming) of platform
 
   projects[better_formats][subdir] = "contrib"
   projects[better_formats][version] = "1.2"
+
+  projects[formfilter][subdir] = "contrib"
+  projects[formfilter][version] = "1.0"
+
+  projects[util][subdir] = "contrib"
+  projects[util][version] = "3.1"
