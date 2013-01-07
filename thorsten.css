@@ -12,7 +12,7 @@
 }
 
 .links .upload_attachments.last >a:before {
-	content: "&nbsp;|&nbsp;";
+	content: " | ";
 }
 
 .links .comment_add.first > a {
@@ -20,7 +20,7 @@
 }
 
 .links .comment_add.first  >a:after {
-	content: "&nbsp;|";
+	content: " |";
 }
 
 .links .comment_comments.first > a {
@@ -28,7 +28,7 @@
 }
 
 .links .comment_comments.first  >a:after {
-	content: "&nbsp;|";
+	content: " |";
 }
 
 /* ------ Hide of Breadcrumb-Divider (top left after Logo) ------ */
