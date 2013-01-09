@@ -2228,5 +2228,9 @@ display: none;
 
 /* Theming the calendars*/
 div.litecal .litecal-slot-today {
-background: #FFF8BB;
+  background: #FFF8BB;
+}
+
+.dropdown-blocks .block-toggle .item-list {
+  float: left;
 }
