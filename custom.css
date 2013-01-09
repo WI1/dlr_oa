@@ -2214,3 +2214,19 @@ display: none;
   display: block;
   clear: both;
 }
+
+
+/* Activity listing now shows project logo */
+.view-activity-listing table {
+  /*  white-space: normal;*/
+    table-layout: auto;
+}
+
+.view-activity-listing table td{
+    white-space: normal;
+}
+
+/* Theming the calendars*/
+div.litecal .litecal-slot-today {
+background: #FFF8BB;
+}
