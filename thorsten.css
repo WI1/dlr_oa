@@ -31,6 +31,14 @@
 	content: " |";
 }
 
+.links comment_forbidden.first >a:after  {
+	content: " |";
+}
+
+.links .comment_forbidden.first > a {
+	font-size: 10px;
+}
+
 /* ------ Hide of Breadcrumb-Divider (top left after Logo) ------ */
 #global .breadcrumb .divider,
 #global .breadcrumb .link-1,
