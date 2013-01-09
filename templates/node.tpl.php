@@ -21,7 +21,9 @@
 		<p><?php print $node_read_more; ?></p>
 		<?php endif; ?>
   </div>
-  </div>    
-   <div class="links">Verfasst von <?php print $name; ?> am <?php print $date; ?>|<?php print $links; ?><?php print dlr_oa_addthis_button(); ?></div>
+  </div>
+   <!-- DO NOT DELETE ANY WHITESPACES IN THE NEXT LINE -->
+   <div class="links">Verfasst von <?php print $name; ?> am <?php print $date; ?> | <?php print $links; ?><?php print dlr_oa_addthis_button(); ?></div>
+   <!-- thanks. -->
 </div>
 <?php if(isset($after)) { print $after; }?>
