@@ -2,47 +2,45 @@
 
 /* ------ NEWS-MODULE ------ */
 /* --- content: right arrangement of Tags --- */
-.content .field-item {
-	clear: both;
+.node .field-item { clear: both; }
+
+.node .field-items a,
+.node .terms .links a { 
+	font-size: 12px;
+}
+.node .links a {
+	font-size: 10px;
 }
 
 /* --- links (alternating): right font size, divider --- */
-.links .upload_attachments.last > a {
-	font-size: 10px;
+.node .links .upload_attachments.last > a:before { content: " | "; }
+.node .links .comment_add.first  > a:after { content: " |"; }
+.node .links .comment_new_comments.first  > a:after { content: " |"; }
+.node .links .comment_comments.first  > a:after { content: " |"; }
+.node .links .comment_forbidden.first > a:after  { content: " |"; }
+
+/* ===== Blog-Entry: Hide of New Comments ----- */
+.view-content .item-list .links .comment_add.first > a { display:none; }
+
+/* ===== Breadcrumb-Navigation: explicit width ===== */
+#global .breadcrumb {
+	width: 480px;
 }
 
-.links .upload_attachments.last >a:before {
-	content: " | ";
-}
-
-.links .comment_add.first > a {
-	font-size: 10px;
-}
-
-.links .comment_add.first  >a:after {
-	content: " |";
-}
-
-.links .comment_comments.first > a {
-	font-size: 10px;
-}
-
-.links .comment_comments.first  >a:after {
-	content: " |";
-}
-
-.links comment_forbidden.first >a:after  {
-	content: " |";
-}
-
-.links .comment_forbidden.first > a {
-	font-size: 10px;
-}
-
-/* ------ Hide of Breadcrumb-Divider (top left after Logo) ------ */
+/* ===== Breadcrumb-Navigation: Hide ===== */
 #global .breadcrumb .divider,
 #global .breadcrumb .link-1,
 #global .breadcrumb .link-2 {
-        visibility: hidden;
+    visibility: hidden;
 }
 
+#global .breadcrumb .space {
+	float: right;
+	visibility: hidden;
+}
+
+/* ===== #332: Twitter-Link-Description, Correct position ===== */
+#twitter-textfield-wrapper .description { 
+	bottom: 0px !important;
+	margin: 0px 0px 25px 0px;
+}
