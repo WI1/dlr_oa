@@ -2231,6 +2231,7 @@ div.litecal .litecal-slot-today {
   background: #FFF8BB;
 }
 
+/*Modified the user menu 'mein gruppen' view to better format projects as well as focusgroups*/
 .dropdown-blocks .block-toggle .item-list {
   float: left;
 }

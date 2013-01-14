@@ -9,7 +9,13 @@ function dlr_oa_node_more_link($node) {
  * already nested html-tags out of $vars content
  */                                                                                                                                                                                                                                           
 function dlr_oa_preprocess_node(&$vars) {
- // override the rewriting of terms from ginko...
+ // Reordering links on node teasers and full nodes
+  $links = $vars['node']->links;
+  if ($links) {
+    $links = reorder_links($links, array('comment_add', 'forward_links', 'print_pdf'), array('node_read_more'));
+    $attributes = array('class' => 'links');
+    $vars['links'] = theme('links', $links, array('class' => 'links inline'));
+  }
 }
 
 function phptemplate_preprocess_node(&$vars) {
@@ -703,8 +709,42 @@ function dlr_oa_preprocess_views_view_table(&$vars) {
  *
  */
 
-
 function dlr_oa_comment_form($form) {
     unset($form['preview']);
     return drupal_render($form);
+}
+
+
+/*
+* To re-order the $links array, we override theme_links()
+*/
+function phptemplate_links($links, $attributes = array('class' => 'links')) {
+  if ($links) {
+    $links = reorder_links($links, array('comment_add', 'forward_links', 'print_pdf'), array('node_read_more'));
+  }
+  return theme_links($links, $attributes);
+}
+
+/*
+* To re-order the $links array, we override theme_links()
+*/
+
+function reorder_links($links, $first_keys = array(), $last_keys = array()) {
+  $first_links = array();
+  foreach ($first_keys as $key) {
+    if (isset($links[$key])) {
+      $first_links[$key] = $links[$key];
+      unset($links[$key]);
+    }
+  }
+  $links = array_merge($first_links, $links);
+  $last_links = array();
+  foreach ($last_keys as $key) {
+    if (isset($links[$key])) {
+      $last_links[$key] = $links[$key];
+      unset($links[$key]);
+    }
+  }
+  $links = array_merge($links, $last_links);
+  return $links;
 }
