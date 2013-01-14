@@ -1,45 +1,54 @@
-/* ====== CSS-Changes Thorsten ====== */
+/**************************************
+ *        CSS-Changes Thorsten        *
+ **************************************/
 
-/* ------ NEWS-MODULE ------ */
-/* --- content: right arrangement of Tags --- */
+
+
+/* ====== BLOG-ENTRIES ====== */
+
+/* ----- blog entries: proper arrangement of tags ----- */
 .node .field-item { clear: both; }
 
+/* ----- blog entries: global formatting of link-size ----- */
 .node .field-items a,
-.node .terms .links a { 
-	font-size: 12px;
-}
-.node .links a {
-	font-size: 10px;
-}
+.node .terms .links a { font-size: 12px; }
+.node .links a { font-size: 10px; }
 
-/* --- links (alternating): right font size, divider --- */
+/* ----- blog entries: divider between link-Elements ----- */
 .node .links .upload_attachments.last > a:before { content: " | "; }
 .node .links .comment_add.first  > a:after { content: " |"; }
 .node .links .comment_new_comments.first  > a:after { content: " |"; }
 .node .links .comment_comments.first  > a:after { content: " |"; }
 .node .links .comment_forbidden.first > a:after  { content: " |"; }
 
-/* ===== Blog-Entry: Hide of New Comments ----- */
+/* ----- Blog-Entry-List: Hide of New Comments ----- */
 .view-content .item-list .links .comment_add.first > a { display:none; }
 
-/* ===== Breadcrumb-Navigation: explicit width ===== */
+
+/* ===== BREADCRUMB-NAVIGATION ===== */
+
+/*------ explicit width ----- */
 #global .breadcrumb {
 	width: 480px;
 }
 
-/* ===== Breadcrumb-Navigation: Hide ===== */
+/* ----- hide of elements ----- */
 #global .breadcrumb .divider,
 #global .breadcrumb .link-1,
 #global .breadcrumb .link-2 {
     visibility: hidden;
 }
 
+/* ----- hide of lock-symbol ----- */
 #global .breadcrumb .space {
 	float: right;
 	visibility: hidden;
 }
 
-/* ===== #332: Twitter-Link-Description, Correct position ===== */
+
+/* ===== Twitter-Link-Description ===== */
+
+/* ----- correct position (#332) ----- */
 #twitter-textfield-wrapper .description { 
 	bottom: 0px !important;
 	margin: 0px 0px 25px 0px;
