@@ -61,7 +61,7 @@ input, select, textarea, body {
 	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { color: #404040 !important; } /*changed to no hover effect*/
 	
 	/* Page Title */
-	#page-tools .page-title, #page .node-title, #context-block-region-content .node-title { height: auto !important; font-size: 18px; text-transform: uppercase; font-weight: bold; line-height: 21.6px}
+	#page-tools .page-title, #page .node-title, #context-block-region-content .node-title { height: auto !important; font-size: 18px; font-weight: bold; line-height: 21.6px}
   #page .view-content h2.node-title, #context-block-region-content .view-content h2.node-title { text-transform: none; font-size: 18px;}
   #page .view-content h2.node-title a, #context-block-region-content .view-content h2.node-title a { font-size: 18px; }
   #page-tools h2.node-title { font-size: 18px !important; font-weight: 700 !important; text-transform: uppercase !important;}
