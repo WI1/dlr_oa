@@ -12,6 +12,7 @@
 /* ----- blog entries: global formatting of link-size ----- */
 .node .field-items a,
 .node .terms .links a { font-size: 12px; }
+.node .links { font-size: 10px !important; }
 .node .links a { font-size: 10px; }
 .node .links .inline { font-size: 10px; }
 
@@ -56,15 +57,20 @@
 	margin: 0px 0px 25px 0px;
 }
 
-
-
-/* ====== Project Page settings (philipp #302) ====== */
-
-/* change displayed links: add aufklappen and close */
-#page .page-content .content fieldset.collapsible.collapsed legend a:after {
-    content: " [+] ";
+/* ===== Project-Info-Page ===== */
+.node-project .group-projectinfo .field-label-inline-first { text-transform: none !important; }
+.node-project .group-projectinfo .field,
+.node-project .group-projectcontact .field { 
+	padding: 0 0 0em !important;
 }
+.node-project .group-beteiligteinstitutionen span.title { display: block; }
 
-#page .page-content .content fieldset.collapsible legend a:after {
-    content: " [-] ";
-}
+/* ===== Project-Edit-Page ===== */
+.node-type-project #node-form #field_projectemail_values .tableHeader-processed { display: table-header-group !important; }
+.node-type-project #node-form .tabledrag-processed tbody tr:last-child input { margin-left:40px !important; }
+
+
+/* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
+#page .page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
+#page .page-content .content fieldset.collapsible legend a:after { content: " [-] "; }
+
