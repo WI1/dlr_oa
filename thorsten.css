@@ -70,3 +70,7 @@
 .node-type-project #node-form .tabledrag-processed tbody tr:last-child input { margin-left:40px !important; }
 
 
+/* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
+#page .page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
+#page .page-content .content fieldset.collapsible legend a:after { content: " [-] "; }
+
