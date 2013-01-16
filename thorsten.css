@@ -55,3 +55,16 @@
 	bottom: 0px !important;
 	margin: 0px 0px 25px 0px;
 }
+
+
+
+/* ====== Project Page settings (philipp #302) ====== */
+
+/* change displayed links: add aufklappen and close */
+#page .page-content .content fieldset.collapsible.collapsed legend a:after {
+    content: " [+] ";
+}
+
+#page .page-content .content fieldset.collapsible legend a:after {
+    content: " [-] ";
+}
