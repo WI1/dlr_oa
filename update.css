@@ -60,7 +60,7 @@ input, select, textarea, body {
 	body #project-sidebar .block h2, body .block .view-header, body #project-sidebar .block h2 a { background: none !important; }
 	#main-squeeze h1,#main-squeeze h2,#main-squeeze h3,#main-squeeze h4,#main-squeeze h5,#main-squeeze h6 { color: #404040 !important; }	
 	h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.node h1 a ,.node h2 a, .node h3 a ,.node h4 a { color: #404040 !important; }
-	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { color: #404040 !important; } /*changed to no hover effect*/
+	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { color: #7E2B97 !important; } /*changed to no hover effect*/
 	
 	/* Page Title */
 	#page-tools .page-title, #page .node-title, #context-block-region-content .node-title { height: auto !important; font-size: 18px; font-weight: bold; line-height: 21.6px}
