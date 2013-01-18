@@ -90,3 +90,9 @@ input[value="Speichern"]:hover {
 #page .page-content .content fieldset.collapsible legend a:after { content: " [-] "; }
 
 #content h3 a:hover { color: #7E2B99;}
+
+
+#page-tools .tabs #block-menu-features.block ul.menu li a.active_trail {
+    background: none repeat scroll 0 0 #7E2B97 !important;    
+    color: #FFFFFF !important;
+}
