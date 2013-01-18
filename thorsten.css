@@ -74,4 +74,4 @@
 #page .page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
 #page .page-content .content fieldset.collapsible legend a:after { content: " [-] "; }
 
-#content h3 a:hover { color: red;}
+#content h3 a:hover { color: #7E2B99;}
