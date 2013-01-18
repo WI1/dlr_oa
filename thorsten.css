@@ -59,7 +59,6 @@ input[value="Speichern"]:hover {
 	background-image: none !important;
 }
 
-
 /* ===== Correct position of Tooltips ===== */
 
 /* ----- correct position (#332) ----- */
@@ -84,10 +83,10 @@ input[value="Speichern"]:hover {
 .node-type-project #node-form #field_projectemail_values .tableHeader-processed { display: table-header-group !important; }
 .node-type-project #node-form .tabledrag-processed tbody tr:last-child input { margin-left:40px !important; }
 
-
 /* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
 #page .page-content .content fieldset.collapsible.collapsed legend a { display:inline-block; }
 #page .page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
 #page .page-content .content fieldset.collapsible legend a { display:inline-block; }
 #page .page-content .content fieldset.collapsible legend a:after { content: " [-] "; }
 
+#content h3 a:hover { color: #7E2B99;}
