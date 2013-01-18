@@ -49,12 +49,27 @@
 }
 
 
-/* ===== Twitter-Link-Description ===== */
+/* ===== Color of Input Buttons "Speichern" ===== */
+input[value="Speichern"] {
+	background-color: #68A64C !important;
+}
+
+input[value="Speichern"]:hover {
+	background-color: #609946 !important;
+	background-image: none !important;
+}
+
+
+/* ===== Correct position of Tooltips ===== */
 
 /* ----- correct position (#332) ----- */
 #twitter-textfield-wrapper .description { 
 	bottom: 0px !important;
 	margin: 0px 0px 25px 0px;
+}
+
+.page-content .form-item .description {
+	bottom: 43px !important;
 }
 
 /* ===== Project-Info-Page ===== */
@@ -71,6 +86,8 @@
 
 
 /* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
+#page .page-content .content fieldset.collapsible.collapsed legend a { display:inline-block; }
 #page .page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
+#page .page-content .content fieldset.collapsible legend a { display:inline-block; }
 #page .page-content .content fieldset.collapsible legend a:after { content: " [-] "; }
 
