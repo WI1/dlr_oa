@@ -4,92 +4,131 @@
 
 
 
-/* ====== BLOG-ENTRIES ====== */
-
-/* ----- blog entries: proper arrangement of tags ----- */
-.node .field-item { clear: both; }
-
-/* ----- blog entries: global formatting of link-size ----- */
-.node .field-items a,
-.node .terms .links a { font-size: 12px; }
-.node .links { font-size: 10px !important; }
-.node .links a { font-size: 10px; }
-.node .links .inline { font-size: 10px; }
-
-/* ----- blog entries: divider between link-Elements ----- */
-.node .links .upload_attachments.last > a:before { content: " | "; }
-.node .links .upload_attachments.first > a:after { content: " | "; }
-.node .links .comment_add.first  > a:after { content: " |"; }
-.node .links .comment_new_comments.first  > a:after { content: " |"; }
-.node .links .comment_comments.first  > a:after { content: " |"; }
-.node .links .comment_forbidden.first > a:after  { content: " |"; }
-
-/* ----- Blog-Entry-List: Hide of New Comments ----- */
-.view-content .item-list .links .comment_add.first > a { display:none; }
+/* =========== OVERALL-STYLES ========== */
+/* ----- Headlines H3 ----- */
+#content h3 a:hover { color: #7E2B99; }
 
 
-/* ===== BREADCRUMB-NAVIGATION ===== */
 
-/*------ explicit width ----- */
+/* ========== NAVIGATION ========== */
+/*------ breadcrumb:; explicit width ----- */
 #global .breadcrumb {
 	width: 480px;
 }
 
-/* ----- hide of elements ----- */
+/* ----- breadcrumb: hide of elements ----- */
 #global .breadcrumb .divider,
 #global .breadcrumb .link-1,
 #global .breadcrumb .link-2 {
     visibility: hidden;
 }
 
-/* ----- hide of lock-symbol ----- */
+/* ----- breadcrumb: hide of lock-symbol ----- */
 #global .breadcrumb .space {
 	float: right;
 	visibility: hidden;
 }
 
 
-/* ===== Color of Input Buttons "Speichern" ===== */
+
+/* =========== NODE-ENTRIES =========== */
+/* ----- entries: proper arrangement of tags ----- */
+.node .field-item { clear: both; }
+
+/* ----- entries: global formatting of link-size ----- */
+.node .field-items a,
+.node .terms .links a { font-size: 12px; }
+.node .links, { font-size: 10px !important; }
+.node .links a { font-size: 10px; }
+.node .links .inline { font-size: 10px; }
+
+/* ----- entries: divider between link-Elements (#280) ----- */
+.node- .links .upload_attachments > a:after { content: " | "; }
+.node .links .upload_attachments > a:after { content: " | "; }
+.node .links .comment_add > a:after { content: " |"; }
+.node .links .comment_new_comments  > a:after { content: " |"; }
+.node .links .comment_comments  > a:after { content: " |"; }
+.node .links .comment_forbidden > a:after  { content: " |"; }
+
+/* ------ Blog: Hide of New Comments ----- */
+.node-blog .links .comment_add > a { display:none; }
+
+
+
+/* =========== Speichern-Button: Color-Adjustment (#316) ========== */
+input#edit-submit,
 input[value="Speichern"] {
 	background-color: #68A64C !important;
+	color: #fff !important;
 }
 
+input#edit-submit:hover,
 input[value="Speichern"]:hover {
 	background-color: #609946 !important;
 	background-image: none !important;
 }
 
-/* ===== Correct position of Tooltips ===== */
 
-/* ----- correct position (#332) ----- */
+
+/* ========== Tooltips: Adjustment of position (#332) ========== */
+/* ----- Common-Adjustment ----- */
+.page-content .form-item .description {
+	bottom: 43px !important;
+	right: -30px !important;
+}
+
+/* ----- Twitter ----- */
 #twitter-textfield-wrapper .description { 
 	bottom: 0px !important;
 	margin: 0px 0px 25px 0px;
 }
 
-.page-content .form-item .description {
+/* ----- Projektinfo > Pfad, Default Role, Termine > Date, Art d. Veranst. ----- */
+.page-content #edit-purl-value-wrapper .description,
+.page-content #edit-og-user-roles-default-role-wrapper .description,
+.page-content #edit-taxonomy-1-wrapper .description {
 	bottom: 43px !important;
+	left: 0px !important;
 }
 
-/* ===== Project-Info-Page ===== */
-.node-project .group-projectinfo .field-label-inline-first { text-transform: none !important; }
+
+
+/* =========== Project-Info-Page (#303) ========== */
+.node-project .group-projectinfo .field-label-inline-first,
+.node-project .group-beteiligteinstitutionen .field-label,
+.node-project .group-projectcontact .field-label-inline-first { text-transform: none !important; }
 .node-project .group-projectinfo .field,
-.node-project .group-projectcontact .field { 
-	padding: 0 0 0em !important;
-}
+.node-project .group-projectcontact .field { padding: 0 0 0em !important; }
 .node-project .group-beteiligteinstitutionen span.title { display: block; }
 
-/* ===== Project-Edit-Page ===== */
-.node-type-project #node-form #field_projectemail_values .tableHeader-processed { display: table-header-group !important; }
+.node-event .group-projectcontact .field { padding: 0 0 0em !important; }
+
+
+/* =========== Project-Organization ========== */
+/* ----- Geo-Field: hidden (#240) ----- */
+.node-organisation .field-field-org-location .adr .geo { display: none; }
+.node-organisation .field-field-org-location .map-link a { font-size: 11px; }
+.node-organisation .field-field-org-location .map-link a:before { content: ": "; }
+
+
+/* ========== Project-Edit-Page ========== */
+.node-type-project #node-form #field_projectemail_values .tableHeader-processed { display: table-header-group !; }
 .node-type-project #node-form .tabledrag-processed tbody tr:last-child input { margin-left:40px !important; }
 
-/* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
-#page .page-content .content fieldset.collapsible.collapsed legend a { display:inline-block; }
-#page .page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
-#page .page-content .content fieldset.collapsible legend a { display:inline-block; }
-#page .page-content .content fieldset.collapsible legend a:after { content: " [-] "; }
 
-#content h3 a:hover { color: #7E2B99;}
+
+/* ========== User-Konto Navigation ============ */
+.page-user #page-tools #secondary-tabs ul { width: 600px; }
+.page-user #page-tools #secondary-tabs li { margin: 0 28px; }
+.page-user #page-tools #secondary-tabs li a { font-size: 14px; }
+.page-user #page-tools #secondary-tabs li a.active { text-decoration: underline; }
+
+/* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
+.page-content .content fieldset.collapsible.collapsed legend a { display:inline-block; }
+.page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
+.page-content .content fieldset.collapsible legend a { display:inline-block; }
+.page-content .content fieldset.collapsible legend a:after { content: " [-] "; }
+
 
 
 #page-tools .tabs #block-menu-features.block ul.menu li a.active_trail {
