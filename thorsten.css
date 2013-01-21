@@ -56,13 +56,11 @@
 
 
 /* =========== Speichern-Button: Color-Adjustment (#316) ========== */
-input#edit-submit,
 input[value="Speichern"] {
 	background-color: #68A64C !important;
 	color: #fff !important;
 }
 
-input#edit-submit:hover,
 input[value="Speichern"]:hover {
 	background-color: #609946 !important;
 	background-image: none !important;
