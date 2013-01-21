@@ -2035,9 +2035,17 @@ table th {
 /****************************************/
 /* Node Reference */
 
+
+/*value partner table header wieder anzeigen lassen*/
 .node-type-project #node-form .tabledrag-processed thead {
-	display: none;
+	display: table-header-group !important;
 }
+
+/*sticky header verschwinden lassen refs #333*/
+fieldset.group-beteiligteinstitutionen table.sticky-header {
+  display: none;
+}
+
 
 .node-type-project #node-form .tabledrag-processed tbody tr.even,  .node-type-project #node-form .tabledrag-processed tbody tr.odd {
 	display: block;
@@ -2053,6 +2061,8 @@ table th {
 	margin: 0;
 	padding: 0;
 }
+
+
 
 
 .node-type-project #node-form .tabledrag-processed tbody tr.even input.form-autocomplete,  .node-type-project #node-form .tabledrag-processed tbody tr.odd input.form-autocomplete {
