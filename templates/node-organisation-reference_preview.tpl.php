@@ -6,4 +6,4 @@
   // mal schauen wie lange das gilt...
 ?>
 <p><?php print theme('imagecache', 'projectlogo-m', $node->field_companylogo[0]['filepath']); ?></p>
-<p><a href="<?php print $node_url; ?>"><?php print $node->title; ?></a></p>
+<p><a href="<?php print $node_url; ?>"><?php print $node->title; ?></a></p> 
