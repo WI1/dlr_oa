@@ -2157,7 +2157,7 @@ div.pager .minipager .clear-block {
 
 /* OA Folders features */
 .atrium-folders-navigator .left { width: 28%; }
-.atrium-folders-navigator a { color: #fff !important; margin-left: 0;}
+.atrium-folders-navigator .toolbar a { color: #fff !important; margin-left: 0;}
 .atrium-folders-navigator ul.links  { width: 100% !important; margin: 0 0 10px 0; padding: 0;}
 .atrium-folders-navigator ul.links li { margin-left: 0 !important; }
 .atrium-folders-navigator div.buttons { padding: 0; }
