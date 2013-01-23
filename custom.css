@@ -2047,7 +2047,7 @@ fieldset.group-beteiligteinstitutionen table.sticky-header {
 }
 
 
-.node-type-project #node-form .tabledrag-processed tbody tr.even,  .node-type-project #node-form .tabledrag-processed tbody tr.odd {
+.node-type-project #node-form .tabledrag-processed tbody tr.even, .node-type-project #node-form .tabledrag-processed tbody tr.odd {
 	display: block;
 	/* float: left; crashes the behaviour while dragging! dragging still works... but corrupt*/
 	overflow: hidden;
