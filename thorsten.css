@@ -35,6 +35,7 @@
 /* ----- entries: proper arrangement of tags ----- */
 .node .field-item { clear: both; }
 
+
 /* ----- entries: global formatting of link-size ----- */
 .node .field-items a,
 .node .terms .links a { font-size: 12px; }
@@ -135,3 +136,17 @@ input[value="Speichern"]:hover {
     text-shadow: none;
     -webkit-border-radius: 0px;
 }
+
+/*philipp*/
+
+div.content .field-field-ref-valuepartner {
+  clear: left;
+}
+
+/* so muesste es sein */
+div.field-field-ref-projectinstitutions .field-item { clear: none !important; }
+div.field-field-ref-valuepartner .field-item {clear: none !important; }
+
+/* 2-spaltiges layout fuer projektpartner und value partner*/
+div.field-field-ref-projectinstitutions .field-item table { width: 50% !important; float: left;}
+div.field-field-ref-valuepartner .field-item table {width: 50% !important; float: left; }
