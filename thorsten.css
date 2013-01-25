@@ -143,11 +143,12 @@ div.content .field-field-ref-valuepartner {
   clear: left;
 }
 
-/* so muesste es sein */
-div.field-field-ref-projectinstitutions .field-item { clear: none !important; }
-div.field-field-ref-valuepartner .field-item {clear: none !important; }
+
 
 /* 2-spaltiges layout fuer projektpartner und value partner*/
 div.field-field-ref-projectinstitutions .field-item table { width: 50% !important; float: left;}
 div.field-field-ref-valuepartner .field-item table {width: 50% !important; float: left; }
  
+/* clear fixes */
+div.field-field-ref-projectinstitutions .field-item { clear: none !important; }
+div.field-field-ref-valuepartner .field-item {clear: none !important; }
