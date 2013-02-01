@@ -75,7 +75,6 @@ input[value="Speichern"]:hover {
 /* ----- Common-Adjustment ----- */
 .page-content .form-item .description {
 	bottom: 43px !important;
-	right: -30px !important;
 }
 
 /* ----- Twitter ----- */
@@ -92,6 +91,15 @@ input[value="Speichern"]:hover {
 	left: 0px !important;
 }
 
+.page-content #edit-field-projectduration-0-value-datepicker-popup-0-wrapper .description, 
+.page-content #edit-field-projectduration-0-value2-datepicker-popup-0-wrapper .description,
+.page-content #edit-field-date-0-value-datepicker-popup-0-wrapper .description,
+.page-content #edit-field-date-0-value-timeEntry-popup-1-wrapper .description,
+.page-content #edit-field-date-0-value2-datepicker-popup-0-wrapper .description,
+.page-content #edit-field-date-0-value2-timeEntry-popup-1-wrapper .description {
+	width: 100px;
+	right: 0px !important;
+}
 
 
 /* =========== Project-Info-Page (#303) ========== */
@@ -101,7 +109,6 @@ input[value="Speichern"]:hover {
 .node-project .group-projectinfo .field,
 .node-project .group-projectcontact .field { padding: 0 0 0em !important; }
 .node-project .group-beteiligteinstitutionen span.title { display: block; }
-
 .node-event .group-projectcontact .field { padding: 0 0 0em !important; }
 
 
@@ -139,7 +146,7 @@ input[value="Speichern"]:hover {
     -webkit-border-radius: 0px;
 }
 
-/*philipp*/
+/* ========================= PHILIPP ===================== */
 
 div.content .field-field-ref-valuepartner {
   clear: left;
