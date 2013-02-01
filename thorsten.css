@@ -35,6 +35,7 @@
 /* ----- entries: proper arrangement of tags ----- */
 .node .field-item { clear: both; }
 
+
 /* ----- entries: global formatting of link-size ----- */
 .node .field-items a,
 .node .terms .links a { font-size: 12px; }
@@ -134,4 +135,22 @@ input[value="Speichern"]:hover {
 #page-tools .tabs #block-menu-features.block ul.menu li a.active_trail {
     background: none repeat scroll 0 0 #7E2B97 !important;    
     color: #FFFFFF !important;
+    text-shadow: none;
+    -webkit-border-radius: 0px;
 }
+
+/*philipp*/
+
+div.content .field-field-ref-valuepartner {
+  clear: left;
+}
+
+
+
+/* 2-spaltiges layout fuer projektpartner und value partner*/
+div.field-field-ref-projectinstitutions .field-item table { width: 50% !important; float: left;}
+div.field-field-ref-valuepartner .field-item table {width: 50% !important; float: left; }
+ 
+/* clear fixes */
+div.field-field-ref-projectinstitutions .field-item { clear: none !important; }
+div.field-field-ref-valuepartner .field-item {clear: none !important; }

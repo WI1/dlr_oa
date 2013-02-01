@@ -2035,11 +2035,19 @@ table th {
 /****************************************/
 /* Node Reference */
 
+
+/*value partner table header wieder anzeigen lassen*/
 .node-type-project #node-form .tabledrag-processed thead {
-	display: none;
+	display: table-header-group !important;
 }
 
-.node-type-project #node-form .tabledrag-processed tbody tr.even,  .node-type-project #node-form .tabledrag-processed tbody tr.odd {
+/*sticky header verschwinden lassen refs #333*/
+fieldset.group-beteiligteinstitutionen table.sticky-header {
+  display: none;
+}
+
+
+.node-type-project #node-form .tabledrag-processed tbody tr.even, .node-type-project #node-form .tabledrag-processed tbody tr.odd {
 	display: block;
 	/* float: left; crashes the behaviour while dragging! dragging still works... but corrupt*/
 	overflow: hidden;
@@ -2053,6 +2061,8 @@ table th {
 	margin: 0;
 	padding: 0;
 }
+
+
 
 
 .node-type-project #node-form .tabledrag-processed tbody tr.even input.form-autocomplete,  .node-type-project #node-form .tabledrag-processed tbody tr.odd input.form-autocomplete {
@@ -2147,7 +2157,7 @@ div.pager .minipager .clear-block {
 
 /* OA Folders features */
 .atrium-folders-navigator .left { width: 28%; }
-.atrium-folders-navigator a { color: #fff !important; margin-left: 0;}
+.atrium-folders-navigator .toolbar a { color: #fff !important; margin-left: 0;}
 .atrium-folders-navigator ul.links  { width: 100% !important; margin: 0 0 10px 0; padding: 0;}
 .atrium-folders-navigator ul.links li { margin-left: 0 !important; }
 .atrium-folders-navigator div.buttons { padding: 0; }

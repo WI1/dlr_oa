@@ -406,6 +406,10 @@ div.node .field .field-label-inline-first {
   padding-bottom: 4px;
 }
 
+.content .field-type-date.field-field-date {
+  padding-bottom: 0px !important;
+}
+
 div.node .terms ul.links li a {
 padding: 2px 10px 2px 0;
 }
@@ -422,9 +426,9 @@ div.content ul.links {
   font-size: 13.2px;
 }
 
-
-
-
+fieldset.group-beteiligteinstitutionen a.noderelationships-nodereference-multi-button {
+  display: none;
+}
 
 /* loescht redundante titel und beschreibungsinformationen im project info*/
 .view-info-listing .view-content h2.node-title {
