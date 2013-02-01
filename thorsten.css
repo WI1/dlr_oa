@@ -42,13 +42,15 @@
 .node .links a { font-size: 10px; }
 .node .links .inline { font-size: 10px; }
 
+.node .links .comment_forbidden span { font-size: 10px; }
+
 /* ----- entries: divider between link-Elements (#280) ----- */
 .node- .links .upload_attachments > a:after { content: " | "; }
 .node .links .upload_attachments > a:after { content: " | "; }
 .node .links .comment_add > a:after { content: " |"; }
 .node .links .comment_new_comments  > a:after { content: " |"; }
 .node .links .comment_comments  > a:after { content: " |"; }
-.node .links .comment_forbidden > a:after  { content: " |"; }
+.node .links .comment_forbidden > span:after  { content: " |"; }
 
 /* ------ Blog: Hide of New Comments ----- */
 .node-blog .links .comment_add > a { display:none; }
@@ -110,11 +112,11 @@ input[value="Speichern"]:hover {
 
 
 /* ========== Project-Edit-Page ========== */
-.node-type-project #node-form #field_projectemail_values .tableHeader-processed { display: table-header-group !; }
+.node-type-project #node-form #field_projectemail_values .tableHeader-processed { display: table-header-group !important; }
 .node-type-project #node-form .tabledrag-processed tbody tr:last-child input { margin-left:40px !important; }
 
 
-
+	
 /* ========== User-Konto Navigation ============ */
 .page-user #page-tools #secondary-tabs ul { width: 600px; }
 .page-user #page-tools #secondary-tabs li { margin: 0 28px; }
