@@ -406,6 +406,10 @@ div.node .field .field-label-inline-first {
   padding-bottom: 4px;
 }
 
+.content .field-type-date.field-field-date {
+  padding-bottom: 0px !important;
+}
+
 div.node .terms ul.links li a {
 padding: 2px 10px 2px 0;
 }
