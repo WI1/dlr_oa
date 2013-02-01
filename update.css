@@ -426,7 +426,7 @@ div.content ul.links {
   font-size: 13.2px;
 }
 
-div.content fieldset.group-beteiligteinstitutionen a.noderelationships-nodereference-multi-button {
+fieldset.group-beteiligteinstitutionen a.noderelationships-nodereference-multi-button {
   display: none;
 }
 
