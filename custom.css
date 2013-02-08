@@ -2163,7 +2163,7 @@ div.pager .minipager .clear-block {
 .atrium-folders-navigator div.buttons { padding: 0; }
 
 .dropzone.dropzone-upload #attachments { width: 100%; position:relative; }
-
+#node-form .form-item #edit-upload-wrapper {padding-left: 30px;}
 
 
 /* Twitter Form Field */
