@@ -2064,19 +2064,24 @@ fieldset.group-beteiligteinstitutionen table.sticky-header {
 
 
 
-
-.node-type-project #node-form .tabledrag-processed tbody tr.even input.form-autocomplete,  .node-type-project #node-form .tabledrag-processed tbody tr.odd input.form-autocomplete {
-	display: none;
+/*hide input fields for project institutions in admin interface*/
+.node-type-project #node-form #field-ref-projectinstitutions-items .tabledrag-processed tbody tr.even input.form-autocomplete, .node-type-project #node-form #field-ref-projectinstitutions-items .tabledrag-processed tbody tr.odd input.form-autocomplete,
+.node-type-project #node-form #field-ref-valuepartner-items .tabledrag-processed tbody tr.even input.form-autocomplete, .node-type-project #node-form #field-ref-valuepartner-items .tabledrag-processed tbody tr.odd input.form-autocomplete {
+   display: none;
 }
 
-.node-type-project #node-form .tabledrag-processed tbody tr:last-child input.form-autocomplete {
+/*after hiding the input fields in the statemenet above, show the last one tr:last again */
+.node-type-project #node-form #field-ref-projectinstitutions-items .tabledrag-processed tbody tr:last-child input.form-autocomplete,
+.node-type-project #node-form #field-ref-valuepartner-items .tabledrag-processed tbody tr:last-child input.form-autocomplete {
 	display: inline-block;
 	width: 300px;
 }
 
+
+
 .node-type-project #node-form .tabledrag-processed .noderelationships-nodereference-create-button, 
 .node-type-project #node-form .tabledrag-processed .noderelationships-nodereference-search-button {
-	display: none;
+  display: none;
 }
 
 .node-type-project #node-form .tabledrag-processed tbody tr:last-child .noderelationships-nodereference-delete-button,

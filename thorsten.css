@@ -35,6 +35,7 @@
 /* ----- entries: proper arrangement of tags ----- */
 .node .field-item { clear: both; }
 
+
 /* ----- entries: global formatting of link-size ----- */
 .node .field-items a,
 .node .terms .links a { font-size: 12px; }
@@ -42,13 +43,15 @@
 .node .links a { font-size: 10px; }
 .node .links .inline { font-size: 10px; }
 
+.node .links .comment_forbidden span { font-size: 10px; }
+
 /* ----- entries: divider between link-Elements (#280) ----- */
 .node- .links .upload_attachments > a:after { content: " | "; }
 .node .links .upload_attachments > a:after { content: " | "; }
 .node .links .comment_add > a:after { content: " |"; }
 .node .links .comment_new_comments  > a:after { content: " |"; }
 .node .links .comment_comments  > a:after { content: " |"; }
-.node .links .comment_forbidden > a:after  { content: " |"; }
+.node .links .comment_forbidden > span:after  { content: " |"; }
 
 /* ------ Blog: Hide of New Comments ----- */
 .node-blog .links .comment_add > a { display:none; }
@@ -72,7 +75,6 @@ input[value="Speichern"]:hover {
 /* ----- Common-Adjustment ----- */
 .page-content .form-item .description {
 	bottom: 43px !important;
-	right: -30px !important;
 }
 
 /* ----- Twitter ----- */
@@ -89,6 +91,15 @@ input[value="Speichern"]:hover {
 	left: 0px !important;
 }
 
+.page-content #edit-field-projectduration-0-value-datepicker-popup-0-wrapper .description, 
+.page-content #edit-field-projectduration-0-value2-datepicker-popup-0-wrapper .description,
+.page-content #edit-field-date-0-value-datepicker-popup-0-wrapper .description,
+.page-content #edit-field-date-0-value-timeEntry-popup-1-wrapper .description,
+.page-content #edit-field-date-0-value2-datepicker-popup-0-wrapper .description,
+.page-content #edit-field-date-0-value2-timeEntry-popup-1-wrapper .description {
+	width: 100px;
+	right: 0px !important;
+}
 
 
 /* =========== Project-Info-Page (#303) ========== */
@@ -98,7 +109,6 @@ input[value="Speichern"]:hover {
 .node-project .group-projectinfo .field,
 .node-project .group-projectcontact .field { padding: 0 0 0em !important; }
 .node-project .group-beteiligteinstitutionen span.title { display: block; }
-
 .node-event .group-projectcontact .field { padding: 0 0 0em !important; }
 
 
@@ -110,11 +120,11 @@ input[value="Speichern"]:hover {
 
 
 /* ========== Project-Edit-Page ========== */
-.node-type-project #node-form #field_projectemail_values .tableHeader-processed { display: table-header-group !; }
+.node-type-project #node-form #field_projectemail_values .tableHeader-processed { display: table-header-group !important; }
 .node-type-project #node-form .tabledrag-processed tbody tr:last-child input { margin-left:40px !important; }
 
 
-
+	
 /* ========== User-Konto Navigation ============ */
 .page-user #page-tools #secondary-tabs ul { width: 600px; }
 .page-user #page-tools #secondary-tabs li { margin: 0 28px; }
@@ -135,3 +145,19 @@ input[value="Speichern"]:hover {
     text-shadow: none;
     -webkit-border-radius: 0px;
 }
+
+/* ========================= PHILIPP ===================== */
+
+div.content .field-field-ref-valuepartner {
+  clear: left;
+}
+
+
+
+/* 2-spaltiges layout fuer projektpartner und value partner*/
+div.field-field-ref-projectinstitutions .field-item table { width: 50% !important; float: left;}
+div.field-field-ref-valuepartner .field-item table {width: 50% !important; float: left; }
+ 
+/* clear fixes */
+div.field-field-ref-projectinstitutions .field-item { clear: none !important; }
+div.field-field-ref-valuepartner .field-item {clear: none !important; }
