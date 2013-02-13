@@ -498,6 +498,10 @@ function dlr_oa_preprocess_page(&$vars) {
   if(isset($vars['node']) && $vars['node']->type == 'book'){
     $book_node = node_load($vars['node']->book['bid']);
     //debug// echo "<script type=\"text/javascript\">alert('$book_node->title')</script>";
+    
+      $book_top_page= 71;
+  $tree = menu_tree_all_data(book_menu_name($book_top_page));
+  print drupal_render(menu_tree_output($tree));
 
     if($book_node->title == "Metaprojekt DemoScreen"){
        $vars['attr']['class'] = $vars['attr']['class']." demoscreen_book"; 
@@ -580,7 +584,9 @@ function dlr_oa_project_node_form(&$form) {
     } */
   unset($form['buttons']['preview']);
   unset($form['buttons']['preview-changes']);
-  $form['spaces_preset']['#access'] = FALSE;
+  global $user;
+  if (is_array($user->roles) && in_array('moderator', $user->roles)) 
+    $form['spaces_preset']['#access'] = FALSE;
   $output = drupal_render($form);
   return $output;
 }
@@ -746,3 +752,4 @@ function reorder_links($links, $first_keys = array(), $last_keys = array()) {
   $links = array_merge($links, $last_links);
   return $links;
 }
+
