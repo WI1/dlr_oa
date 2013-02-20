@@ -499,10 +499,6 @@ function dlr_oa_preprocess_page(&$vars) {
     $book_node = node_load($vars['node']->book['bid']);
     //debug// echo "<script type=\"text/javascript\">alert('$book_node->title')</script>";
     
-      $book_top_page= 71;
-  $tree = menu_tree_all_data(book_menu_name($book_top_page));
-  print drupal_render(menu_tree_output($tree));
-
     if($book_node->title == "Metaprojekt DemoScreen"){
        $vars['attr']['class'] = $vars['attr']['class']." demoscreen_book"; 
        $book_firstpage = $book_node->book;
