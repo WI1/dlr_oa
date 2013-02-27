@@ -1524,7 +1524,7 @@ body.node-type-exhibit .exhibit-facet-header, body.node-type-exhibit .exhibit-fl
 
 body.node-type-exhibit #forschungslandkarte-cloud .exhibit-cloudFacet-body {
 display: block; 
-width: 960px;
+/*width: 960px;*/
 margin-bottom: 4em;
 }
 
