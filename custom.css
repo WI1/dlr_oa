@@ -2173,6 +2173,15 @@ div.pager .minipager .clear-block {
 .view-folders-navigation .views-row.active a.active:hover { color: #DEDEDE !important; }
 
 
+.modal-tooltip-container a.modal-tooltip-link {
+background: none !important;
+display: inline !important;
+}
+
+.modal-tooltip-container {
+opacity: 1.0 !important;
+}
+
 /* Twitter Form Field */
 #twitter-toggle-wrapper {
 margin-top: -25px;
