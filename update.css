@@ -403,7 +403,7 @@ div.node .field .field-label-inline-first {
 
 
 .page-dashboard .view-content .node .field {
-  padding-bottom: 4px;
+  padding-bottom: 4px !important; 
 }
 
 .content .field-type-date.field-field-date {
