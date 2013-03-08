@@ -9,7 +9,7 @@
 
 <table>
   <tr>
-    <td><?php print theme('imagecache', 'projectlogo-m', $node->field_companylogo[0]['filepath']); ?></td>
+    <td><a href="<?php print $node_url; ?>"><?php print theme('imagecache', 'projectlogo-m', $node->field_companylogo[0]['filepath']); ?></a></td>
     <td valign="middle"><a href="<?php print $node_url; ?>"><?php print $node->title; ?></a></td>
 </tr>
 </table>
