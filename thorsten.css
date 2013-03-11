@@ -152,6 +152,11 @@ div.content .field-field-ref-valuepartner {
   clear: left;
 }
 
+/* ----------------- eliminated dots within book-module ------ */
+.block .prose ul li {
+  margin: 0px 0px 0px 10px;
+  list-style: none;
+}
 
 
 /* 2-spaltiges layout fuer projektpartner und value partner*/
