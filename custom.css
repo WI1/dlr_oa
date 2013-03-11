@@ -1524,7 +1524,7 @@ body.node-type-exhibit .exhibit-facet-header, body.node-type-exhibit .exhibit-fl
 
 body.node-type-exhibit #forschungslandkarte-cloud .exhibit-cloudFacet-body {
 display: block; 
-width: 960px;
+/*width: 960px;*/
 margin-bottom: 4em;
 }
 
@@ -2064,19 +2064,24 @@ fieldset.group-beteiligteinstitutionen table.sticky-header {
 
 
 
-
-.node-type-project #node-form .tabledrag-processed tbody tr.even input.form-autocomplete,  .node-type-project #node-form .tabledrag-processed tbody tr.odd input.form-autocomplete {
-	display: none;
+/*hide input fields for project institutions in admin interface*/
+.node-type-project #node-form #field-ref-projectinstitutions-items .tabledrag-processed tbody tr.even input.form-autocomplete, .node-type-project #node-form #field-ref-projectinstitutions-items .tabledrag-processed tbody tr.odd input.form-autocomplete,
+.node-type-project #node-form #field-ref-valuepartner-items .tabledrag-processed tbody tr.even input.form-autocomplete, .node-type-project #node-form #field-ref-valuepartner-items .tabledrag-processed tbody tr.odd input.form-autocomplete {
+   display: none;
 }
 
-.node-type-project #node-form .tabledrag-processed tbody tr:last-child input.form-autocomplete {
+/*after hiding the input fields in the statemenet above, show the last one tr:last again */
+.node-type-project #node-form #field-ref-projectinstitutions-items .tabledrag-processed tbody tr:last-child input.form-autocomplete,
+.node-type-project #node-form #field-ref-valuepartner-items .tabledrag-processed tbody tr:last-child input.form-autocomplete {
 	display: inline-block;
 	width: 300px;
 }
 
+
+
 .node-type-project #node-form .tabledrag-processed .noderelationships-nodereference-create-button, 
 .node-type-project #node-form .tabledrag-processed .noderelationships-nodereference-search-button {
-	display: none;
+  display: none;
 }
 
 .node-type-project #node-form .tabledrag-processed tbody tr:last-child .noderelationships-nodereference-delete-button,
@@ -2129,7 +2134,7 @@ fieldset.group-beteiligteinstitutionen table.sticky-header {
 }
 
 div.litecal .litecal-data .views-field.title { 
-  color:#404040; /*old 48A */ 
+ /* color:#404040; old 48A */ 
 }
 
 div.litecal .litecal-title { 
@@ -2158,13 +2163,24 @@ div.pager .minipager .clear-block {
 /* OA Folders features */
 .atrium-folders-navigator .left { width: 28%; }
 .atrium-folders-navigator .toolbar a { color: #fff !important; margin-left: 0;}
+.atrium-folders-navigator .toolbar a:hover { color: #DEDEDE !important; margin-left: 0;}
 .atrium-folders-navigator ul.links  { width: 100% !important; margin: 0 0 10px 0; padding: 0;}
 .atrium-folders-navigator ul.links li { margin-left: 0 !important; }
 .atrium-folders-navigator div.buttons { padding: 0; }
 
 .dropzone.dropzone-upload #attachments { width: 100%; position:relative; }
+#node-form  #edit-upload-wrapper {padding-left: 30px !important;}
+.view-folders-navigation .views-row.active a.active:hover { color: #DEDEDE !important; }
 
 
+.modal-tooltip-container a.modal-tooltip-link {
+background: none !important;
+display: inline !important;
+}
+
+.modal-tooltip-container {
+opacity: 1.0 !important;
+}
 
 /* Twitter Form Field */
 #twitter-toggle-wrapper {
@@ -2245,3 +2261,61 @@ div.litecal .litecal-slot-today {
 .dropdown-blocks .block-toggle .item-list {
   float: left;
 }
+
+
+/*New crayon colors for demoscreen*/
+.crayon-fgall {
+    background-color: #7E388A;
+    border-color: #7E388A;
+}
+.crayon-fgnone {
+    background-color: #C0C0C0;
+    border-color: #C0C0C0;
+}
+
+/* Colors for each focusgroup marked by their nid set in the database field_color_hex**/
+/**
+Altersheterogene Innovationsteams 3
+R 242 G 150 B 52
+Demografiemanagement 4
+R 183 G 13 B 48
+Messung von Innovationspotenzialen 5
+R 93 G 151 B 64
+Erwerbsbiografien 6
+R 0 G 68 B 123
+Kompetenzentwicklung 7
+R 233 G 183 B 69
+Regionale Aspekte 8
+R 0 G 124 B 128 */
+
+.crayon-fg3 {
+    background-color: #F29634;
+    border-color: #F29634;
+}
+
+.crayon-fg4 {
+    background-color: #B70D30;
+    border-color: #B70D30;
+}
+
+.crayon-fg5 {
+    background-color: #5D9740;
+    border-color: #5D9740;
+}
+
+.crayon-fg6 {
+    background-color: #00447B;
+    border-color: #00447B;
+}
+
+.crayon-fg7 {
+  
+    background-color: #E9B745;
+    border-color: #E9B745;
+}
+
+.crayon-fg8 {
+    background-color: #007C80;
+    border-color: #007C80;
+}
+
