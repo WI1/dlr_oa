@@ -98,7 +98,7 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 #header .nice-menu { clear: both; }
 
 /* Search */
-#search { float: right; display: block; margin: 0; box-shadow: 2px 1px 1px #DDDDDD; }
+/*#search { float: right; display: block; margin: 0; box-shadow: 2px 1px 1px #DDDDDD; }*/
 #search, #search-block-form { background: url(img/bg/search.png) no-repeat !important; width: 230px; height: 30px;  }
 #search label { display: none; }
 #edit-search-theme-form-1-wrapper { float: left; display: inline-block; margin: 0; padding: 0; width: 200px; }
