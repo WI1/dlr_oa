@@ -1445,6 +1445,7 @@ margin: 0;
 
 #autocomplete li:hover {
 background: #EEE;
+color: #000;
 }
 
 #sidebar-left .views-exposed-form select,
