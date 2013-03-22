@@ -2068,7 +2068,7 @@ fieldset.group-beteiligteinstitutionen table.sticky-header {
 /*hide input fields for project institutions in admin interface*/
 .node-type-project #node-form #field-ref-projectinstitutions-items .tabledrag-processed tbody tr.even input.form-autocomplete, .node-type-project #node-form #field-ref-projectinstitutions-items .tabledrag-processed tbody tr.odd input.form-autocomplete,
 .node-type-project #node-form #field-ref-valuepartner-items .tabledrag-processed tbody tr.even input.form-autocomplete, .node-type-project #node-form #field-ref-valuepartner-items .tabledrag-processed tbody tr.odd input.form-autocomplete {
-   display: none;
+   display: block;
 }
 
 /*after hiding the input fields in the statemenet above, show the last one tr:last again */
