@@ -29,6 +29,10 @@
 	visibility: hidden;
 }
 
+/* -------- Global Site Tooltip Overflow ---- */
+#page {
+	overflow: visible;
+}
 
 
 /* =========== NODE-ENTRIES =========== */
