@@ -2,8 +2,6 @@
  *        CSS-Changes Thorsten        *
  **************************************/
 
-
-
 /* =========== OVERALL-STYLES ========== */
 /* ----- Headlines H3 ----- */
 #content h3 a:hover { color: #7E2B99; }
@@ -157,9 +155,9 @@ div.content .field-field-ref-valuepartner {
 }
 
 /* ----------------- eliminated dots within book-module ------ */
-.block .prose ul li {
-  margin: 0px 0px 0px 10px;
-  list-style: none;
+.block .prose #expanded-book ul li {
+ margin: 0px 0px 0px 15px;
+ list-style: none;
 }
 
 

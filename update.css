@@ -98,14 +98,14 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 #header .nice-menu { clear: both; }
 
 /* Search */
-#search { float: right; display: block; margin: 0; box-shadow: 2px 1px 1px #DDDDDD; }
+/*#search { float: right; display: block; margin: 0; box-shadow: 2px 1px 1px #DDDDDD; }*/
 #search, #search-block-form { background: url(img/bg/search.png) no-repeat !important; width: 230px; height: 30px;  }
 #search label { display: none; }
 #edit-search-theme-form-1-wrapper { float: left; display: inline-block; margin: 0; padding: 0; width: 200px; }
 #edit-search-theme-form-1 { border: none !important; line-height: 22px !important; background: transparent !important; font-size: 16px !important; color: #404040; width: 185px; margin: 4px 0 0 5px !important; padding: 0; height: 22px !important; }
 #edit-search-wrapper, #edit-search-1-wrapper { float: left; display: inline-block; margin: 0; padding: 0; width: 200px; }
 #edit-search, #edit-search-1{ border: none !important; line-height: 22px !important; background: transparent !important; font-size: 16px !important; color: #404040; width: 185px; margin: 4px 0 0 5px !important; padding: 0; height: 22px !important; }
-#search .form-submit { display: block !important; background: transparent !important; width: 30px !important; height: 30px !important; margin: 0 !important; padding: 0 !important; border: 0 !important; text-indent: 900px; overflow: hidden; cursor: pointer; /*visibility:hidden*/}
+#search .form-submit { display: block !important; background: transparent !important; width: 30px !important; height: 30px !important; margin: 0 !important; padding: 0 !important; border: 0 !important; text-indent: 900px; overflow: hidden; cursor: pointer; /*visibility:hidden*/ -webkit-box-shadow: none;}
 
 body.page-search div.box { margin: 0, padding: 0; background: none; border: 0; }
 body.page-search div.box-content { padding: 0 }
