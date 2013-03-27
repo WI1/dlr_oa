@@ -168,3 +168,8 @@ div.field-field-ref-valuepartner .field-item table {width: 50% !important; float
 /* clear fixes */
 div.field-field-ref-projectinstitutions .field-item { clear: none !important; }
 div.field-field-ref-valuepartner .field-item {clear: none !important; }
+
+/* ---------------- Display: table #343 -------------------------- */
+div.content .field-type-content-taxonomy ul {
+  display: table;
+}
