@@ -2320,3 +2320,7 @@ R 0 G 124 B 128 */
     border-color: #007C80;
 }
 
+div.exhibit-views-bubbleWithItems {
+  height: 8em;
+  overflow: auto;
+}

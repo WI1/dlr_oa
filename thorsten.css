@@ -156,10 +156,15 @@ div.content .field-field-ref-valuepartner {
 
 /* ----------------- eliminated dots within book-module ------ */
 .block .prose #expanded-book ul li {
- margin: 0px 0px 0px 15px;
+ margin: 0px;
  list-style: none;
 }
 
+.block .prose #expanded-book {
+ font-size: 1.2em;
+ list-style: none;
+ border: 6px solid purple;
+}
 
 /* 2-spaltiges layout fuer projektpartner und value partner*/
 div.field-field-ref-projectinstitutions .field-item table { width: 50% !important; float: left;}
