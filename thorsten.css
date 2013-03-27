@@ -163,6 +163,7 @@ div.content .field-field-ref-valuepartner {
 .block .prose #expanded-book {
  font-size: 1.2em;
  list-style: none;
+ border: 6px solid purple;
 }
 
 /* 2-spaltiges layout fuer projektpartner und value partner*/
