@@ -2,8 +2,6 @@
  *        CSS-Changes Thorsten        *
  **************************************/
 
-
-
 /* =========== OVERALL-STYLES ========== */
 /* ----- Headlines H3 ----- */
 #content h3 a:hover { color: #7E2B99; }
@@ -29,6 +27,10 @@
 	visibility: hidden;
 }
 
+/* -------- Global Site Tooltip Overflow ---- */
+#page {
+	overflow: visible;
+}
 
 
 /* =========== NODE-ENTRIES =========== */
