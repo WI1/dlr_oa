@@ -178,3 +178,7 @@ div.field-field-ref-valuepartner .field-item {clear: none !important; }
 div.content .field-type-content-taxonomy ul {
   display: table;
 }
+
+div.content .field-type-content-taxonomy ul li{
+  display: inline;
+}
