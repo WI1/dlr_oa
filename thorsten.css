@@ -1,0 +1,185 @@
+/**************************************
+ *        CSS-Changes Thorsten        *
+ **************************************/
+
+/* =========== OVERALL-STYLES ========== */
+/* ----- Headlines H3 ----- */
+#content h3 a:hover { color: #7E2B99; }
+
+
+
+/* ========== NAVIGATION ========== */
+/*------ breadcrumb:; explicit width ----- */
+#global .breadcrumb {
+	width: 480px;
+}
+
+/* ----- breadcrumb: hide of elements ----- */
+#global .breadcrumb .divider,
+#global .breadcrumb .link-1,
+#global .breadcrumb .link-2 {
+    visibility: hidden;
+}
+
+/* ----- breadcrumb: hide of lock-symbol ----- */
+#global .breadcrumb .space {
+	float: right;
+	visibility: hidden;
+}
+
+/* -------- Global Site Tooltip Overflow ---- */
+#page {
+	overflow: visible;
+}
+
+
+/* =========== NODE-ENTRIES =========== */
+/* ----- entries: proper arrangement of tags ----- */
+.node .field-item { clear: both; }
+
+
+/* ----- entries: global formatting of link-size ----- */
+.node .field-items a,
+.node .terms .links a { font-size: 12px; }
+.node .links, { font-size: 10px !important; }
+.node .links a { font-size: 10px; }
+.node .links .inline { font-size: 10px; }
+
+.node .links .comment_forbidden span { font-size: 10px; }
+
+/* ----- entries: divider between link-Elements (#280) ----- */
+.node- .links .upload_attachments > a:after { content: " | "; }
+.node .links .upload_attachments > a:after { content: " | "; }
+.node .links .comment_add > a:after { content: " |"; }
+.node .links .comment_new_comments  > a:after { content: " |"; }
+.node .links .comment_comments  > a:after { content: " |"; }
+.node .links .comment_forbidden > span:after  { content: " |"; }
+
+/* ------ Blog: Hide of New Comments ----- */
+.node-blog .links .comment_add > a { display:none; }
+
+
+
+/* =========== Speichern-Button: Color-Adjustment (#316) ========== */
+input[value="Speichern"] {
+	background-color: #68A64C !important;
+	color: #fff !important;
+}
+
+input[value="Speichern"]:hover {
+	background-color: #609946 !important;
+	background-image: none !important;
+}
+
+
+
+/* ========== Tooltips: Adjustment of position (#332) ========== */
+/* ----- Common-Adjustment ----- */
+.page-content .form-item .description {
+	bottom: 43px !important;
+}
+
+/* ----- Twitter ----- */
+#twitter-textfield-wrapper .description { 
+	bottom: 0px !important;
+	margin: 0px 0px 25px 0px;
+}
+
+/* ----- Projektinfo > Pfad, Default Role, Termine > Date, Art d. Veranst. ----- */
+.page-content #edit-purl-value-wrapper .description,
+.page-content #edit-og-user-roles-default-role-wrapper .description,
+.page-content #edit-taxonomy-1-wrapper .description {
+	bottom: 43px !important;
+	left: 0px !important;
+}
+
+.page-content #edit-field-projectduration-0-value-datepicker-popup-0-wrapper .description, 
+.page-content #edit-field-projectduration-0-value2-datepicker-popup-0-wrapper .description,
+.page-content #edit-field-date-0-value-datepicker-popup-0-wrapper .description,
+.page-content #edit-field-date-0-value-timeEntry-popup-1-wrapper .description,
+.page-content #edit-field-date-0-value2-datepicker-popup-0-wrapper .description,
+.page-content #edit-field-date-0-value2-timeEntry-popup-1-wrapper .description {
+	width: 100px;
+	right: 0px !important;
+}
+
+
+/* =========== Project-Info-Page (#303) ========== */
+.node-project .group-projectinfo .field-label-inline-first,
+.node-project .group-beteiligteinstitutionen .field-label,
+.node-project .group-projectcontact .field-label-inline-first { text-transform: none !important; }
+.node-project .group-projectinfo .field,
+.node-project .group-projectcontact .field { padding: 0 0 0em !important; }
+.node-project .group-beteiligteinstitutionen span.title { display: block; }
+.node-event .group-projectcontact .field { padding: 0 0 0em !important; }
+
+
+/* =========== Project-Organization ========== */
+/* ----- Geo-Field: hidden (#240) ----- */
+.node-organisation .field-field-org-location .adr .geo { display: none; }
+.node-organisation .field-field-org-location .map-link a { font-size: 11px; }
+.node-organisation .field-field-org-location .map-link a:before { content: ": "; }
+
+
+/* ========== Project-Edit-Page ========== */
+.node-type-project #node-form #field_projectemail_values .tableHeader-processed { display: table-header-group !important; }
+.node-type-project #node-form .tabledrag-processed tbody tr:last-child input { margin-left:40px !important; }
+
+
+	
+/* ========== User-Konto Navigation ============ */
+.page-user #page-tools #secondary-tabs ul { width: 600px; }
+.page-user #page-tools #secondary-tabs li { margin: 0 28px; }
+.page-user #page-tools #secondary-tabs li a { font-size: 14px; }
+.page-user #page-tools #secondary-tabs li a.active { text-decoration: underline; }
+
+/* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
+.page-content .content fieldset.collapsible.collapsed legend a { display:inline-block; }
+.page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
+.page-content .content fieldset.collapsible legend a { display:inline-block; }
+.page-content .content fieldset.collapsible legend a:after { content: " [-] "; }
+
+
+
+#page-tools .tabs #block-menu-features.block ul.menu li a.active_trail {
+    background: none repeat scroll 0 0 #7E2B97 !important;    
+    color: #FFFFFF !important;
+    text-shadow: none;
+    -webkit-border-radius: 0px;
+}
+
+/* ========================= PHILIPP ===================== */
+
+div.content .field-field-ref-valuepartner {
+  clear: left;
+}
+
+/* ----------------- eliminated dots within book-module ------ */
+.block .prose #expanded-book ul li {
+ margin: 0px;
+ list-style: none;
+}
+
+.block .prose #expanded-book {
+ font-size: 1.2em;
+ list-style: none;
+ border: 6px solid purple;
+}
+
+/* 2-spaltiges layout fuer projektpartner und value partner*/
+div.field-field-ref-projectinstitutions .field-item table { width: 50% !important; float: left;}
+div.field-field-ref-valuepartner .field-item table {width: 50% !important; float: left; }
+ 
+/* clear fixes */
+div.field-field-ref-projectinstitutions .field-item { clear: none !important; }
+div.field-field-ref-valuepartner .field-item {clear: none !important; }
+
+/* ---------------- Display: table #343 -------------------------- */
+div.content .field-type-content-taxonomy ul {
+  display: table;
+}
+
+.node div.content ul.links {
+	display: table-row-group !important;
+}
+
