@@ -11,7 +11,7 @@
 /* ========== NAVIGATION ========== */
 /*------ breadcrumb:; explicit width ----- */
 #global .breadcrumb {
-	width: 480px;
+	width: 400px;
 }
 
 /* ----- breadcrumb: hide of elements ----- */
