@@ -60,6 +60,10 @@ ul#nice-menu-1 li.active-trail a, ul#main-menu li.active-trail a {
 	width: 125px;
 	background-position: -865px 0;
 }
+.sponsoren #wi1 {
+  width: 70px;
+  background-position: -1015px 0;
+}
 
 .og-context #page-tools .page-title {
   text-transform: none;
