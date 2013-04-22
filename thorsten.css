@@ -54,7 +54,7 @@
 .node .links .comment_new_comments  > a:after { content: " |"; }
 .node .links .comment_comments  > a:after { content: " |"; }
 .node .links .comment_forbidden > span:after  { content: " |"; }
-
+.node .links .flag-eventteilnahme > a:before { content: " | "; }
 /* ------ Blog: Hide of New Comments ----- */
 .node-blog .links .comment_add > a { display:none; }
 
@@ -181,5 +181,31 @@ div.content .field-type-content-taxonomy ul {
 
 .node div.content ul.links {
 	display: table-row-group !important;
+}
+
+/* --------------- Module flags ----------------------------------- */
+div.content div.field-field-teilnehmer {
+  padding: 0 0 0 0 !important;
+}
+
+div.content div.field-field-orglocation {
+  padding: 0 0 0 0 !important;
+}
+
+div.content div.field-field-date {
+  margin: -1em 0 0 0 !important;
+}
+
+div.content div.field-field-teilnehmer .view-content {
+  display: table-row-group !important;
+}
+
+div.content div.field-field-teilnehmer .view-content .views-row {
+  display: inline !important;
+}
+
+div.content div.field-field-teilnehmer .view-content .views-row span.username a {
+  font-weight: normal !important;
+  padding-right: 7px;
 }
 
