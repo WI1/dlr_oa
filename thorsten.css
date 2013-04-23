@@ -184,7 +184,7 @@ div.content .field-type-content-taxonomy ul {
 }
 
 /* --------------- Module flags ----------------------------------- */
-div.content div.field-field-teilnehmer {
+div.content div.field-field-participants {
   padding: 0 0 0 0 !important;
 }
 
@@ -196,21 +196,21 @@ div.content div.field-field-date {
   margin: -1em 0 0 0 !important;
 }
 
-div.content div.field-field-teilnehmer .view-content {
+div.content div.field-field-participants .view-content {
   display: table-row-group !important;
 }
 
-div.content div.field-field-teilnehmer .view-content .views-row {
+div.content div.field-field-participants .view-content .views-row {
   display: inline !important;
 }
 
-div.content div.field-field-teilnehmer .view-content .views-row span.username a {
+div.content div.field-field-participants .view-content .views-row span.username a {
   font-weight: normal !important;
   padding-right: 7px;
 }
 
 /*view transformation for teilnehmer flags*/
-div.content div.field-field-teilnehmer .view-header {
+div.content div.field-field-participants .view-header {
   padding: 0 5px;
   width: 150px !important;
   display: block;
@@ -225,8 +225,12 @@ div.content div.field-field-teilnehmer .view-header {
 }
 
 /*text transforms Teilnehmer header in view definiert*/
-div.content div.field-field-teilnehmer .view-header p {
+div.content div.field-field-participants .view-header p {
   font-size: 10px !important;
   color: #333;
+}
+
+div.content div.field-field-eventteaser {
+  float: none;
 }
 
