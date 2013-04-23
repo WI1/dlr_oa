@@ -244,6 +244,13 @@ div.content div.field-field-eventteaser {
   float: none;
 }
 
+div.content div.field-field-participants .view-empty, .spaces-empty {
+color: #333;
+font-size: 11px;
+text-align: left;
+line-height: 11px;
+}
+
 div.content .view-flag-termin-teilnahme .view-footer {
   margin: 5px 0 5px 160px;
 }
