@@ -244,7 +244,7 @@ div.content div.field-field-eventteaser {
   float: none;
 }
 
-div.content div.field-field-participants .view-empty, .spaces-empty {
+div.content div.field-field-participants .view-empty, .spaces-empty, p {
 color: #333;
 font-size: 11px;
 text-align: left;
