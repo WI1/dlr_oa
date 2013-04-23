@@ -230,7 +230,18 @@ div.content div.field-field-participants .view-header p {
   color: #333;
 }
 
+
+div.content div.field-field-participants div.picture img {
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
+
+
 div.content div.field-field-eventteaser {
   float: none;
+}
+
+div.content .view-flag-termin-teilnahme .view-footer {
+margin: 10px 0 0 160px;
 }
 
