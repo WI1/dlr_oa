@@ -241,15 +241,15 @@ div.content div.views-row {
 }
 
 div.content div.field-field-eventteaser {
-  float: none;
+  /* float: none; kann was kaputt machen*/ 
 }
 
 div.content div.field-field-participants .view-empty, .spaces-empty, p {
-color: #333;
-font-size: 11px;
-text-align: left;
-line-height: 11px;
-padding: 0px;
+  color: #333;
+  font-size: 11px;
+  text-align: left;
+  line-height: 11px;
+  padding: 0px;
 }
 
 div.content .view-flag-termin-teilnahme .view-footer {
