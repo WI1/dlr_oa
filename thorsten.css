@@ -209,3 +209,24 @@ div.content div.field-field-teilnehmer .view-content .views-row span.username a 
   padding-right: 7px;
 }
 
+/*view transformation for teilnehmer flags*/
+div.content div.field-field-teilnehmer .view-header {
+  padding: 0 5px;
+  width: 150px !important;
+  display: block;
+  float: left;
+  margin: 0 10px 5px 0;
+  background: #ECF4F8;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px
+}
+
+/*text transforms Teilnehmer header in view definiert*/
+div.content div.field-field-teilnehmer .view-header p {
+  font-size: 10px !important;
+  color: #333;
+}
+
