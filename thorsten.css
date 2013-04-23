@@ -232,10 +232,13 @@ div.content div.field-field-participants .view-header p {
 
 
 div.content div.field-field-participants div.picture img {
-  padding-right: 2px;
-  padding-bottom: 2px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
 
+div.content div.views-row {
+  float: left;
+}
 
 div.content div.field-field-eventteaser {
   float: none;
@@ -261,3 +264,6 @@ div.content a.flag-link-normal {
   width: auto;
 }
 
+div.content .flag.unflag-action.flag-link-normal {
+
+}
