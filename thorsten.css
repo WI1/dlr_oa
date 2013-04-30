@@ -54,7 +54,8 @@
 .node .links .comment_new_comments  > a:after { content: " |"; }
 .node .links .comment_comments  > a:after { content: " |"; }
 .node .links .comment_forbidden > span:after  { content: " |"; }
-.node .links .flag-eventteilnahme > a:before { content: " | "; }
+/* ---- hide flags link under blog -------- */
+.node .links .flag-eventteilnahme { display: none; }
 /* ------ Blog: Hide of New Comments ----- */
 .node-blog .links .comment_add > a { display:none; }
 
