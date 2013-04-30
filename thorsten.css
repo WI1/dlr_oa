@@ -257,6 +257,7 @@ div.content .view-flag-termin-teilnahme .view-footer {
   margin: 5px 0 5px 165px;
 }
 
+/* div.content .flag.unflag-action.flag-link-normal ------ fuer unflag button */
 div.content a.flag-link-normal {
   margin: 10px 0 0 170px;
   font-size: 11px;
@@ -273,6 +274,9 @@ div.content a.flag-link-normal {
   width: auto;
 }
 
-div.content .flag.unflag-action.flag-link-normal {
-
+/* -------- visibility for single users now hidden #367 ------------------ */
+#nodeaccess-grants-form div.search-form {
+  display: none !important;
 }
+
+
