@@ -286,10 +286,15 @@ div.content a.flag-link-normal {
 div.drop-zone p {
   display: none;
 }
+div.drop-zone {
+  
+}
+
 div.drop-zone:after {
   display: block;
   font-size: 11.2px;
   line-height: 14.8px;
-  content: "Sie können Datein hier per Drag & Drop ablegen.";
+  content: "Ziehen Sie Dateien auf dieses Feld um sie schnell und einfach hochzuladen.";
+  color: #999;
 }
 
