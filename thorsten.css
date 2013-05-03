@@ -286,9 +286,6 @@ div.content a.flag-link-normal {
 div.drop-zone p {
   display: none;
 }
-div.drop-zone {
-  
-}
 
 div.drop-zone:after {
   display: block;
