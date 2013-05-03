@@ -295,3 +295,10 @@ div.drop-zone:after {
   color: #999;
 }
 
+
+/* ------------ page numbers footer ----------- */
+.pager li a.active {
+    font-size: 12px !important;
+    padding-left: 12px;
+    padding-right: 12px;
+}
