@@ -12,6 +12,7 @@ function dlr_oa_preprocess_node(&$vars) {
  // Reordering links on node teasers and full nodes
   $links = $vars['node']->links;
   if ($links) {
+    if(!$vars['logged_in']) $links['comment_forbidden'] = array('html' => 1, 'title' => '<a href="/user/login?destination=comment%2Freply%2F'.$vars['node']->nid.'%23comment-form"> | Anmelden</a> um Kommentare zu schreiben');
     $links = reorder_links($links, array('comment_add', 'forward_links', 'print_pdf','upload_attachments'), array('node_read_more'));
     $attributes = array('class' => 'links');
     $vars['links'] = theme('links', $links, array('class' => 'links inline'));
