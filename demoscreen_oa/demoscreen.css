@@ -130,7 +130,7 @@ padding: 0px;
 .node .links .comment_forbidden span { font-size: 10px; }
 
 /* ----- entries: divider between link-Elements (#280) ----- */
-.node- .links .upload_attachments > a:after { content: " | "; }
+.node .links .upload_attachments > a:after { content: " | "; }
 .node .links .upload_attachments > a:after { content: " | "; }
 .node .links .comment_add > a:after { content: " |"; }
 .node .links .comment_new_comments  > a:after { content: " |"; }
