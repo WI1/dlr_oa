@@ -302,3 +302,8 @@ div.drop-zone:after {
     padding-left: 12px;
     padding-right: 12px;
 }
+
+.item-list ul li, .prose .item-list li, .menu li {
+padding: 0px;
+}
+
