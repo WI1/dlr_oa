@@ -1,3 +1,5 @@
+/* =============================================== CHANGES THORSTEN & PHILIPP ======================================== */
+
 /**************************************
  *        CSS-Changes Thorsten        *
  **************************************/
@@ -11,7 +13,7 @@
 /* ========== NAVIGATION ========== */
 /*------ breadcrumb:; explicit width ----- */
 #global .breadcrumb {
-	width: 400px;
+  width: 400px;
 }
 
 /* ----- breadcrumb: hide of elements ----- */
@@ -23,13 +25,13 @@
 
 /* ----- breadcrumb: hide of lock-symbol ----- */
 #global .breadcrumb .space {
-	float: right;
-	visibility: hidden;
+  float: right;
+  visibility: hidden;
 }
 
 /* -------- Global Site Tooltip Overflow ---- */
 #page {
-	overflow: visible;
+  overflow: visible;
 }
 
 
@@ -48,27 +50,31 @@
 .node .links .comment_forbidden span { font-size: 10px; }
 
 /* ----- entries: divider between link-Elements (#280) ----- */
-.node- .links .upload_attachments > a:after { content: " | "; }
-.node .links .upload_attachments > a:after { content: " | "; }
-.node .links .comment_add > a:after { content: " |"; }
-.node .links .comment_new_comments  > a:after { content: " |"; }
-.node .links .comment_comments  > a:after { content: " |"; }
-.node .links .comment_forbidden > span:after  { content: " |"; }
-
+.node .links .upload_attachments > a:before { content: " | "; }
+.node .links .upload_attachments > a:before { content: " | "; }
+.node .links .comment_add > a:before { content: " | "; }
+.node .links .comment_new_comments  > a:before { content: " | "; }
+.node .links .comment_comments  > a:before { content: " | "; }
+/* ------ Blog: Hide of print link according #385----- */
+.node .links .print { display: none; }
+/* comment_forbidden analog, ist aber wengen linkfarbe in node.tpl.php als hardcoded geloest */
+.node .links .node_read_more > a:before { content: " | "; } 
+/* ---- hide flags link under blog -------- */
+.node .links .flag-eventteilnahme { display: none; }
 /* ------ Blog: Hide of New Comments ----- */
-.node-blog .links .comment_add > a { display:none; }
+/*.node-blog .links .comment_add > a { display:none; } */
 
 
 
 /* =========== Speichern-Button: Color-Adjustment (#316) ========== */
 input[value="Speichern"] {
-	background-color: #68A64C !important;
-	color: #fff !important;
+  background-color: #68A64C !important;
+  color: #fff !important;
 }
 
 input[value="Speichern"]:hover {
-	background-color: #609946 !important;
-	background-image: none !important;
+  background-color: #609946 !important;
+  background-image: none !important;
 }
 
 
@@ -76,21 +82,21 @@ input[value="Speichern"]:hover {
 /* ========== Tooltips: Adjustment of position (#332) ========== */
 /* ----- Common-Adjustment ----- */
 .page-content .form-item .description {
-	bottom: 43px !important;
+  bottom: 43px !important;
 }
 
 /* ----- Twitter ----- */
 #twitter-textfield-wrapper .description { 
-	bottom: 0px !important;
-	margin: 0px 0px 25px 0px;
+  bottom: 0px !important;
+  margin: 0px 0px 25px 0px;
 }
 
 /* ----- Projektinfo > Pfad, Default Role, Termine > Date, Art d. Veranst. ----- */
 .page-content #edit-purl-value-wrapper .description,
 .page-content #edit-og-user-roles-default-role-wrapper .description,
 .page-content #edit-taxonomy-1-wrapper .description {
-	bottom: 43px !important;
-	left: 0px !important;
+  bottom: 43px !important;
+  left: 0px !important;
 }
 
 .page-content #edit-field-projectduration-0-value-datepicker-popup-0-wrapper .description, 
@@ -99,8 +105,8 @@ input[value="Speichern"]:hover {
 .page-content #edit-field-date-0-value-timeEntry-popup-1-wrapper .description,
 .page-content #edit-field-date-0-value2-datepicker-popup-0-wrapper .description,
 .page-content #edit-field-date-0-value2-timeEntry-popup-1-wrapper .description {
-	width: 100px;
-	right: 0px !important;
+  width: 100px;
+  right: 0px !important;
 }
 
 
@@ -126,7 +132,7 @@ input[value="Speichern"]:hover {
 .node-type-project #node-form .tabledrag-processed tbody tr:last-child input { margin-left:40px !important; }
 
 
-	
+  
 /* ========== User-Konto Navigation ============ */
 .page-user #page-tools #secondary-tabs ul { width: 600px; }
 .page-user #page-tools #secondary-tabs li { margin: 0 28px; }
@@ -142,7 +148,7 @@ input[value="Speichern"]:hover {
 
 
 #page-tools .tabs #block-menu-features.block ul.menu li a.active_trail {
-    background: none repeat scroll 0 0 #7E2B97 !important;    
+    background: none repeat scroll 0 0 #7E2B97 !important;
     color: #FFFFFF !important;
     text-shadow: none;
     -webkit-border-radius: 0px;
@@ -180,6 +186,131 @@ div.content .field-type-content-taxonomy ul {
 }
 
 .node div.content ul.links {
-	display: table-row-group !important;
+ /* display: table-row-group !important; */
 }
 
+/* --------------- Module flags ----------------------------------- */
+div.content div.field-field-participants {
+  padding: 0 0 0 0 !important;
+}
+
+div.content div.field-field-orglocation {
+  padding: 0 0 0 0 !important;
+}
+
+div.content div.field-field-date {
+  margin: -1em 0 0 0 !important;
+}
+
+div.content div.field-field-participants .view-content {
+  display: table-row-group !important;
+}
+
+div.content div.field-field-participants .view-content .views-row {
+  display: inline !important;
+}
+
+div.content div.field-field-participants .view-content .views-row span.username a {
+  font-weight: normal !important;
+  padding-right: 7px;
+}
+
+/*view transformation for teilnehmer flags*/
+div.content div.field-field-participants .view-header {
+  padding: 0 5px;
+  width: 150px !important;
+  display: block;
+  float: left;
+  margin: 0 10px 5px 0;
+  background: #ECF4F8;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px
+}
+
+/*text transforms Teilnehmer header in view definiert*/
+div.content div.field-field-participants .view-header p {
+  font-size: 10px !important;
+  color: #333;
+}
+
+
+div.content div.field-field-participants div.picture img {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+div.content div.views-row {
+  float: left;
+}
+
+div.content div.field-field-eventteaser {
+  /* float: none; kann was kaputt machen*/ 
+}
+
+div.content div.field-field-participants .view-empty, .spaces-empty, p {
+  color: #333;
+  font-size: 11px;
+  text-align: left;
+  line-height: 11px;
+  padding: 0px;
+}
+
+div.content .view-flag-termin-teilnahme .view-footer {
+  margin: 5px 0 5px 165px;
+}
+
+/* div.content .flag.unflag-action.flag-link-normal ------ fuer unflag button */
+div.content a.flag-link-normal {
+  margin: 10px 0 0 170px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #fff;
+  background: #666 url(images/sprite_bleeds.png) 0px -400px repeat-x;
+  text-shadow: #444 0px 1px 0px;
+  border: 1px solid #555;
+  border-color: #555 #555 #333;
+  margin-left: 5px;
+  padding: 4px 9px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: auto;
+}
+
+/* -------- visibility for single users now hidden #367 ------------------ */
+#nodeaccess-grants-form div.search-form {
+  display: none !important;
+}
+
+/* --- hides descriptive text for drop zone due to translation incompatibility --- */
+div.drop-zone p {
+  display: none;
+}
+
+div.drop-zone:after {
+  display: block;
+  font-size: 11.2px;
+  line-height: 14.8px;
+  content: "Ziehen Sie Dateien auf dieses Feld um sie schnell und einfach hochzuladen.";
+  color: #999;
+}
+
+
+/* ------------ page numbers footer ----------- */
+.pager li a.active {
+    font-size: 12px !important;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.item-list ul li, .prose .item-list li, .menu li {
+padding: 0px;
+}
+
+
+/* ----------- refs #384 line height zu klein fuer proj ueberschriften ------ */
+.og-context #page-tools .og-description {
+  line-height: 19.8px !important;
+}
