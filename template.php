@@ -5,7 +5,7 @@ function dlr_oa_node_more_link($node) {
 }
 
 /* needs workaround, tags/terms are wirtten in "content" by the
- * gingko preprocessing function. I need a function deleting the
+ * ginkgo preprocessing function. I need a function deleting the
  * already nested html-tags out of $vars content
  */                                                                                                                                                                                                                                           
 function dlr_oa_preprocess_node(&$vars) {

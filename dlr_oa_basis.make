@@ -367,3 +367,6 @@ libraries[tinymce][directory_name] = "tinymce"
 
   projects[util][subdir] = "contrib"
   projects[util][version] = "3.1"
+
+  projects[override_node_options][subdir] = "contrib"
+  projects[override_node_options][version] = "1.12"  
