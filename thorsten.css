@@ -311,6 +311,6 @@ padding: 0px;
 
 
 /* ----------- refs #384 line height zu klein fuer proj ueberschriften ------ */
-#page-tools p.og-description {
+.og-context #page-tools .og-description {
   line-height: 19.8px !important;
 }
