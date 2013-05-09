@@ -56,7 +56,7 @@
 .node .links .comment_new_comments  > a:before { content: " | "; }
 .node .links .comment_comments  > a:before { content: " | "; }
 /* ------ Blog: Hide of print link according #385----- */
-.node .links .print { display: none; }
+.node .links .print { display: none !important; }
 /* comment_forbidden analog, ist aber wengen linkfarbe in node.tpl.php als hardcoded geloest */
 .node .links .node_read_more > a:before { content: " | "; } 
 /* ---- hide flags link under blog -------- */
