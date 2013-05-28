@@ -246,9 +246,16 @@ div.content div.field-field-participants div.picture img {
   padding-bottom: 5px;
 }
 
-div.content div.views-row {
-  float: left;
-}
+div.content div.views-row { 
+ float: left;
+ /* hat bei group-filesystem ansicht zerschossen quickfix untendrunter; beobachten ob es weiterhin probleme macht */
+ } 
+
+ /*quickfix group-filesystem*/
+ div.content div.atrium-folders-navigator div.views-row {
+ float: none;
+ }
+
 
 div.content div.field-field-eventteaser {
   /* float: none; kann was kaputt machen*/ 
