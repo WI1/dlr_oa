@@ -2,6 +2,22 @@
 /* orange #EEE */
 /* this stylesheet mainly provides format for generic elements or standard drupal classes, for site specific classes see custom.css */
 
+/* <<<<<<<<<<<<<<<<<<<<<<<< MODIFICATION TS REDESIGN 2013 >>>>>>>>>>>>>>>>> *
+ * 				sind wie folgt ausgezeichnet:								*
+ *																			*
+ *					/* TBS-CHANGE2013 *									  	*
+ *											Test							*
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#content {
+	width: 680px; /* TBS-CHANGE2013 */
+}
+
+#right {
+	width: 220px; /* TBS-CHANGE2013 */
+}
+
+
 /*** TEMP!!! ***/
 #navigation #search-theme-form {
 	float: right;
@@ -59,14 +75,37 @@ input, select, textarea, body {
 	h4,h5,h6 { margin-top: 1em; margin-bottom: 0.4em; }
 	body #project-sidebar .block h2, body .block .view-header, body #project-sidebar .block h2 a { background: none !important; }
 	#main-squeeze h1,#main-squeeze h2,#main-squeeze h3,#main-squeeze h4,#main-squeeze h5,#main-squeeze h6 { color: #404040 !important; }	
-	h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.node h1 a ,.node h2 a, .node h3 a ,.node h4 a { color: #404040 !important; }
-	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { color: #7E2B97 !important; } /*changed to no hover effect*/
+	h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.node h1 a ,.node h2 a, .node h3 a ,.node h4 a { 
+		/*color: #404040 !important; */
+		color: #441a4d !important; /* TBS-CHANGE2013 */
+		font-weight: 400; /* TBS-CHANGE2013 */
+	}
+	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { 
+		color: #7E2B97 !important;
+	} /*changed to no hover effect*/
 	
 	/* Page Title */
-	#page-tools .page-title, #page .node-title, #context-block-region-content .node-title { height: auto !important; font-size: 18px; font-weight: bold; line-height: 21.6px}
-  #page .view-content h2.node-title, #context-block-region-content .view-content h2.node-title { text-transform: none; font-size: 18px;}
-  #page .view-content h2.node-title a, #context-block-region-content .view-content h2.node-title a { font-size: 18px; }
-  #page-tools h2.node-title { font-size: 18px !important; font-weight: 700 !important; text-transform: uppercase !important;}
+	#page-tools .page-title, #page .node-title, #context-block-region-content .node-title { 
+		height: auto !important;
+		font-size: 18px; 
+		font-weight: bold;
+		color: #441a4d; /* TBS-CHANGE2013 */
+		line-height: 26px; /* TBS-CHANGE2013 */
+		padding-bottom: 4px; /* TBS-CHANGE2013 */
+		border-bottom: 1px solid #441a4d; /* TBS-CHANGE2013 */
+	}
+  #page .view-content h2.node-title, #context-block-region-content .view-content h2.node-title { 
+  	text-transform: none; 
+  	font-size: 22px; /* TBS-CHANGE2013 */
+  }
+  #page .view-content h2.node-title a, #context-block-region-content .view-content h2.node-title a { 
+  	font-size: 22px; /* TBS-CHANGE2013 */
+  }
+  #page-tools h2.node-title { 
+  	font-size: 22px !important; /* TBS-CHANGE2013 */
+  	font-weight: 700 !important; 
+  	text-transform: uppercase !important;
+  }
   
   
   .views-table .views-field.title a { font-size: 13px; }
@@ -205,6 +244,12 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
     
 	.page-region .block .block-content { background: 0; border: 0; }
 	.block, .item-list { border: 0; }
+	#right .page-region .block-title {
+		color: #ffffff; /* TBS-CHANGE2013 */
+		background-color: #441a4d !important; /* TBS-CHANGE2013 */
+		text-shadow: none; /* TBS-CHANGE2013 */
+		padding: 4px !important; /* TBS-CHANGE2013 */
+	}
  
 
 /* Nodes */
