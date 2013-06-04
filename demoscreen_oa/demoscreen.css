@@ -10,7 +10,8 @@
 }
 
 #navigation {
-   background-image: url("img/menuhintergrund.jpg"); 
+   background-image: url("img/menuhintergrund2.jpg") !important;
+   -webkit-box-shadow: 0px 4px 10px #545454; /* webkit browser*/ -moz-box-shadow: 0px 4px 10px #545454; /* firefox */ box-shadow: 0px 4px 10px #545454;
 }
 
 #navigation a.logo {

@@ -53,7 +53,7 @@ a {
 
 
 body #header .block-widget .block-content,
-body #header .block .block-title { background-color:#399048; }
+body #header .block .block-title { background-color: white; }
 
 body .page-region .block .block-title {
   background-color:#cce0cf;
@@ -193,8 +193,8 @@ table th { text-shadow:#fff 0px 1px 0px; }
     }
 
   #header .block-toggle .toggle-active {
-    background-color:#fff !important;
-    color:#333 !important;
+    background-color: #404040 !important;
+    color:#fff !important;
     -moz-border-radius:3px 3px 0px 0px;
     -webkit-border-radius:3px 3px 0px 0px;
     }
@@ -204,6 +204,10 @@ table th { text-shadow:#fff 0px 1px 0px; }
     right:auto;
     -moz-border-radius:0px 5px 5px 5px;
     -webkit-border-radius:0px 5px 5px 5px;
+    }
+    
+    .dropdown-blocks .block-toggle .block-content {
+      border: 5px solid #404040 !important;
     }
 
 /* Account block */
@@ -289,14 +293,14 @@ body.logged-in #block-atrium-account .block-title {
  * Navigation =========================================================
  */
 #navigation {
-  background-position:0px -40px;
+  /*background-position:0px -40px; vorher so*/
   background-repeat:repeat-x;
   position:relative;
   z-index:2;
   }
 
   #navigation .limiter {
-    padding-top:20px;
+    padding-top:80px; /*vorher 20px*/
     height:50px;
     }
 
@@ -317,8 +321,8 @@ body.logged-in #block-atrium-account .block-title {
 #space-tools .block-title { color:#fff; }
 
   #space-tools .toggle-active {
-    background-color:#fff !important;
-    color:#333;
+    background-color:#404040 !important;
+    color: white !important;
     }
 
 /**

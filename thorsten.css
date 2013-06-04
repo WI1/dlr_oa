@@ -248,8 +248,15 @@ div.content div.field-field-participants div.picture img {
   padding-bottom: 5px;
 }
 
+
 div.content div.views-row {
-  float: left;
+  float: left; /* hat bei group-filesystem ansicht zerschossen
+  quickfix untendrunter */
+}
+
+/*quickfix group-filesystem*/
+div.content div.atrium-folders-navigator div.views-row {
+  float: none;
 }
 
 div.content div.field-field-eventteaser {
@@ -265,7 +272,7 @@ div.content div.field-field-participants .view-empty, .spaces-empty, p {
 }
 
 div.content .view-flag-termin-teilnahme .view-footer {
-  margin: 5px 0 5px 165px;
+  margin: 5px 0 5px 165px; 
 }
 
 /* div.content .flag.unflag-action.flag-link-normal ------ fuer unflag button */
@@ -273,7 +280,7 @@ div.content a.flag-link-normal {
   margin: 10px 0 0 170px;
   font-size: 11px;
   font-weight: bold;
-  color: #fff;
+  color: black;
   background: #666 url(images/sprite_bleeds.png) 0px -400px repeat-x;
   text-shadow: #444 0px 1px 0px;
   border: 1px solid #555;
