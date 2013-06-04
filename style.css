@@ -664,7 +664,7 @@ body.page-access-denied .access-denied { background-image:url(images/403.png); }
     }
 
 /**
- * Secondary tabs =====================================================
+ * Secondary tabs =======================================================
  */
 #secondary-tabs {
   background:#fff url(images/sprite_bleeds.png) 0px -360px repeat-x;
