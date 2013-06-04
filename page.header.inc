@@ -33,16 +33,15 @@
     <?php endif; ?>
   </div></div>
   <?php if ($primary_links): ?>
-  <div id='navigation'><div class='limiter clear-block container_12'>
+  <div id='navigation'>
+    <div class='limiter clear-block container_12'>
     <?php print $logo ?>
-    <?php if (isset($secondary_links)): ?><?php print theme('links', $secondary_links, array('id' => 'main-menu', 'class' => 'links primary-links')) ?><?php endif;?>
-    <?php 
-        //  $block = drupal_get_form('atrium_search_form');
-        //  $block = '<div id="search" class="container-inline">'.$block.'</div>';
-        //  print $block;   
-     ?>
     <?php if ($search_box): ?><?php print $search_box ?><?php  endif; ?>
-  </div></div>
+    </div>
+    <div id='primaerlinks' class='container_12'>
+      <?php if (isset($secondary_links)): ?><?php print theme('links', $secondary_links, array('id' => 'main-menu', 'class' => 'links primary-links')) ?><?php endif;?>
+    </div>
+  </div>
   <?php endif; ?>
   
   <div id='page-tools'><div class='limiter clear-block container_12'>

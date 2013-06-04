@@ -99,13 +99,14 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 
 /* Search */
 /*#search { float: right; display: block; margin: 0; box-shadow: 2px 1px 1px #DDDDDD; }*/
-#search, #search-block-form { background: url(img/bg/search.png) no-repeat !important; width: 230px; height: 30px;  }
+#search, #search-block-form { background: url(img/bg/search.jpg) no-repeat !important; width: 220px; height: 40px;  }
 #search label { display: none; }
-#edit-search-theme-form-1-wrapper { float: left; display: inline-block; margin: 0; padding: 0; width: 200px; }
-#edit-search-theme-form-1 { border: none !important; line-height: 22px !important; background: transparent !important; font-size: 16px !important; color: #404040; width: 185px; margin: 4px 0 0 5px !important; padding: 0; height: 22px !important; }
+#edit-search-theme-form-1-wrapper { float: left; display: inline-block; margin: 0; padding: 10px 0px 0px 40px; width: 160px; }
+#edit-search-theme-form-1 { border: none !important; line-height: 22px !important; background: transparent !important; font-size: 16px !important; color: #404040; width: 185px; padding: 0; height: 22px !important; }
 #edit-search-wrapper, #edit-search-1-wrapper { float: left; display: inline-block; margin: 0; padding: 0; width: 200px; }
 #edit-search, #edit-search-1{ border: none !important; line-height: 22px !important; background: transparent !important; font-size: 16px !important; color: #404040; width: 185px; margin: 4px 0 0 5px !important; padding: 0; height: 22px !important; }
-#search .form-submit { display: block !important; background: transparent !important; width: 30px !important; height: 30px !important; margin: 0 !important; padding: 0 !important; border: 0 !important; text-indent: 900px; overflow: hidden; cursor: pointer; /*visibility:hidden*/ -webkit-box-shadow: none;}
+#search .form-submit { background: transparent !important; width: 30px !important; height: 30px !important; margin: 5px 0px 0px -195px !important; padding: 0 !important; border: 0 !important; text-indent: 900px; overflow: hidden; cursor: pointer; /*visibility:hidden*/ -webkit-box-shadow: none;}
+#search { margin: -5px 0px 0px 10px !important;}
 
 body.page-search div.box { margin: 0, padding: 0; background: none; border: 0; }
 body.page-search div.box-content { padding: 0 }
@@ -125,15 +126,29 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
     ul#main-menu {width: auto; float: left; margin-bottom: 0; }	
 	
 	/* Erste Ebene */
-	ul#nice-menu-1 li, ul#main-menu li { background: none !important; border: none; border-right: #fff 1px solid; line-height: 25px; }
+	ul#nice-menu-1 li, ul#main-menu li { 
+      background: none !important;
+      border: none;
+      /*border-right: #000 1px solid;*/
+      line-height: 50px;
+  }
 	ul#nice-menu-1 li a, ul#main-menu li a { 
-		background: none; text-indent: 0; color: #fff;
-		font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: normal;
-		height: auto; padding: 0 19px 0 0; margin: 0 0 0 20px;
-		width: auto; text-transform: none;
+      background: none;
+      text-indent: 0;
+      color: #441a4d;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      height: auto;
+      padding: 0px;
+      margin-right: 30px;
+      width: auto;
+      text-transform: none;
 	}
-	ul#nice-menu-1 li a:hover, ul#main-menu li a:hover { text-decoration: underline; }
-	ul#nice-menu-1 li a.active, ul#main-menu li a.active  { color: #333; }
+	ul#nice-menu-1 li a:hover, ul#main-menu li a:hover { text-decoration: none; color: #b53b82; }
+	ul#nice-menu-1 li a.active, ul#main-menu li a.active  { color: #b53b82; 
+                                                          /* muss noch geandert werden;
+                                                          farbe fuer navigation active*/}
 	
 	/* Zweite Ebene */
 	ul#nice-menu-1 li ul, ul#main-menu li ul { padding: 0 !important; margin: 5px 0 0 20px !important; border: none !important; }

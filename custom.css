@@ -383,7 +383,8 @@ div.content .field-type-content-taxonomy ul li:last-child:after {
  
 
 .og-context #page-tools .group-logo {
- margin-top: 16px;
+ margin-top: -50px;
+ float: left;
 }
 
 /*****************************/
@@ -1743,10 +1744,34 @@ div.node {
 	border-radius: 5px 0 5px 5px;
 }
 
-body #header .block-widget .block-content, body #header .block .block-title {
+body #header .block-widget .block-content {
     background-color: #404040;
     color: white;
 }
+
+ body #header .block .block-title, body #space-tools .block-title {
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    margin-left: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+body #header .block .block-title {
+    height: 27px !important;
+}
+
+body #header .block .block-title div.picture img {
+  /* profilbild wenn logged in verkleinern*/
+    width: 18px !important;
+    height: 18px !important;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+
+
 
 /*************************/
 /***** BALANCE BAR  ******/
@@ -1754,7 +1779,9 @@ body #header .block-widget .block-content, body #header .block .block-title {
 
 #global {
 height: 42px;
-background: #404040 !important;
+background: #fff !important;
+color: #000 !important;
+font-weight: bold;
 }
 
 #global .breadcrumb {
@@ -1770,7 +1797,7 @@ background: #404040 !important;
   float: left;
   text-indent:-999px;
   overflow:hidden;
-  margin-top: -15px;
+  margin-top: -25px; /*vorher -15*/
 
   width: 200px;
   height:60px;
@@ -1785,7 +1812,7 @@ background: #404040 !important;
   float: left;
   text-indent:-999px;
   overflow:hidden;
-  margin-top: -15px;
+  margin-top: -30px; /*vorher -15*/
 
   width: 220px;
   height:60px;
@@ -1859,10 +1886,10 @@ h2.node-title {
 }
 
 body #space-tools .block-title, body #header .block-widget .block-content, body #header .block .block-title{
-	/*background-color: transparent!important;
-	color: #fff !important; */
-	font-size: 16px;
-	font-weight: normal!important;
+	background: transparent !important;
+	color: black !important;
+	font-size: 11px;
+
 }
 
 .dropdown-blocks .block .block-title {
@@ -2000,7 +2027,7 @@ table th {
 
 #right .context-links a {
     font-size:11px;
-    font-weight:bold;
+    font-weight:bold;sprirte
     color:#fff;
     background:#666 url(images/sprite_bleeds.png) 0px -400px repeat-x;
     text-shadow:#444 0px 1px 0px;
