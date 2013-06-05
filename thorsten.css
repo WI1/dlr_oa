@@ -325,3 +325,53 @@ padding: 0px;
 .og-context #page-tools .og-description {
   line-height: 19.8px !important;
 }
+
+
+
+/*==============Changes Waldemar==================== */
+
+#footer p { 		
+	color: #FFFFFF;
+	font-size: 12pt;
+}
+
+#footer {
+	background-color: #4e2158;
+}
+
+#footer #block-block-5{			/*Verlaufsbild oberhalb*/
+	background: (#4E2158) url("/sites/dlr.wi1projects.com/files/u940/footer_verlauf.jpg") repeat-x scroll 0 0;	/*<--Adresse ändern*/
+	padding-top: 18px;		
+}
+
+#footer #block-block-5 a {   
+	color: #FFFFFF;
+}
+
+#footer #block-block-5 img {		/*Icons nach oben und links verschieben*/
+	margin-top: -25px;  		
+	margin-right: 10px;  
+}
+
+#footer .block-content  a:hover{
+	color: #FFFFFF;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#block-boxes-foerderleiste{		
+	background-color: #4E2158;
+	padding-bottom: 15px;
+}
+
+#footer #block-boxes-foerderleiste a { 
+    color: #FFFFFF;
+}
+
+.sponsoren {
+	background-color: #fff;
+	margin-top: -10px;
+	padding-top: 13px;	/*Padding um 20px erweitern damit Höhe von 80 auf 100px erhöht wird. Auswahl um mittig auszurichten. */
+	padding-bottom: 7px;	
+
+}
