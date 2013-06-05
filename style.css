@@ -189,15 +189,23 @@ table th { text-shadow:#fff 0px 1px 0px; }
   #header .block-toggle .block-title {
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
-    background:transparent;
+     background-color: white !important;
     }
 
-  #header .block-toggle .toggle-active {
+   #header .block-toggle .toggle-active {
     background-color: #404040 !important;
     color:#fff !important;
     -moz-border-radius:3px 3px 0px 0px;
     -webkit-border-radius:3px 3px 0px 0px;
+    } 
+    
+  
+   #header .block-title {
+    background-color: white!important;
+    color: black !important;
     }
+
+
 
   #header .block-toggle .block-content {
     left:0px;
@@ -478,13 +486,16 @@ span.feature-atrium_home { background-position:-120px 100%; }
 span.feature-atrium_members { background-position:-140px 100%; }
 span.feature-atrium_shoutbox { background-position:-160px 100%; }
 
-#block-atrium-admin_links span.icon { background:url(images/sprite_icons.png) -20px -400px no-repeat; }
-#block-atrium-admin_links .toggle-active span.icon { background-position:-20px -420px; }
-#block-atrium-create span.icon { background:url(images/sprite_icons.png) 0px -400px no-repeat; }
-#block-atrium-create .toggle-active span.icon { background-position:0px -420px; }
-#block-atrium-search span.icon { background:url(images/sprite_icons.png) -40px -400px no-repeat; }
-#block-atrium-search .toggle-active span.icon { background-position:-40px -420px; }
+#block-atrium-admin_links span.icon { background:url(images/sprite_icons.png) -20px -420px no-repeat; }
+#block-atrium-admin_links .toggle-active span.icon { background-position:-20px -400px; }
+#block-atrium-create span.icon { background:url(images/sprite_icons.png) 0px -420px no-repeat; }
+#block-atrium-create .toggle-active span.icon { background-position:0px -400px; }
+#block-atrium-search span.icon { background:url(images/sprite_icons.png) -40px -420px no-repeat; }
+#block-atrium-search .toggle-active span.icon { background-position:-40px -400px; }
 
+#block-atrium-account .block-title .toggle-active { background-color: #404040 !important; color: white !important;}
+#block-atrium-create .block-title .toggle-active { background-color: #404040 !important; color: white !important;}
+#block-atrium-admin-links .block-title .toggle-active { background-color: #404040 !important; color: white !important;}
 /**
  * Error pages ========================================================
  */
