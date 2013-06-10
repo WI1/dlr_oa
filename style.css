@@ -265,7 +265,11 @@ body.logged-in #block-atrium-account .block-title {
     width:20px;
     }
 
-  #global .breadcrumb span.link-0 a { background-position:0px -265px; }
+  #global .breadcrumb span.link-0 a { 
+    background-position:0px 0px;
+    background-image: url("img/Logo_Foerderschwerpunkt_breadcrumb.png");  
+    width: 300px;
+   }
 
   #global .breadcrumb span.space { padding-left:5px; }
   #global .breadcrumb span.space a.private { background-position:-40px -265px; }
@@ -293,6 +297,7 @@ body.logged-in #block-atrium-account .block-title {
   -moz-border-radius:10px;
   -webkit-border-radius:10px;
   padding:0px 10px;
+  color: #FFFFFF;
   }
 
   #footer ul.links a:hover { /*background:#fff;*/ }
