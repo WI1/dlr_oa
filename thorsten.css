@@ -375,3 +375,16 @@ padding: 0px;
 	padding-bottom: 7px;	
 
 }
+
+#loginlink {
+  padding-top: 8px;
+}
+
+#loginlink a {
+  color: black !important;
+}
+
+#loginlink a:hover {
+  color: black !important;
+  text-decoration: underline !important;
+}

@@ -22,12 +22,18 @@
   <?php if ($messages): ?><div id='messages'><?php print $messages; ?></div><?php endif; ?>
     
   <div id='global'><div class='limiter clear-block container_12'>
-    <?php print $breadcrumb ?>
-      <?php if ($header && $user->uid): ?>
+    <?php if(!$is_front) print $breadcrumb ?>
+      
       <div id='header' class='dropdown-blocks toggle-blocks clear-block'>
+         <?php if ($header && $user->uid): ?>
          <?php print $header ?>
+         <?php else: ?>
+           <div id="loginlink">
+                <a href='./user/login'>Login</a>
+           </div>
+         <?php endif; ?>
        </div>
-    <?php endif; ?>
+    
     <?php if ($space_tools): ?>
       <div id='space-tools'><div class='dropdown-blocks toggle-blocks clear-block'><?php print $space_tools ?></div></div>
     <?php endif; ?>
