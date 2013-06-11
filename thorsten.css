@@ -408,7 +408,7 @@ div.view-content h2.node-title {
   border: none !important;
 }
 
-#space-tools .clear-block:after {
+#space-tools .clear-block > after {
   content: none;
 }
 
