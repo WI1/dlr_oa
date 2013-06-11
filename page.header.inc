@@ -22,7 +22,7 @@
   <?php if ($messages): ?><div id='messages'><?php print $messages; ?></div><?php endif; ?>
     
   <div id='global'><div class='limiter clear-block container_12'>
-    <?php print $breadcrumb ?>
+    <?php if (!$is_front) { print $breadcrumb; } ?>
       <?php if ($header && $user->uid): ?>
       <div id='header' class='dropdown-blocks toggle-blocks clear-block'>
          <?php print $header ?>
