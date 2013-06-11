@@ -245,8 +245,7 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 	.page-region .block .block-content { background: 0; border: 0; }
 	.block, .item-list { border: 0; }
 	#right .page-region .block-title {
-		color: #ffffff; /* TBS-CHANGE2013 */
-		background-color: #441a4d !important; /* TBS-CHANGE2013 */
+		color: black; /* TBS-CHANGE2013 */
 		text-shadow: none; /* TBS-CHANGE2013 */
 		padding: 4px !important; /* TBS-CHANGE2013 */
 	}
