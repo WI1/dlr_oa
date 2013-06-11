@@ -102,7 +102,7 @@ input, select, textarea, body {
 	#main-squeeze h1,#main-squeeze h2,#main-squeeze h3,#main-squeeze h4,#main-squeeze h5,#main-squeeze h6 { color: #404040 !important; }	
 	h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.node h1 a ,.node h2 a, .node h3 a ,.node h4 a { 
 		/*color: #404040 !important; */
-		color: #441a4d !important; /* TBS-CHANGE2013 */
+		color: #84389C !important; /* TBS-CHANGE2013 */
 		font-weight: 400; /* TBS-CHANGE2013 */
 	}
 	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { 
@@ -114,10 +114,10 @@ input, select, textarea, body {
 		height: auto !important;
 		font-size: 18px; 
 		font-weight: bold;
-		color: #441a4d; /* TBS-CHANGE2013 */
+		color: #84389C; /* TBS-CHANGE2013 */
 		line-height: 26px; /* TBS-CHANGE2013 */
 		padding-bottom: 4px; /* TBS-CHANGE2013 */
-		border-bottom: 1px solid #441a4d; /* TBS-CHANGE2013 */
+		border-bottom: 1px solid #84389C; /* TBS-CHANGE2013 */
 	}
   #page .view-content h2.node-title, #context-block-region-content .view-content h2.node-title { 
   	text-transform: none; 
