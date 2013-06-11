@@ -22,13 +22,8 @@
   <?php if ($messages): ?><div id='messages'><?php print $messages; ?></div><?php endif; ?>
     
   <div id='global'><div class='limiter clear-block container_12'>
-<<<<<<< HEAD
     <?php if(!$is_front) print $breadcrumb ?>
       
-=======
-    <?php if (!$is_front) { print $breadcrumb; } ?>
-      <?php if ($header && $user->uid): ?>
->>>>>>> d34612a53e842b7fbdf4e41114817d5ba1071799
       <div id='header' class='dropdown-blocks toggle-blocks clear-block'>
          <?php if ($header && $user->uid): ?>
          <?php print $header ?>
