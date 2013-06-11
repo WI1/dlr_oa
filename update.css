@@ -43,6 +43,31 @@ input, select, textarea, body {
     font-size: 13.2px;
 }
 
+/* Projects-Overview: New Logo; */
+#page .page-content .view-dlr-groups-fg-projects .view-content h3.grid-title { /* TBS-CHANGE2013 */
+	position: relative;
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background-image: url(img_redesign2013/focusgroups_inkl_text/Fokusgruppe-inklText-AltersheterogeneInnovation.jpg) !important;
+	background-repeat: no-repeat;
+	width: 425px;
+	height: 68px;
+	margin-top: 60px;
+}
+
+/* Projects-Overview: New Alignment; */
+#page .page-content .view-dlr-groups-fg-projects .view-content table.views-view-grid, 
+#page .page-content .view-dlr-groups-fg-projects .view-content table.grid-5 { /* TBS-CHANGE2013 */
+	margin-left: 82px;
+	width: 60%;
+}
+
+/* Projects-Overview: No Subtitle for Logos */
+#page .page-content .view-dlr-groups-fg-projects .view-content .grid-item .title { /* TBS-CHANGE2013 */
+	display: none;
+}
 
 
 #page { padding: 0; width: 100%; overflow: hidden; margin: 0 auto; border: none; background: #fff url(img/bg/symbol.jpg) right no-repeat; }

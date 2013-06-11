@@ -390,6 +390,7 @@ padding: 0px;
   text-decoration: underline !important;
 }
 
+
 /*Termine lila Hintergrund*/
 .page-region .cols-3 thead th {
 background-color: #84389C;
@@ -402,3 +403,8 @@ border-top: none;
 #block-admin-devel {
 border-radius: 0;
 }
+
+div.view-content h2.node-title {
+  border: none !important;
+}
+
