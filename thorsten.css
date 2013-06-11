@@ -412,3 +412,7 @@ div.view-content h2.node-title {
 	background-color: transparent !important;	
 }
 
+#space-tools .field_projectlogo_fid img {
+  padding-left: 3px;
+  padding-right: 3px;
+}
