@@ -295,7 +295,7 @@ div.content .flag-eventteilnahme a.flag-link-normal {
 }
 
 div.content .flag-eventteilnahme a.flag-link-normal:hover {
-  color: white;
+  color: white !important;
 }
 
 
