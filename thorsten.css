@@ -13,7 +13,7 @@
 /* ========== NAVIGATION ========== */
 /*------ breadcrumb:; explicit width ----- */
 #global .breadcrumb {
-  width: 400px;
+  width: 230px;
 }
 
 /* ----- breadcrumb: hide of elements ----- */
@@ -404,19 +404,25 @@ border-top: none;
 border-radius: 0;
 }
 
+/* entfernt haarlinien unter h2 ueberschriften im blog*/
 div.view-content h2.node-title {
   border: none !important;
 }
 
+/* mini logos ueber dem header*/
 #space-tools .block-widget .block-content {
 	background-color: transparent;
 }
 
+/* mini logos ueber dem header bugfix */
+.dropdown-blocks .block-toggle .block-content {
+  background: #F8F8F8 !important;
+}
+
+/* mini logos ueber dem header abstand zw. bildern*/
 #space-tools .field_projectlogo_fid img {
   padding-left: 3px;
   padding-right: 3px;
 }
 
-.dropdown-blocks .block-toggle .block-content {
-  background: #F8F8F8 !important;
-}
+
