@@ -29,7 +29,10 @@
          <?php print $header ?>
          <?php else: ?>
            <div id="loginlink">
-                <a href='./user/login'>Login</a>
+           <?php 
+               $loginlink = $GLOBALS['base_url'] . '/user/login'; 
+               echo "<a href=".$loginlink.">Login</a>";
+           ?>
            </div>
          <?php endif; ?>
        </div>
