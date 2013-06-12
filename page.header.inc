@@ -21,8 +21,9 @@
 
   <?php if ($messages): ?><div id='messages'><?php print $messages; ?></div><?php endif; ?>
     
-  <div id='global'><div class='limiter clear-block container_12'>
-    <?php if(!$is_front) print $breadcrumb ?>
+  <div id='global'><div class='limiter clear-block container_12'>   
+    <?php $active_space = spaces_get_space(); // damit breadcrumb auch auf projektseite angezeigt wird?>
+    <?php if(!$is_front || $active_space->type == "og") print $breadcrumb ?>
       
       <div id='header' class='dropdown-blocks toggle-blocks clear-block'>
          <?php if ($header && $user->uid): ?>
