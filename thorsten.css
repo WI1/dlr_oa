@@ -294,6 +294,10 @@ div.content .flag-eventteilnahme a.flag-link-normal {
   color: white;
 }
 
+div.content .flag-eventteilnahme a.flag-link-normal:hover {
+  color: white;
+}
+
 
 /* -------- visibility for single users now hidden #367 ------------------ */
 #nodeaccess-grants-form div.search-form {
