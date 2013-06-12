@@ -290,6 +290,11 @@ div.content a.flag-link-normal {
   width: auto;
 }
 
+div.content .flag-eventteilnahme a.flag-link-normal {
+  color: white;
+}
+
+
 /* -------- visibility for single users now hidden #367 ------------------ */
 #nodeaccess-grants-form div.search-form {
   display: none !important;
