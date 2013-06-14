@@ -2250,10 +2250,11 @@ display: none;
   /*width: 50px;*/
   /*border-right: 1px solid #ccc;*/
   /*padding: 0 6px 0 0; VORHER*/
-  padding: 2px 191px 2px 5px;
-  border-bottom: 10px solid #fff;
+  padding: 3px 0px 3px 5px;
+  /*border-bottom: 10px solid #fff;*/
   background-color: #84389C;
-  display: inline;
+  display: block;
+  width: 99%;
 }
 
 .block-content .view-event-listing .date-display-end {
