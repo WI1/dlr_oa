@@ -555,11 +555,13 @@ body.node-type-project .field.terms,
 .comment { padding: 10px; }
 .field-field-smallteaser, .field-field-eventteaser { padding: 3px 20px 0 0 !important; }
 
+/* Block rechte Seitenleiste, Blocknummer kann wechseln!*/
+#block-block-6 { background: none !important; }
+
 /* Card */
 .card { background: none !important; border: none !important; }
 
 /* Footer */
-#block-block-6 { background: #e5e5e5; padding-top: 10px; }
 #block-menu-secondary-links { background: #EEE; }
 #block-menu-secondary-links li { border: none !important; padding-left: 0 !important; }
 #block-menu-secondary-links a { color: #404040 !important; }
