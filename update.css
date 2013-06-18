@@ -194,7 +194,11 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 
 	/* allgemein */
 	#block-nice_menus-1 { width: 710px !important; float: left !important; }	
-    ul#main-menu {width: auto; float: left; margin-bottom: 0; }	
+    ul#main-menu {
+    	width: auto; 
+    	float: left; 
+    	margin-bottom: 6px;
+    }	
 	
 	/* Erste Ebene */
 	ul#nice-menu-1 li, ul#main-menu li { 
