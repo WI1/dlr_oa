@@ -121,6 +121,11 @@ input, select, textarea, body {
 		padding-bottom: 4px; /* TBS-CHANGE2013 */
 		border-bottom: 1px solid #84389C; /* TBS-CHANGE2013 */
 	}
+
+	#content .page-region .node-blog h2.node-title {
+		line-height: 26px; /* TBS-CHANGE2013 */
+	}
+
   #page .view-content h2.node-title, #context-block-region-content .view-content h2.node-title { 
   	text-transform: none; 
   	font-size: 22px; /* TBS-CHANGE2013 */
