@@ -47,14 +47,11 @@ input, select, textarea, body {
 #page .page-content .view-dlr-groups-fg-projects .view-content h3.grid-title { /* TBS-CHANGE2013 */
 	position: relative;
 	display: block;
-	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
-	background-image: url(img_redesign2013/focusgroups_inkl_text/Fokusgruppe-inklText-AltersheterogeneInnovation.jpg) !important;
-	background-repeat: no-repeat;
-	width: 425px;
-	height: 68px;
-	margin-top: 60px;
+}
+
+#focusgroup-logo a img {
+  float: left; /* display text next to fg logo*/
 }
 
 /* Projects-Overview: New Alignment; */
