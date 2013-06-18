@@ -2262,7 +2262,7 @@ display: none;
   /*width: 50px;*/
   /*border-right: 1px solid #ccc;*/
   /*padding: 0 6px 0 0; VORHER*/
-  padding: 3px 0px 3px 5px;
+  padding: 3px 0px 2px 5px;
   /*border-bottom: 10px solid #fff;*/
   background-color: #84389C;
   display: block;
@@ -2382,3 +2382,4 @@ div.exhibit-views-bubbleWithItems {
   height: 8em;
   overflow: auto;
 }
+
