@@ -292,6 +292,8 @@ div.content a.flag-link-normal {
 
 div.content .flag-eventteilnahme a.flag-link-normal {
   color: white;
+  background: url("img/Button-Hintergrund.png") no-repeat scroll 0 0 transparent;
+  border-radius: 5px;
 }
 
 div.content .flag-eventteilnahme a.flag-link-normal:hover {
@@ -434,4 +436,16 @@ div.view-content h2.node-title {
   padding-right: 3px;
 }
 
+/*Hintergrundbild Dashborad Button */
+#page-tools .context-links a {
+    background: url("img/Button-Hintergrund.png") no-repeat scroll 0 0 transparent;
+    border-radius: 5px;
+}
 
+
+/*Terminankuendigungen rechts Schriftfarbe */
+#block-views-event_listing-block_1 .views-field-date a {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
