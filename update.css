@@ -54,6 +54,12 @@ input, select, textarea, body {
   float: left; /* display text next to fg logo*/
 }
 
+#focusgroup-label {
+  /*textausrichtung neben fg-logo korrigieren*/
+  padding-top: 10px;
+  padding-left: 80px;
+}
+
 /* Projects-Overview: New Alignment; */
 #page .page-content .view-dlr-groups-fg-projects .view-content table.views-view-grid, 
 #page .page-content .view-dlr-groups-fg-projects .view-content table.grid-5 { /* TBS-CHANGE2013 */
@@ -437,7 +443,7 @@ input[type=submit] { padding: 2px 4px; }
 #field-projectemail-items .form-item { width: 400px;}
 #field-projectemail-items .form-item input { width: 400px;}
 .view-frontpage-hack .view-filters input { width: 129px; }
-legend { font-size: 14px; font-weight: bold; }
+legend { font-size: 14px; font-weight: bommld; }
 label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #404040; }
 .form-item label, label {/*overrides ginkgo settings*/  font-size: 13px; text-transform: none; color: #404040;}
 
