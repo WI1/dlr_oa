@@ -47,7 +47,6 @@ input, select, textarea, body {
 #page .page-content .view-dlr-groups-fg-projects .view-content h3.grid-title { /* TBS-CHANGE2013 */
 	position: relative;
 	display: block;
-	white-space: nowrap;
 }
 
 #focusgroup-logo a img {
