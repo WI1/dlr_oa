@@ -61,8 +61,7 @@ input, select, textarea, body {
 
 /* Projects-Overview: New Alignment; */
 #page .page-content .view-dlr-groups-fg-projects .view-content table.views-view-grid, 
-#page .page-content .view-dlr-groups-fg-projects .view-content table.grid-5,
-#page .page-content .view-dlr-groups-fg-projects .view-content table.grid-6  { /* TBS-CHANGE2013 */
+#page .page-content .view-dlr-groups-fg-projects .view-content table.grid-5  { /* TBS-CHANGE2013 */
 	margin-left: 82px;
 	width: 60%;
 }
@@ -115,8 +114,6 @@ input, select, textarea, body {
 		line-height: 26px; /* TBS-CHANGE2013 */
 		padding-bottom: 4px; /* TBS-CHANGE2013 */
 		border-bottom: 1px solid #84389C; /* TBS-CHANGE2013 */
-		position:relative; /* TBS-CHANGE2013 */
-		top: 35px; /* TBS-CHANGE2013 */
 	}
 
 	#page a #metaproject-title {
