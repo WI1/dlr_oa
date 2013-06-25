@@ -460,7 +460,7 @@ div.view-content h2.node-title {
 background-color: #84389C;
 }
 
-#footer .view-id-footer_logos.view-dom-id-11 {
+#footer .view-footer-logos.view-id-footer_logos {
 background-color: #ffffff;
 padding-left: 20px;
 }
@@ -491,9 +491,13 @@ display: none;
 #right .view-demoscreen-tweets li.pager-previous {
 background-image: url("img/arrow-left.jpg");
 background-repeat: no-repeat;
-left: 10px;
+left: 11px;
 top: 3px;
 width: 13px;
+}
+
+#right .view-demoscreen-tweets li.pager-previous.first {
+display: none;
 }
 
 #right .view-demoscreen-tweets li.pager-next {
@@ -501,7 +505,7 @@ width: 13px;
 background-image: url("img/arrow-right.jpg");
 background-repeat: no-repeat;
 top: 3px;
-right: 10px;
+right: 0px;
 }
 
 .pager.minipager.clear-block {
