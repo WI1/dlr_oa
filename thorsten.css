@@ -140,6 +140,11 @@ input[value="Speichern"]:hover {
 .page-user #page-tools #secondary-tabs li a.active { text-decoration: underline; }
 
 /* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
+.page-content .content fieldset.collapsible legend a,
+.page-content .content fieldset.collapsible.collapsed legend a {
+    color: #84389C; /* TBS-CHANGE2013 */
+    font-weight: 800; /* TBS-CHANGE2013 */
+}
 .page-content .content fieldset.collapsible.collapsed legend a { display:inline-block; }
 .page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
 .page-content .content fieldset.collapsible legend a { display:inline-block; }
@@ -460,7 +465,54 @@ background-color: #ffffff;
 padding-left: 20px;
 }
 
+<<<<<<< HEAD
 /* header correction, just group admin sees it.*/
 #block-domain_admin-0 {
   margin-top: 3px !important;
 }
+=======
+
+
+/* Twitter-Block */
+#right .pager a:hover {
+background: transparent;
+}
+
+#right .view-demoscreen-tweets li.pager-previous {
+width: 35px;
+}
+
+#right .view-demoscreen-tweets li.pager-next {
+width: 35px;
+}
+
+#right #block-views-demoscreen_tweets-block_2 .block-content caption {
+display: none;
+}
+
+#right .view-demoscreen-tweets li.pager-previous {
+background-image: url("img/arrow-left.jpg");
+background-repeat: no-repeat;
+left: 10px;
+top: 3px;
+width: 13px;
+}
+
+#right .view-demoscreen-tweets li.pager-next {
+width: 13px;
+background-image: url("img/arrow-right.jpg");
+background-repeat: no-repeat;
+top: 3px;
+right: 10px;
+}
+
+.pager.minipager.clear-block {
+border-color: #fff;
+top: 4px;
+}
+
+.block .minipager li.pager-current {
+width: 60px;
+}
+/* Twitter Block End */
+>>>>>>> a797776a0acb40233ef9b606bcd127e997e71757
