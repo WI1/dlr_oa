@@ -2203,7 +2203,7 @@ div.litecal .litecal-header {
 }
 
 div.litecal .litecal-slot .label:hover span {
-    background: #999 !important;
+    background: #d6d6d6 !important;
     color: black !important;
 }
 
@@ -2211,6 +2211,7 @@ div.litecal .litecal-slot .label span.add {
   display: none;
   padding: 0px;
   border: 0px !important;
+  background-color: #d6d6d6;
 }
 
 div.litecal .litecal-header .litecal-label {
