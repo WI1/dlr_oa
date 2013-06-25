@@ -2191,6 +2191,8 @@ div.litecal .litecal-title {
 div.litecal .litecal-title h3.litecal-title { 
    font-size: 14px !important;
    border: none;
+   font-weight: bold !important;
+   color: black !important;
 }
 
 div.litecal .litecal-header { 
