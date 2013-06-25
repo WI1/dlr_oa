@@ -66,12 +66,6 @@ input, select, textarea, body {
 	width: 60%;
 }
 
-/* Projects-Overview: No Subtitle for Logos */
-#page .page-content .view-dlr-groups-fg-projects .view-content .grid-item .title { /* TBS-CHANGE2013 */
-	display: none;
-}
-
-
 #page { padding: 0; width: 100%; overflow: hidden; margin: 0 auto; border: none; background: #fff url(img/bg/symbol.jpg) right no-repeat; }
 .one-sidebar.sidebar-right #main-squeeze { }
 
