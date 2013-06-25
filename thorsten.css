@@ -460,3 +460,47 @@ background-color: #ffffff;
 padding-left: 20px;
 }
 
+
+
+/* Twitter-Block */
+#right .pager a:hover {
+background: transparent;
+}
+
+#right .view-demoscreen-tweets li.pager-previous {
+width: 35px;
+}
+
+#right .view-demoscreen-tweets li.pager-next {
+width: 35px;
+}
+
+#right #block-views-demoscreen_tweets-block_2 .block-content caption {
+display: none;
+}
+
+#right .view-demoscreen-tweets li.pager-previous {
+background-image: url("img/arrow-left.jpg");
+background-repeat: no-repeat;
+left: 10px;
+top: 3px;
+width: 13px;
+}
+
+#right .view-demoscreen-tweets li.pager-next {
+width: 13px;
+background-image: url("img/arrow-right.jpg");
+background-repeat: no-repeat;
+top: 3px;
+right: 10px;
+}
+
+.pager.minipager.clear-block {
+border-color: #fff;
+top: 4px;
+}
+
+.block .minipager li.pager-current {
+width: 60px;
+}
+/* Twitter Block End */
