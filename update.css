@@ -106,7 +106,7 @@ input, select, textarea, body {
 	} /*changed to no hover effect*/
 	
 	/* Page Title */
-	#page-tools .page-title, #page .page-title { 
+	#page-tools .page-title, #page #metaproject { 
 		height: auto !important;
 		font-size: 18px; 
 		font-weight: bold;
