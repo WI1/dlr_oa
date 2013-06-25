@@ -116,6 +116,11 @@ input, select, textarea, body {
 		border-bottom: 1px solid #84389C; /* TBS-CHANGE2013 */
 	}
 
+	#page a #metaproject-title {
+		color: #84389C; /* TBS-CHANGE2013 */
+		font-size:14px; /* TBS-CHANGE2013 */
+	}
+
 	#content .page-region .node-blog h2.node-title {
 		line-height: 26px; /* TBS-CHANGE2013 */
 	}
