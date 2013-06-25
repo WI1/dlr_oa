@@ -449,3 +449,14 @@ div.view-content h2.node-title {
     font-size: 12px;
     font-weight: bold;
 }
+
+/*footer Background-color new*/
+#footer #block-views-footer_logos-block_1 {
+background-color: #84389C;
+}
+
+#footer .view-id-footer_logos.view-dom-id-11 {
+background-color: #ffffff;
+padding-left: 20px;
+}
+
