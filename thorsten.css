@@ -495,11 +495,11 @@ left: 11px;
 top: 3px;
 width: 13px;
 }
-
+/*  Muss nochmal durchgeschaut werden
 #right .view-demoscreen-tweets li.pager-previous.first {
 display: none;
 }
-
+*/
 #right .view-demoscreen-tweets li.pager-next {
 width: 13px;
 background-image: url("img/arrow-right.jpg");
