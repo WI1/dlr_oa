@@ -2210,6 +2210,7 @@ div.litecal .litecal-slot .label:hover span {
 div.litecal .litecal-slot .label span.add {
   display: none;
   padding: 0px;
+  margin: 0px;
   border: 0px !important;
   background-color: #d6d6d6;
   font-size: 10px !important;
