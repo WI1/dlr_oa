@@ -465,12 +465,10 @@ background-color: #ffffff;
 padding-left: 20px;
 }
 
-<<<<<<< HEAD
 /* header correction, just group admin sees it.*/
 #block-domain_admin-0 {
   margin-top: 3px !important;
 }
-=======
 
 
 /* Twitter-Block */
@@ -515,4 +513,3 @@ top: 4px;
 width: 60px;
 }
 /* Twitter Block End */
->>>>>>> a797776a0acb40233ef9b606bcd127e997e71757
