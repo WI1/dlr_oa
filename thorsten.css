@@ -462,5 +462,5 @@ padding-left: 20px;
 
 /* header correction, just group admin sees it.*/
 #block-domain_admin-0 {
-  margin-top: 3px;
+  margin-top: 3px !important;
 }
