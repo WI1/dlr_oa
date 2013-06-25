@@ -2192,7 +2192,7 @@ div.litecal .litecal-title h3.litecal-title {
    font-size: 14px !important;
    border: none;
    font-weight: bold !important;
-   color: black !important;
+   color: #000 !important;
 }
 
 div.litecal .litecal-header { 
@@ -2205,6 +2205,11 @@ div.litecal .litecal-header {
 div.litecal .litecal-slot .label:hover span {
     background: #d6d6d6 !important;
     color: black !important;
+}
+
+div.litecal .litecal-slot .label span.add {
+  display: none;
+  padding: 0px;
 }
 
 div.litecal .litecal-header .litecal-label {
