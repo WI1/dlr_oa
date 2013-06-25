@@ -2195,7 +2195,20 @@ div.litecal .litecal-title h3.litecal-title {
 
 div.litecal .litecal-header { 
     margin-top: 8px;
+    background-color: #84389C !important;
+    color: white !important;
+    height: 35px;
 }
+
+div.litecal .litecal-slot .label:hover span {
+    background: #d6d6d6 !important;
+    color: black !important;
+}
+
+div.litecal .litecal-header .litecal-label {
+    margin-top: 10px;
+}
+
 
 html.js input.form-autocomplete {
   background-image: url(/misc/throbber.gif);
@@ -2313,8 +2326,13 @@ color: white;
 
 /* Theming the calendars*/
 div.litecal .litecal-slot-today {
-  background: #FFF8BB;
+  background: #84389C !important;
 }
+div.litecal .litecal-slot-today a {
+  color: white !important;
+}
+
+
 
 /*Modified the user menu 'mein gruppen' view to better format projects as well as focusgroups*/
 .dropdown-blocks .block-toggle .item-list {
