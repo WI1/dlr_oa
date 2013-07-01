@@ -63,7 +63,8 @@ input, select, textarea, body {
 #page .page-content .view-dlr-groups-fg-projects .view-content table.views-view-grid, 
 #page .page-content .view-dlr-groups-fg-projects .view-content table.grid-5  { /* TBS-CHANGE2013 */
 	margin-left: 82px;
-	width: 60%;
+	/* view aenderung - fgicons muessen wieder auf 100% breite angezeigt werden*/
+	width: 100%;
 }
 
 #page { padding: 0; width: 100%; overflow: hidden; margin: 0 auto; border: none; background: #fff url(img/bg/symbol.jpg) right no-repeat; }
