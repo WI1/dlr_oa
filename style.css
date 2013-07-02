@@ -1,11 +1,7 @@
 /**
  * Override of style.css of Rubik. Contains styles for major page wrapping
  * elements. For core/canvas elements, see ginkgo.css.
- */
-
- body { background-color: red !important;}
- 
- 
+ */ 
 body.tao,
 input,
 textarea,
