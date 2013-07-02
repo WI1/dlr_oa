@@ -527,3 +527,8 @@ width: 60px;
 .upcomingEvents thead th.field_eventteaser_fid {
   padding-left: 15px;
 }
+
+.upcomingEvents table td.field_eventteaser_fid {
+  text-align: center;
+}
+
