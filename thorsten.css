@@ -517,3 +517,13 @@ top: 4px;
 width: 60px;
 }
 /* Twitter Block End */
+
+/* aktuelle Termine / upcoming events */
+.upcomingEvents thead th {
+  padding-top: 7px;
+  font-weight: bold;
+}
+
+.upcomingEvents thead th.field_eventteaser_fid {
+  padding-left: 15px;
+}
