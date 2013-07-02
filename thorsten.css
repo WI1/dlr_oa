@@ -519,16 +519,16 @@ width: 60px;
 /* Twitter Block End */
 
 /* aktuelle Termine / upcoming events */
-.upcomingEvents thead th {
+.upcomingEvents thead th, .pastEvents thead th {
   padding-top: 7px;
   font-weight: bold;
 }
 
-.upcomingEvents thead th.field_eventteaser_fid {
+.upcomingEvents thead th.field_eventteaser_fid, .pastEvents thead th.field_eventteaser_fid {
   padding-left: 15px;
 }
 
-.upcomingEvents table td.field_eventteaser_fid {
+.upcomingEvents table td.field_eventteaser_fid, .pastEvents table td.field_eventteaser_fid {
   text-align: center;
 }
 
