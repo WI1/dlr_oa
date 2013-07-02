@@ -297,7 +297,7 @@ div.content a.flag-link-normal {
 
 div.content .flag-eventteilnahme a.flag-link-normal {
   color: white;
-  background: url("img/Button-Hintergrund.png") no-repeat scroll 0 0 transparent;
+  background: url("img/Button-Hintergrund.png") repeat scroll 0 0 transparent;
   border-radius: 5px;
 }
 
@@ -443,7 +443,7 @@ div.view-content h2.node-title {
 
 /*Hintergrundbild Dashborad Button */
 #page-tools .context-links a {
-    background: url("img/Button-Hintergrund.png") no-repeat scroll 0 0 transparent;
+    background: url("img/Button-Hintergrund.png") repeat scroll 0 0 transparent;
     border-radius: 5px;
 }
 
