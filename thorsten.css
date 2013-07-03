@@ -564,7 +564,7 @@ color: #fff;
   margin-left: -845px;
 }
 
-
-#page-tools h1.page-title {
-  color: black;
+/*Kalender fehlt Abstand nach unten*/
+.litecal .litecal-full {
+  padding-bottom: 20px;
 }
