@@ -568,3 +568,7 @@ color: #fff;
 .litecal-full {
   padding-bottom: 20px;
 }
+
+div.tabletermin table {
+  display: table;
+}
