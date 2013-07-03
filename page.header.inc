@@ -22,9 +22,17 @@
   <?php if ($messages): ?><div id='messages'><?php print $messages; ?></div><?php endif; ?>
     
   <div id='global'><div class='limiter clear-block container_12'>   
-    <?php $active_space = spaces_get_space(); // damit breadcrumb auch auf projektseite angezeigt wird?>
- 
-    <?php if($active_space->type == "og") print $breadcrumb ?>
+    <?php  
+    
+    /*
+     *  OLD CODE BREADRUMB // Zurück zum Förderschwerpunkt Button
+     *  now done via a Block
+     * 
+     $active_space = spaces_get_space(); // damit breadcrumb auch auf projektseite angezeigt wird?>
+     if($active_space->type == "og") print $breadcrumb ?>
+     */
+     ?>
+    
    
       <div id='header' class='dropdown-blocks toggle-blocks clear-block'>
          <?php if ($header && $user->uid): ?>
