@@ -557,3 +557,9 @@ background-color: #84389C;
 #content .view-content .litecal-title .links a:hover {
 color: #fff;
 }
+
+
+/* Zurueck zum Foederschwerpunkt Logo */
+#header #block-block-8 {
+  margin-left: -840px;
+}
