@@ -532,3 +532,28 @@ width: 60px;
   text-align: center;
 }
 
+
+/*Vor und Zurueck ueber Kalender*/
+#content .view-content .litecal-title .links .prev a {
+color: white;
+border-color: #fff;
+background-color: #84389C;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+}
+
+#content .view-content .litecal-title .links .next a {
+color: white;
+border-color: #fff;
+background-color: #84389C;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+}
+
+#content .view-content .litecal-title .links a:hover {
+color: #fff;
+}
