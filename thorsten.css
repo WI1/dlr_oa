@@ -579,3 +579,12 @@ color: #fff;
 div.tabletermin table {
   display: table;
 }
+
+/*Projektinfo und Tags bei Fokusgruppe-Profil ausblenden*/
+.not-logged-in #page-tools .tabs.clear-block.features-menu {
+display: none;
+}
+
+#page .page-region .content .field.terms.clear-block {
+display: none;
+}
