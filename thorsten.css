@@ -516,6 +516,16 @@ top: 4px;
 .block .minipager li.pager-current {
 width: 60px;
 }
+
+#right .view-demoscreen-tweets {
+  margin-top: 50px;
+}
+
+#right .view-demoscreen-tweets .pager .minipager {
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
 /* Twitter Block End */
 
 /* aktuelle Termine / upcoming events */
