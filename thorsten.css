@@ -579,3 +579,15 @@ color: #fff;
 div.tabletermin table {
   display: table;
 }
+
+div.tabletermin thead th.field_eventteaser_fid {
+  width: 60px;
+}
+
+div.tabletermin thead th.views-field-tid tid {
+  width: 150px;
+}
+
+div.tabletermin thead th.views-field-date {
+  width:500px;
+}
