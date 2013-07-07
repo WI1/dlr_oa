@@ -23,8 +23,8 @@
 }
 
 #navigation a.demoscreenlogo {
-  background-image: url("images/sprite_skin.png") !important;
-
+  /*background-image: url("images/sprite_skin.png") !important;*/
+  background-image: url("img/DS_Logo_und_Title.png") !important;
 }
 
 

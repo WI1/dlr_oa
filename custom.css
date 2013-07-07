@@ -1828,13 +1828,12 @@ font-weight: bold;
   float: left;
   text-indent:-999px;
   overflow:hidden;
-  margin-top: -30px; /*vorher -15*/
-
-  width: 220px;
-  height:60px;
+  margin-top: -31px; /*vorher -15*/
+  width: 550px;     /*vorher 220px*/
+  height:73px;      /*vorher 60px*/
   background-image: url('images/sprite_skin.png');
   background-repeat:no-repeat;
-  background-position: -240px -420px;
+  background-position: -10px 0px; /*vorher -240px -420px*/
   }
   
 
