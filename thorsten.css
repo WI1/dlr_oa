@@ -540,6 +540,14 @@ width: 60px;
 }
 
 
+.upcomingEvents table th.views-field-tid {
+  width: 120px;
+}
+
+.pastEvents table th.views-field-tid {
+  width: 120px;
+}
+
 /*Vor und Zurueck ueber Kalender*/
 #content .view-content .litecal-title .links .prev a {
 color: white;
