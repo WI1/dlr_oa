@@ -611,3 +611,9 @@ display: none;
 #page .page-region .content .field.terms.clear-block {
 display: none;
 }
+
+
+/* bottom-abstand auf newsseite anpassung*/
+.node-event h2.node-title {
+  margin-bottom: 20px !important;
+}
