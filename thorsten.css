@@ -614,6 +614,17 @@ div.content div.field-field-date {
   margin: 0px !important;
 }
 
+
 div.content h2.node-title {
   padding-bottom: 0px !important;
+}
+
+div.page-region div.view-content div.content div.field-field-date {
+  margin: 0 0 0 0 !important;
+}
+
+/*Vor und zurueck ausblenden, ueberschreiben von core.css*/
+.pager ul.pager-links {
+float: right;
+display: none;
 }
