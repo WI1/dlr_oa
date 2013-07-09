@@ -621,11 +621,6 @@ display: none;
   margin-bottom: 20px !important;
 }
 
-/*
-
-/* bottom-abstand auf newsseite anpassung
-.node-event h2.node-title {
-  margin-bottom: 20px !important;
+div.page-region div.view-content div.content div.field-field-date {
+  margin: 0 0 0 0 !important;
 }
-
-*/
