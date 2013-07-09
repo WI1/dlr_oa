@@ -2,7 +2,7 @@
 <div id="node-<?php print $node->nid; ?>" class="node<?php if ($sticky) { print ' sticky'; } ?><?php if (!$status) { print ' node-unpublished'; } ?><?php if (isset($og_public) && $og_public === FALSE) { print ' node-private'; } ?> <?php if (isset($node_classes)) { print $node_classes; } ?> node-<?php print $type; ?> clear-block">
 	<?php $active_space = spaces_get_space(); ?>
   <?php if (!$page): ?>
-		<h2 id="ueberschriftnewshomeh2" class="node-title"><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
+		<h2 class="node-title"><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
 	<?php endif; ?>
 	<?php if(!$page && isset($focusgroups)): ?>
 		<div class="fg">

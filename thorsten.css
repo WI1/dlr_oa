@@ -207,9 +207,6 @@ div.content div.field-field-orglocation {
   padding: 0 0 0 0 !important;
 }
 
-div.content div.field-field-date {
-  margin: -1em 0 0 0 !important;
-}
 
 div.content div.field-field-participants .view-content {
   display: table-row-group !important;
@@ -612,15 +609,11 @@ display: none;
 display: none;
 }
 
-
-#ueberschriftmetaprojekth2 {
-  margin-bottom: 20px !important;
+div.content div.field-field-date {
+  /* macht probleme!!!!! TODO*/
+  margin: 0px !important;
 }
 
-#ueberschriftnewshomeh2 {
-  margin-bottom: 20px !important;
-}
-
-div.page-region div.view-content div.content div.field-field-date {
-  margin: 0 0 0 0 !important;
+div.content h2.node-title {
+  padding-bottom: 0px !important;
 }
