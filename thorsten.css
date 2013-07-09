@@ -612,6 +612,7 @@ display: none;
 display: none;
 }
 
+
 #ueberschriftmetaprojekth2 {
   margin-bottom: 10px;
 }
@@ -619,3 +620,12 @@ display: none;
 #ueberschriftnewshomeh2 {
   margin-bottom: 10px;
 }
+
+/*
+
+/* bottom-abstand auf newsseite anpassung
+.node-event h2.node-title {
+  margin-bottom: 20px !important;
+}
+
+*/
