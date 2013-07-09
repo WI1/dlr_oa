@@ -624,3 +624,9 @@ display: none;
 div.page-region div.view-content div.content div.field-field-date {
   margin: 0 0 0 0 !important;
 }
+
+/*Vor und zurueck ausblenden, ueberschreiben von core.css*/
+.pager ul.pager-links {
+float: right;
+display: none;
+}
