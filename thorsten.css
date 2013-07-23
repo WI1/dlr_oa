@@ -625,6 +625,27 @@ div.page-region div.view-content div.content div.field-field-date {
 
 /*Vor und zurueck ausblenden, ueberschreiben von core.css*/
 .pager ul.pager-links {
-float: right;
-display: none;
+  float: right;
+  display: none;
 }
+
+/*Fokusgruppe-Profile Headlines*/
+.content .field.field-type-userreference.field-field-contactbalance .field-label {
+  color: #84389C;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: none;
+  margin-bottom: 10px;
+}
+
+.content .fieldgroup legend {
+  font-weight: bold;
+  color: #84389C;
+  margin-bottom: 10px;
+}
+
+/*Footer Benutzer Wechseln Schriftfarbe*/
+#footer .admin-panes ul.links a {
+	color: black; 
+}
+
