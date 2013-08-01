@@ -649,3 +649,8 @@ div.page-region div.view-content div.content div.field-field-date {
 	color: black; 
 }
 
+/*Project_profile Überschriftfarbe in Beteiligte Institutionen*/
+#content .page-region .fieldset-wrapper .field.field-type-nodereference.field-field-ref-projectinstitutions .field-label {
+color: #84389C;
+}
+
