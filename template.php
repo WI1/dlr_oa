@@ -652,7 +652,8 @@ function dlr_oa_remove_userprofile_tabs(&$vars) {
       $vars['tabs2'] .= dlr_oa_fetchtab($vars, 'tabs', 'notifications') . "\n</ul>";
       $vars[context_links] = "";
     }
-    dlr_oa_removetab(&$vars, 'tabs', NULL);
+   
+    //dlr_oa_removetab(&$vars, 'tabs', NULL);
     $vars['page_tools'] = NULL;
     $vars['extrablanklines'] = '<BR>';
     if($pageitem['path'] == "user/%")
