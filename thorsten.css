@@ -321,3 +321,30 @@ padding: 0px;
 .og-context #page-tools .og-description {
   line-height: 19.8px !important;
 }
+
+/* Modification of Vor und Zurueck-Button at User-Activity*/
+.page-region .pager.minipager.clear-block .links .pager-next.last.active {
+background-image: url("img/arrow-right.jpg");
+width: 13px;
+background-repeat: no-repeat;
+top: 3px;
+right: 9px;
+}
+
+.page-region .pager.minipager.clear-block .links .pager-next.last.active a:hover {
+background: transparent;
+}
+
+.page-region .pager.minipager.clear-block .links .pager-previous.first.active {
+background-image: url("img/arrow-left.jpg");
+width: 13px;
+background-repeat: no-repeat;
+top: 3px;
+left: 11px;
+}
+
+.page-region .pager.minipager.clear-block .links .pager-previous.first.active a:hover {
+background: transparent;
+}
+
+
