@@ -654,3 +654,17 @@ div.page-region div.view-content div.content div.field-field-date {
 color: #84389C;
 }
 
+/*Twitter Background-image*/
+#block-views-demoscreen_tweets-block_2 {
+background-image: url("/sites/all/themes/dlr_oa/img/twitter_background.jpg");
+height: 300px;
+background-repeat: no-repeat;
+}
+
+/*Twitter Headline */
+#block-views-demoscreen_tweets-block_2 .block-title {
+color: white !important;
+background-color: #84389C !important;
+text-align: center;
+}
+
