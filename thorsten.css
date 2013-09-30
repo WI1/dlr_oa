@@ -352,17 +352,17 @@ padding: 0px;
 	background-color: #441a4d;
 }
 
-#footer block-boxes-footer_information_links {			/*Verlaufsbild oberhalb*/
+#footer #block-block-5{			/*Verlaufsbild oberhalb*/
 	background: #84389C url("img/footer_verlauf.jpg") repeat-x scroll 0 0;	/*<--Adresse ändern*/
 	padding-top: 18px;
 	border-radius: 0;		
 }
 
-#footer block-boxes-footer_information_links a {   
+#footer #block-block-5 a {   
 	color: #FFFFFF;
 }
 
-#footer block-boxes-footer_information_links img {		/*Icons nach oben und links verschieben*/
+#footer #block-block-5 img {		/*Icons nach oben und links verschieben*/
 	margin-top: -25px;  		
 	margin-right: 10px;  
 }
@@ -572,13 +572,15 @@ color: #fff;
 
 
 /* Zurueck zum Foederschwerpunkt Logo */
-#header #boxes-box-zurueckzufoerderschwerpunkt {
+#header #block-block-8 {
   margin-left: -845px;
 }
 
+/*
 #header #boxes-box-zurueckzufoerderschwerpunkt div.boxes-box-controls{
   display: none;
 }
+*/
 
 /*Kalender fehlt Abstand nach unten*/
 .litecal-full {

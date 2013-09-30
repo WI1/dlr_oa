@@ -492,14 +492,8 @@ span.feature-atrium_shoutbox { background-position:-160px 100%; }
 
 /*Minimale anpassung dass kleine fg logos auf selber hoehe wie account-links*/
 #block-atrium-account { margin-top: 2px; }
-#block-atrium-create { 
-  margin-top: 2px;
-  float: right;
-  }
-#block-atrium-admin_links { 
-  margin-top: 2px;
-  float: right;
-  }
+#block-atrium-create { margin-top: 2px; }
+#block-atrium-admin_links { margin-top: 2px; }
 #block-atrium-account { margin-top: 2px; }
 
 #block-atrium-admin_links span.icon { background:url(images/sprite_icons.png) -20px -420px no-repeat; }
