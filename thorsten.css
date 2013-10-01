@@ -353,7 +353,7 @@ padding: 0px;
 }
 
 #footer #block-block-5{			/*Verlaufsbild oberhalb*/
-	background: #84389C url("img/footer_verlauf.jpg") repeat-x scroll 0 0;	/*<--Adresse ändern*/
+	background: #4e2158 url("img/footer_verlauf.jpg") repeat-x scroll 0 0;	/*<--Adresse ändern*/
 	padding-top: 18px;
 	border-radius: 0;		
 }
@@ -454,7 +454,7 @@ div.view-content h2.node-title {
 
 /*footer Background-color new*/
 #footer #block-views-footer_logos-block_1 {
-background-color: #84389C;
+background-color: #4e2158;
 }
 
 #footer .view-footer-logos.view-id-footer_logos {
