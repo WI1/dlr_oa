@@ -674,3 +674,23 @@ background-color: #84389C !important;
 text-align: center;
 }
 
+
+/*Project-Overview Border und Abstand*/
+.view-dlr-groups-fg-projects table.views-view-grid td {
+padding-bottom: 40px;
+}
+
+#content .attachment .view-dlr-groups-fg-projects .view-content .views-view-grid.grid-6 {
+margin-top: 25px;
+margin-left: 2px;
+border-bottom: solid 1px #ccc;
+}
+
+#content .attachment .view-dlr-groups-fg-projects .view-content .views-view-grid.grid-6:last-child {
+border-bottom: none;
+}
+
+/*Demoscreen margin Project-Overview*/
+#content .page-region .view-dlr-groups-fg-projects .view-content .views-view-grid.grid-6 {
+margin-left: 2px;
+}
