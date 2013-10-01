@@ -1869,6 +1869,7 @@ margin-left: 0.4em;
 h2.node-title {
   float: none;
   margin-top: 7px;
+  line-height: 22px; /*NEU*/
 }
 
 #features-menu li {
