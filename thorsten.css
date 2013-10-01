@@ -68,13 +68,16 @@
 
 /* =========== Speichern-Button: Color-Adjustment (#316) ========== */
 input[value="Speichern"] {
-  background-color: #68A64C !important;
+  /*background-color: #68A64C !important;*/
   color: #fff !important;
+  background: url("img/Button-Hintergrund.png") repeat scroll 0 0 transparent;
 }
 
 input[value="Speichern"]:hover {
-  background-color: #609946 !important;
-  background-image: none !important;
+  /*background-color: #609946 !important;
+  background-image: none !important;*/
+  background: url("img/Button-Hintergrund.png") repeat scroll 0 0 transparent;
+  opacity: 0.8;
 }
 
 
@@ -693,4 +696,9 @@ border-bottom: none;
 /*Demoscreen margin Project-Overview*/
 #content .page-region .view-dlr-groups-fg-projects .view-content .views-view-grid.grid-6 {
 margin-left: 2px;
+}
+
+/*Termine Balken runtergesetzt*/
+.panel-pane.pane-views.pane-event-listing .views-table.cols-3 tbody .odd.views-row-first td.views-field {
+padding-top: 15px;
 }
