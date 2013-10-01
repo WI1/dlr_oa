@@ -702,3 +702,16 @@ margin-left: 2px;
 .panel-pane.pane-views.pane-event-listing .views-table.cols-3 tbody .odd.views-row-first td.views-field {
 padding-top: 15px;
 }
+
+/*Location doppelt in Organisations*/
+.node-organisation .content .location-locations-header {
+display: none;
+}
+
+.node-organisation .content .location-locations-wrapper {
+display: none;
+}
+
+.field-field-org-location .location.vcard .map-link {
+margin-left: 85px;
+}
