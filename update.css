@@ -448,7 +448,7 @@ body.node-type-blog .node.sticky, body.node-type-event .node.sticky  { border: 0
 /* Forms */ 
 input, select { padding: 2px; border: none !important; }
 input[type=text],input[type=password], select { border: #404040 1px solid !important;  }
-input[type=submit] { padding: 2px 4px; }
+/*input[type=submit] { padding: 2px 4px; }*/
 #field-projectemail-items .form-item { width: 400px;}
 #field-projectemail-items .form-item input { width: 400px;}
 .view-frontpage-hack .view-filters input { width: 129px; }
