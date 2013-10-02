@@ -1,6 +1,7 @@
 <?php include 'page.header.inc'; ?>
 
-<div id='content'><div class='page-region'>
+<div id='content'>
+  <div class='page-region'>
     <?php if($active_space->type == "og" && isset($node) && $node->type != $active_space->group->type): //Display title below Group Title?>
       <h2 class="node-title"><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
     <?php endif; ?>

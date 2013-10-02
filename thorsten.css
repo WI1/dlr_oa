@@ -571,10 +571,20 @@ color: #fff;
 }
 
 
-/* Zurueck zum Foederschwerpunkt Logo */
+/* Zurueck zum Foederschwerpunkt Logo ALT!!!!*/
 #header #block-block-8 {
   margin-left: -845px;
 }
+
+/* Zurueck zum Foederschwerpunkt Logo Neu*/
+#header #block-boxes-zureuckzumfoerderschwerpunkt {
+  margin-left: -845px;
+}
+
+#header #boxes-box-zureuckzumfoerderschwerpunkt div.boxes-box-controls {
+  display: none;
+}
+
 
 /*Kalender fehlt Abstand nach unten*/
 .litecal-full {

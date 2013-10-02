@@ -486,17 +486,18 @@ span.feature-atrium_casetracker { background-position:-60px 100%; }
 span.feature-atrium_dashboard { background-position:-80px 100%; }
 span.feature-atrium_groups { background-position:-100px 100%; }
 span.feature-atrium_home { background-position:-120px 100%; }
-span.feature-atrium_members { background-position:-140px 100%; }
+span.feature-atrium_members { background-position:-140px 100%; }scp philipp@131.188.76.139:/var/aegir/platforms/openatrium-1.2/sites/www.dlr.wi1projects.com/files/* .
+
 span.feature-atrium_shoutbox { background-position:-160px 100%; }
 
 
 /*Minimale anpassung dass kleine fg logos auf selber hoehe wie account-links*/
 #block-atrium-account { margin-top: 2px; }
-#block-atrium-create { margin-top: 2px; }
-#block-atrium-admin_links { margin-top: 2px; }
+#block-atrium-create { margin-top: 2px; float:right;}
+#block-atrium-admin_links { margin-top: 2px; float:right;}
 #block-atrium-account { margin-top: 2px; }
 
-#block-atrium-admin_links span.icon { background:url(images/sprite_icons.png) -20px -420px no-repeat; }
+#block-atrium-admin_links span.icon { background:url(images/sprite_icons.png) -20px -420px no-repeat;}
 #block-atrium-admin_links .toggle-active span.icon { background-position:-20px -400px; }
 #block-atrium-create span.icon { background:url(images/sprite_icons.png) 0px -420px no-repeat; }
 #block-atrium-create .toggle-active span.icon { background-position:0px -400px; }
