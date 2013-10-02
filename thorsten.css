@@ -156,12 +156,13 @@ input[value="Speichern"]:hover {
 
 
 #page-tools .tabs #block-menu-features.block ul.menu li a.active_trail {
+    /* Thorsten aenderungen - unnachvollziehbar, aendert active color von features links, zB downloadsection
     background: none repeat scroll 0 0 #7E2B97 !important;
     color: #FFFFFF !important;
     text-shadow: none;
     -webkit-border-radius: 0px;
+    */
 }
-
 
 
 
