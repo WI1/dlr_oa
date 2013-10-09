@@ -723,3 +723,18 @@ display: none;
 .field-field-org-location .location.vcard .map-link {
 margin-left: 85px;
 }
+
+/*User Login*/
+#page .page-content.content-wrapper #user-login {
+margin: 0px 185px 10px -162px;
+}
+
+/*Datei Upload - Drop Zone*/
+.atrium-folders-navigator .dropzone-upload .drop-zone {
+display: none;
+}
+
+/*Hide Formatierungshilfe bei edit profile*/
+#node-form .column-main .filter-options .filter-help {
+display: none;
+} 
