@@ -346,5 +346,24 @@ left: 11px;
 .page-region .pager.minipager.clear-block .links .pager-previous.first.active a:hover {
 background: transparent;
 }
+	
+/*Datei Upload - Drop Zone #393 */
+.atrium-folders-navigator .dropzone-upload .drop-zone {
+display: none;
+}
 
+/*Hide Formatierungshilfe bei edit profile #441*/
+#node-form .column-main .filter-options .filter-help {
+display: none;
+} 
 
+/*Projektgruppe	#400*/
+.fieldgroup.group-projectcontact .field-field-projectaccount .vcard {
+margin-bottom: 30px;
+}
+
+	
+/*User Login #339*/	
+#page .page-content.content-wrapper #user-login {
+margin: 0px 185px 10px -162px;
+}
