@@ -738,3 +738,46 @@ display: none;
 #node-form .column-main .filter-options .filter-help {
 display: none;
 } 
+
+/*Social Media: formatted VOR und ZURÜCK Button*/
+/*VOR*/
+.view-id-demoscreen_tweets.view-dom-id-3 .views-mini-pager .pager-next.last.active {
+background-image: url("/sites/all/themes/dlr_oa/img/arrow-right.jpg");
+background-repeat: no-repeat;
+text-indent: -99999px;
+overflow: hidden;
+white-space: nowrap;
+margin-top: 8px;
+width: 13px;
+height: 12px;
+}
+
+.view-id-demoscreen_tweets.view-dom-id-3 .views-mini-pager .pager-next.last.active a:hover {
+background: transparent;
+}
+
+/*ZURÜCK*/
+.view-id-demoscreen_tweets.view-dom-id-3 .views-mini-pager .pager-previous.first.active {
+background-image: url("/sites/all/themes/dlr_oa/img/arrow-left.jpg");
+background-repeat: no-repeat;
+text-indent: -99999px;
+margin-top: 8px;
+overflow: hidden;
+white-space: nowrap;
+width: 13px;
+height: 12px;
+}
+
+.view-id-demoscreen_tweets.view-dom-id-3 .views-mini-pager .pager-previous.first.active a:hover {
+background: transparent;
+}
+
+/*Events: Verknüpfte Beiträge */
+.node-event .view-id-xref.view-dom-id-1 .views-table.cols-3 {
+display: block;
+margin-bottom: 5px;
+}
+
+.node-event .view-id-xref .views-table.cols-3 .views-field.views-field-title.title {
+width: 614px;
+}
