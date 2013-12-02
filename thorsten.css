@@ -367,3 +367,12 @@ margin-bottom: 30px;
 #page .page-content.content-wrapper #user-login {
 margin: 0px 185px 10px -162px;
 }
+
+/*Newseintrag-Vorschau zu breit*/
+.column-main .node-preview.fieldset.titled.collapsible.tao-processed legend .fieldset-title {
+width: 610px;
+}
+
+.column-main .node-preview.fieldset.titled.collapsible.tao-processed .fieldset-content.clear-block {
+width: 600px;
+}
