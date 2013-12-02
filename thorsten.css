@@ -781,3 +781,13 @@ margin-bottom: 5px;
 .node-event .view-id-xref .views-table.cols-3 .views-field.views-field-title.title {
 width: 614px;
 }
+
+
+/*Vorschau Newseintrag-Block zu breit*/
+.column-main .node-preview.fieldset.titled.collapsible.tao-processed legend .fieldset-title {
+width: 610px;
+}
+
+.column-main .node-preview.fieldset.titled.collapsible.tao-processed .fieldset-content.clear-block {
+width: 600px;
+}

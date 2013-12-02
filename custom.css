@@ -607,7 +607,7 @@ font-weight: bold;
     background-color: #F6C326;
     border-color: #E8AC0A #FACF72 #FACF72 #E8AC0A !important;
     border-style: solid !important;
-    border-width: 91px !important;
+    border-width: 1px !important; /*anstatt 91px*/
 }
 
 #node-form input#edit-preview-changes {
