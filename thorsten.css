@@ -793,7 +793,8 @@ width: 600px;
 }
 
 
-/*Einträge am Migrationstag xD*/
+/***********************Einträge am Migrationstag********************/
+/*Breadcrumb Controls und Position*/
 #boxes-box-zuruckzufoerderschwerpunkt .boxes-box-controls {
 display: none;
 }
@@ -803,6 +804,19 @@ display: none;
 margin-left: -810px;
 }
 
+/*DemoScreen Banner Controls*/
 #boxes-box-dsbannertesttt .boxes-box-controls {
 display: none;
+}
+
+/*Submit buttons backgrounds*/
+input.teaser-button, input.form-submit {
+background: #4e2158;
+color: white;
+margin-bottom: 5px;
+}
+
+/*Attachement Kalender Breite fest*/
+.view-display-id-attachment_1 .view-content .views-field.views-field-date.date {
+white-space: normal;
 }
