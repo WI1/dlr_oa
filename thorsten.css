@@ -791,3 +791,18 @@ width: 610px;
 .column-main .node-preview.fieldset.titled.collapsible.tao-processed .fieldset-content.clear-block {
 width: 600px;
 }
+
+
+/*Einträge am Migrationstag xD*/
+#boxes-box-zuruckzufoerderschwerpunkt .boxes-box-controls {
+display: none;
+}
+
+
+#header #block-boxes-zuruckzufoerderschwerpunkt {
+margin-left: -810px;
+}
+
+#boxes-box-dsbannertesttt .boxes-box-controls {
+display: none;
+}
