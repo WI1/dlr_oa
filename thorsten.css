@@ -137,10 +137,37 @@ input[value="Speichern"]:hover {
 
   
 /* ========== User-Konto Navigation ============ */
-.page-user #page-tools #secondary-tabs ul { width: 600px; }
-.page-user #page-tools #secondary-tabs li { margin: 0 28px; }
-.page-user #page-tools #secondary-tabs li a { font-size: 14px; }
-.page-user #page-tools #secondary-tabs li a.active { text-decoration: underline; }
+.page-user #page-tools #secondary-tabs {
+  height: 30px;
+}
+.page-user #page-tools #secondary-tabs ul {
+  width: 600px; 
+}
+.page-user #page-tools #secondary-tabs li { 
+  /*margin: 0 28px;*/
+  font-weight: bold !important;
+  float: left;
+  line-height: 30px;
+  margin: 0 !important;
+  border: #bbb 1px solid !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  height: 29px !important;
+  background: url(/sites/all/themes/dlr_oa/img/bg/tabverlauf.jpg) repeat-x;
+  width: auto;
+}
+.page-user #page-tools #secondary-tabs li a {
+  font-size: 14px; 
+  font-weight: bold !important;
+  line-height: 29px;
+}
+.page-user #page-tools #secondary-tabs li a.active { 
+  /*text-decoration: underline; */
+  background: #7E2B97 !important;
+  color: white !important;
+  text-shadow: none;
+}
+
 
 /* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
 .page-content .content fieldset.collapsible legend a,
