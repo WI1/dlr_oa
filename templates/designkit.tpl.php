@@ -17,11 +17,6 @@
 #page-tools .tabs #block-menu-features.block ul.menu li:hover a { color: #ffffff !important; text-shadow: none;}
 
 
-body #space-tools .block-title { background-color: #404040; }
-
-body #header .block-widget .block-content,
-body #header .block .block-title { background-color: #404040; }
-
 body .page-region .block .block-title {
   background-color:<?php print designkit_colorshift($background, '#eeeeee', .8) ?>;
   border-color:<?php print designkit_colorshift($background, '#dddddd', .8) ?>;

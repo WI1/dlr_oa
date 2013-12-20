@@ -10,7 +10,8 @@
 }
 
 #navigation {
-   background-image: url("img/menuhintergrund.jpg"); 
+   background-image: url("img/menuhintergrund2.jpg") !important;
+   -webkit-box-shadow: 0px 4px 10px #545454; /* webkit browser*/ -moz-box-shadow: 0px 4px 10px #545454; /* firefox */ box-shadow: 0px 4px 10px #545454;
 }
 
 #navigation a.logo {
@@ -22,8 +23,8 @@
 }
 
 #navigation a.demoscreenlogo {
-  background-image: url("images/sprite_skin.png") !important;
-
+  /*background-image: url("images/sprite_skin.png") !important;*/
+  background-image: url("img/DS_Logo_und_Title.png") !important;
 }
 
 

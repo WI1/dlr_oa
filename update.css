@@ -2,6 +2,22 @@
 /* orange #EEE */
 /* this stylesheet mainly provides format for generic elements or standard drupal classes, for site specific classes see custom.css */
 
+/* <<<<<<<<<<<<<<<<<<<<<<<< MODIFICATION TS REDESIGN 2013 >>>>>>>>>>>>>>>>> *
+ * 				sind wie folgt ausgezeichnet:								*
+ *																			*
+ *					/* TBS-CHANGE2013 *									  	*
+ *											Test							*
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#content {
+	width: 624px; /* TBS-CHANGE2013 */
+}
+
+#right {
+	width: 335px; /* TBS-CHANGE2013 */
+}
+
+
 /*** TEMP!!! ***/
 #navigation #search-theme-form {
 	float: right;
@@ -27,7 +43,29 @@ input, select, textarea, body {
     font-size: 13.2px;
 }
 
+/* Projects-Overview: New Logo; */
+#page .page-content .view-dlr-groups-fg-projects .view-content h3.grid-title { /* TBS-CHANGE2013 */
+	position: relative;
+	display: block;
+}
 
+#focusgroup-logo a img {
+  float: left; /* display text next to fg logo*/
+}
+
+#focusgroup-label {
+  /*textausrichtung neben fg-logo korrigieren*/
+  padding-top: 10px;
+  padding-left: 80px;
+}
+
+/* Projects-Overview: New Alignment; */
+#page .page-content .view-dlr-groups-fg-projects .view-content table.views-view-grid, 
+#page .page-content .view-dlr-groups-fg-projects .view-content table.grid-5  { /* TBS-CHANGE2013 */
+	margin-left: 82px;
+	/* view aenderung - fgicons muessen wieder auf 100% breite angezeigt werden*/
+	width: 100%;
+}
 
 #page { padding: 0; width: 100%; overflow: hidden; margin: 0 auto; border: none; background: #fff url(img/bg/symbol.jpg) right no-repeat; }
 .one-sidebar.sidebar-right #main-squeeze { }
@@ -59,14 +97,48 @@ input, select, textarea, body {
 	h4,h5,h6 { margin-top: 1em; margin-bottom: 0.4em; }
 	body #project-sidebar .block h2, body .block .view-header, body #project-sidebar .block h2 a { background: none !important; }
 	#main-squeeze h1,#main-squeeze h2,#main-squeeze h3,#main-squeeze h4,#main-squeeze h5,#main-squeeze h6 { color: #404040 !important; }	
-	h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.node h1 a ,.node h2 a, .node h3 a ,.node h4 a { color: #404040 !important; }
-	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { color: #7E2B97 !important; } /*changed to no hover effect*/
+	h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.node h1 a ,.node h2 a, .node h3 a ,.node h4 a { 
+		/*color: #404040 !important; */
+		color: #84389C !important; /* TBS-CHANGE2013 */
+		font-weight: 400; /* TBS-CHANGE2013 */
+	}
+	h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover { 
+		color: #7E2B97 !important;
+	} /*changed to no hover effect*/
 	
 	/* Page Title */
-	#page-tools .page-title, #page .node-title, #context-block-region-content .node-title { height: auto !important; font-size: 18px; font-weight: bold; line-height: 21.6px}
-  #page .view-content h2.node-title, #context-block-region-content .view-content h2.node-title { text-transform: none; font-size: 18px;}
-  #page .view-content h2.node-title a, #context-block-region-content .view-content h2.node-title a { font-size: 18px; }
-  #page-tools h2.node-title { font-size: 18px !important; font-weight: 700 !important; text-transform: uppercase !important;}
+	#page-tools .page-title, #page #metaproject { 
+		height: auto !important;
+		font-size: 18px; 
+		font-weight: bold;
+		color: #84389C; /* TBS-CHANGE2013 */
+		line-height: 26px; /* TBS-CHANGE2013 */
+		padding-bottom: 4px; /* TBS-CHANGE2013 */
+		border-bottom: 1px solid #84389C; /* TBS-CHANGE2013 */
+	}
+
+	#page a #metaproject-title {
+		color: #84389C; /* TBS-CHANGE2013 */
+		font-size:14px; /* TBS-CHANGE2013 */
+	}
+
+	#content .page-region .node-blog h2.node-title {
+		line-height: 26px; /* TBS-CHANGE2013 */
+	}
+
+  #page .view-content h2.node-title, #context-block-region-content .view-content h2.node-title { 
+  	text-transform: none; 
+  	margin-bottom: 10px; /* TBS-CHANGE2013 */
+  	font-size: 22px; /* TBS-CHANGE2013 */
+  }
+  #page .view-content h2.node-title a, #context-block-region-content .view-content h2.node-title a { 
+  	font-size: 22px; /* TBS-CHANGE2013 */
+  }
+  #page-tools h2.node-title { 
+  	font-size: 22px !important; /* TBS-CHANGE2013 */
+  	font-weight: 700 !important; 
+  	text-transform: uppercase !important;
+  }
   
   
   .views-table .views-field.title a { font-size: 13px; }
@@ -99,13 +171,14 @@ body table { font-size: 11px; line-height: 16px; border: 0; background: 0; }
 
 /* Search */
 /*#search { float: right; display: block; margin: 0; box-shadow: 2px 1px 1px #DDDDDD; }*/
-#search, #search-block-form { background: url(img/bg/search.png) no-repeat !important; width: 230px; height: 30px;  }
+#search, #search-block-form { background: url(img/bg/search.jpg) no-repeat !important; width: 220px; height: 40px;  }
 #search label { display: none; }
-#edit-search-theme-form-1-wrapper { float: left; display: inline-block; margin: 0; padding: 0; width: 200px; }
-#edit-search-theme-form-1 { border: none !important; line-height: 22px !important; background: transparent !important; font-size: 16px !important; color: #404040; width: 185px; margin: 4px 0 0 5px !important; padding: 0; height: 22px !important; }
+#edit-search-theme-form-1-wrapper { float: left; display: inline-block; margin: 0; padding: 10px 0px 0px 40px; width: 160px; }
+#edit-search-theme-form-1 { border: none !important; line-height: 22px !important; background: transparent !important; font-size: 11px !important; color: #404040; width: 185px; padding: 0px 0px 0px 1px; height: 22px !important; } /*changed padding-left from 5px to 1px*/
 #edit-search-wrapper, #edit-search-1-wrapper { float: left; display: inline-block; margin: 0; padding: 0; width: 200px; }
 #edit-search, #edit-search-1{ border: none !important; line-height: 22px !important; background: transparent !important; font-size: 16px !important; color: #404040; width: 185px; margin: 4px 0 0 5px !important; padding: 0; height: 22px !important; }
-#search .form-submit { display: block !important; background: transparent !important; width: 30px !important; height: 30px !important; margin: 0 !important; padding: 0 !important; border: 0 !important; text-indent: 900px; overflow: hidden; cursor: pointer; /*visibility:hidden*/ -webkit-box-shadow: none;}
+#search .form-submit { background: transparent !important; width: 30px !important; height: 30px !important; margin: 5px 0px 0px -195px !important; padding: 0 !important; border: 0 !important; text-indent: 900px; overflow: hidden; cursor: pointer; /*visibility:hidden*/ -webkit-box-shadow: none; position: relative;} /*position new*/
+#search { margin: -5px 0px 0px 10px !important;}
 
 body.page-search div.box { margin: 0, padding: 0; background: none; border: 0; }
 body.page-search div.box-content { padding: 0 }
@@ -122,18 +195,36 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
 
 	/* allgemein */
 	#block-nice_menus-1 { width: 710px !important; float: left !important; }	
-    ul#main-menu {width: auto; float: left; margin-bottom: 0; }	
+    ul#main-menu {
+    	width: auto; 
+    	float: left; 
+    	margin-bottom: 6px;
+    }	
 	
 	/* Erste Ebene */
-	ul#nice-menu-1 li, ul#main-menu li { background: none !important; border: none; border-right: #fff 1px solid; line-height: 25px; }
+	ul#nice-menu-1 li, ul#main-menu li { 
+      background: none !important;
+      border: none;
+      /*border-right: #000 1px solid;*/
+      line-height: 50px;
+  }
 	ul#nice-menu-1 li a, ul#main-menu li a { 
-		background: none; text-indent: 0; color: #fff;
-		font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: normal;
-		height: auto; padding: 0 19px 0 0; margin: 0 0 0 20px;
-		width: auto; text-transform: none;
+      background: none;
+      text-indent: 0;
+      color: #441a4d;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      height: auto;
+      padding: 0px;
+      margin-right: 30px;
+      width: auto;
+      text-transform: none;
 	}
-	ul#nice-menu-1 li a:hover, ul#main-menu li a:hover { text-decoration: underline; }
-	ul#nice-menu-1 li a.active, ul#main-menu li a.active  { color: #333; }
+	ul#nice-menu-1 li a:hover, ul#main-menu li a:hover { text-decoration: none; color: #b53b82; }
+	ul#nice-menu-1 li a.active, ul#main-menu li a.active  { color: #b53b82; 
+                                                          /* muss noch geandert werden;
+                                                          farbe fuer navigation active*/}
 	
 	/* Zweite Ebene */
 	ul#nice-menu-1 li ul, ul#main-menu li ul { padding: 0 !important; margin: 5px 0 0 20px !important; border: none !important; }
@@ -190,6 +281,11 @@ body.page-search #search-form #edit-keys-wrapper { border: 0; padding: 0; }
     
 	.page-region .block .block-content { background: 0; border: 0; }
 	.block, .item-list { border: 0; }
+	#right .page-region .block-title {
+		color: black; /* TBS-CHANGE2013 */
+		text-shadow: none; /* TBS-CHANGE2013 */
+		padding: 4px !important; /* TBS-CHANGE2013 */
+	}
  
 
 /* Nodes */
@@ -347,16 +443,16 @@ tbody td.mceToolbar { padding: 0; }
 
 /* Announcement */
 #announcement .block { background-color: #F9F9F9; border-color: #404040; }
-.node.sticky { border: 1px solid #ccc; background-color: #f9f9f9; padding: 1em; margin: 1em 0 1em 0; }
+.node.sticky { border: 1px solid #ccc; background-color: #f9f9f9; padding: 1em; margin: 0px 0px 20px 0px !important; }
 body.node-type-blog .node.sticky, body.node-type-event .node.sticky  { border: 0; background-color: transparent; padding: 0; margin: 0; }
 /* Forms */ 
 input, select { padding: 2px; border: none !important; }
 input[type=text],input[type=password], select { border: #404040 1px solid !important;  }
-input[type=submit] { padding: 2px 4px; }
+/*input[type=submit] { padding: 2px 4px; }*/
 #field-projectemail-items .form-item { width: 400px;}
 #field-projectemail-items .form-item input { width: 400px;}
 .view-frontpage-hack .view-filters input { width: 129px; }
-legend { font-size: 14px; font-weight: bold; }
+legend { font-size: 14px; font-weight: bommld; }
 label.over-apply { position: relative !important; padding: 5px 0 4px 0; color: #404040; }
 .form-item label, label {/*overrides ginkgo settings*/  font-size: 13px; text-transform: none; color: #404040;}
 
@@ -401,7 +497,7 @@ div.node .field .field-label-inline-first {
   margin: 0 10px 5px 0;
 }
 
-div.node .field .field-label-inline {focus
+div.node .field .field-label-inline {
   font-size: 10px;
   padding: 0px 5px;
   width: 150px !important;
@@ -471,11 +567,13 @@ body.node-type-project .field.terms,
 .comment { padding: 10px; }
 .field-field-smallteaser, .field-field-eventteaser { padding: 3px 20px 0 0 !important; }
 
+/* Block rechte Seitenleiste, Blocknummer kann wechseln!*/
+#block-block-6 { background: none !important; }
+
 /* Card */
 .card { background: none !important; border: none !important; }
 
 /* Footer */
-#block-block-6 { background: #e5e5e5; padding-top: 10px; }
 #block-menu-secondary-links { background: #EEE; }
 #block-menu-secondary-links li { border: none !important; padding-left: 0 !important; }
 #block-menu-secondary-links a { color: #404040 !important; }

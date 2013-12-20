@@ -13,7 +13,7 @@
 /* ========== NAVIGATION ========== */
 /*------ breadcrumb:; explicit width ----- */
 #global .breadcrumb {
-  width: 400px;
+  width: 230px;
 }
 
 /* ----- breadcrumb: hide of elements ----- */
@@ -68,13 +68,16 @@
 
 /* =========== Speichern-Button: Color-Adjustment (#316) ========== */
 input[value="Speichern"] {
-  background-color: #68A64C !important;
+  /*background-color: #68A64C !important;*/
   color: #fff !important;
+  background: url("img/Button-Hintergrund.png") repeat scroll 0 0 transparent;
 }
 
 input[value="Speichern"]:hover {
-  background-color: #609946 !important;
-  background-image: none !important;
+  /*background-color: #609946 !important;
+  background-image: none !important;*/
+  background: url("img/Button-Hintergrund.png") repeat scroll 0 0 transparent;
+  opacity: 0.8;
 }
 
 
@@ -134,12 +137,44 @@ input[value="Speichern"]:hover {
 
   
 /* ========== User-Konto Navigation ============ */
-.page-user #page-tools #secondary-tabs ul { width: 600px; }
-.page-user #page-tools #secondary-tabs li { margin: 0 28px; }
-.page-user #page-tools #secondary-tabs li a { font-size: 14px; }
-.page-user #page-tools #secondary-tabs li a.active { text-decoration: underline; }
+.page-user #page-tools #secondary-tabs {
+  height: 30px;
+}
+.page-user #page-tools #secondary-tabs ul {
+  width: 600px; 
+}
+.page-user #page-tools #secondary-tabs li { 
+  /*margin: 0 28px;*/
+  font-weight: bold !important;
+  float: left;
+  line-height: 30px;
+  margin: 0 !important;
+  border: #bbb 1px solid !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  height: 29px !important;
+  background: url(/sites/all/themes/dlr_oa/img/bg/tabverlauf.jpg) repeat-x;
+  width: auto;
+}
+.page-user #page-tools #secondary-tabs li a {
+  font-size: 14px; 
+  font-weight: bold !important;
+  line-height: 29px;
+}
+.page-user #page-tools #secondary-tabs li a.active { 
+  /*text-decoration: underline; */
+  background: #7E2B97 !important;
+  color: white !important;
+  text-shadow: none;
+}
+
 
 /* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
+.page-content .content fieldset.collapsible legend a,
+.page-content .content fieldset.collapsible.collapsed legend a {
+    color: #84389C; /* TBS-CHANGE2013 */
+    font-weight: 800; /* TBS-CHANGE2013 */
+}
 .page-content .content fieldset.collapsible.collapsed legend a { display:inline-block; }
 .page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
 .page-content .content fieldset.collapsible legend a { display:inline-block; }
@@ -148,11 +183,16 @@ input[value="Speichern"]:hover {
 
 
 #page-tools .tabs #block-menu-features.block ul.menu li a.active_trail {
+    /* Thorsten aenderungen - unnachvollziehbar, aendert active color von features links, zB downloadsection
     background: none repeat scroll 0 0 #7E2B97 !important;
     color: #FFFFFF !important;
     text-shadow: none;
     -webkit-border-radius: 0px;
+    */
 }
+
+
+
 
 /* ========================= PHILIPP ===================== */
 
@@ -198,9 +238,6 @@ div.content div.field-field-orglocation {
   padding: 0 0 0 0 !important;
 }
 
-div.content div.field-field-date {
-  margin: -1em 0 0 0 !important;
-}
 
 div.content div.field-field-participants .view-content {
   display: table-row-group !important;
@@ -242,16 +279,16 @@ div.content div.field-field-participants div.picture img {
   padding-bottom: 5px;
 }
 
-div.content div.views-row { 
- float: left;
- /* hat bei group-filesystem ansicht zerschossen quickfix untendrunter; beobachten ob es weiterhin probleme macht */
- } 
 
- /*quickfix group-filesystem*/
- div.content div.atrium-folders-navigator div.views-row {
- float: none;
- }
+div.content div.views-row {
+  float: left; /* hat bei group-filesystem ansicht zerschossen
+  quickfix untendrunter */
+}
 
+/*quickfix group-filesystem*/
+div.content div.atrium-folders-navigator div.views-row {
+  float: none;
+}
 
 div.content div.field-field-eventteaser {
   /* float: none; kann was kaputt machen*/ 
@@ -266,7 +303,7 @@ div.content div.field-field-participants .view-empty, .spaces-empty, p {
 }
 
 div.content .view-flag-termin-teilnahme .view-footer {
-  margin: 5px 0 5px 165px;
+  margin: 10px 0 5px 165px; /*vorher 5 0 5 165*/
 }
 
 /* div.content .flag.unflag-action.flag-link-normal ------ fuer unflag button */
@@ -274,7 +311,7 @@ div.content a.flag-link-normal {
   margin: 10px 0 0 170px;
   font-size: 11px;
   font-weight: bold;
-  color: #fff;
+  color: black;
   background: #666 url(images/sprite_bleeds.png) 0px -400px repeat-x;
   text-shadow: #444 0px 1px 0px;
   border: 1px solid #555;
@@ -285,6 +322,17 @@ div.content a.flag-link-normal {
   -webkit-border-radius: 5px;
   width: auto;
 }
+
+div.content .flag-eventteilnahme a.flag-link-normal {
+  color: white;
+  background: url("img/Button-Hintergrund.png") repeat scroll 0 0 transparent;
+  border-radius: 5px;
+}
+
+div.content .flag-eventteilnahme a.flag-link-normal:hover {
+  color: white !important;
+}
+
 
 /* -------- visibility for single users now hidden #367 ------------------ */
 #nodeaccess-grants-form div.search-form {
@@ -348,11 +396,400 @@ background: transparent;
 }
 	
 /*Datei Upload - Drop Zone #393 */
+=======
+
+
+/*==============Changes Waldemar==================== */
+
+#footer p { 		
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+#footer {
+	background-color: #441a4d;
+}
+
+#footer #block-block-5{			/*Verlaufsbild oberhalb*/
+	background: #4e2158 url("img/footer_verlauf.jpg") repeat-x scroll 0 0;	/*<--Adresse ändern*/
+	padding-top: 18px;
+	border-radius: 0;		
+}
+
+#footer #block-block-5 a {   
+	color: #FFFFFF;
+}
+
+#footer #block-block-5 img {		/*Icons nach oben und links verschieben*/
+	margin-top: -25px;  		
+	margin-right: 10px;  
+}
+
+#footer .block-content  a:hover{
+	color: #FFFFFF;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#block-boxes-foerderleiste{		
+	background-color: #84389C;
+	padding-bottom: 15px;
+}
+
+#footer #block-boxes-foerderleiste a { 
+    color: #FFFFFF;
+}
+
+.sponsoren {
+	background-color: #fff;
+	margin-top: -10px;
+	padding-top: 13px;	/*Padding um 20px erweitern damit Höhe von 80 auf 100px erhöht wird. Auswahl um mittig auszurichten. */
+	padding-bottom: 7px;	
+
+}
+
+#loginlink {
+  padding-top: 8px;
+}
+
+#loginlink a {
+  color: black !important;
+}
+
+#loginlink a:hover {
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+
+/*Termine lila Hintergrund*/
+.page-region .cols-3 thead th {
+background-color: #84389C;
+color: #fff;
+border-bottom: none;
+border-top: none;
+}
+
+/*Devel*/
+#block-admin-devel {
+border-radius: 0;
+}
+
+/* entfernt haarlinien unter h2 ueberschriften im blog*/
+div.view-content h2.node-title {
+  border: none !important;
+}
+
+/* mini logos ueber dem header*/
+#space-tools .block-widget .block-content {
+	background-color: transparent;
+}
+
+/* mini logos ueber dem header bugfix */
+.dropdown-blocks .block-toggle .block-content {
+  background: #F8F8F8 !important;
+}
+
+/* mini logos ueber dem header abstand zw. bildern*/
+#space-tools .field_projectlogo_fid img {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+/*Hintergrundbild Dashborad Button */
+#page-tools .context-links a {
+    background: url("img/Button-Hintergrund.png") repeat scroll 0 0 transparent;
+    border-radius: 5px;
+}
+
+
+/*Terminankuendigungen rechts Schriftfarbe */
+#block-views-event_listing-block_1 .views-field-date a {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*footer Background-color new*/
+#footer #block-views-footer_logos-block_1 {
+background-color: #4e2158;
+}
+
+#footer .view-footer-logos.view-id-footer_logos {
+background-color: #ffffff;
+padding-left: 20px;
+}
+
+/* header correction, just group admin sees it.*/
+#block-domain_admin-0 {
+  margin-top: 3px !important;
+}
+
+
+/* Twitter-Block */
+#right .pager a:hover {
+background: transparent;
+}
+
+#right .view-demoscreen-tweets li.pager-previous {
+width: 35px;
+}
+
+#right .view-demoscreen-tweets li.pager-next {
+width: 35px;
+}
+
+#right #block-views-demoscreen_tweets-block_2 .block-content caption {
+display: none;
+}
+
+#right .view-demoscreen-tweets li.pager-previous {
+background-image: url("img/arrow-left.jpg");
+background-repeat: no-repeat;
+left: 11px;
+top: 3px;
+width: 13px;
+}
+/*  Muss nochmal durchgeschaut werden
+#right .view-demoscreen-tweets li.pager-previous.first {
+display: none;
+}
+*/
+#right .view-demoscreen-tweets li.pager-next {
+width: 13px;
+background-image: url("img/arrow-right.jpg");
+background-repeat: no-repeat;
+top: 3px;
+right: 0px;
+}
+
+.pager.minipager.clear-block {
+  border-color: #fff;
+  top: 4px;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
+.block .minipager li.pager-current {
+width: 60px;
+}
+
+#right .view-demoscreen-tweets {
+  margin-top: 50px;
+}
+
+/* Twitter Block End */
+
+/* aktuelle Termine / upcoming events */
+.upcomingEvents thead th, .pastEvents thead th {
+  padding-top: 7px;
+  font-weight: bold;
+}
+
+.upcomingEvents thead th.field_eventteaser_fid, .pastEvents thead th.field_eventteaser_fid {
+  padding-left: 15px;
+}
+
+.upcomingEvents table td.field_eventteaser_fid, .pastEvents table td.field_eventteaser_fid {
+  text-align: center;
+}
+
+
+.upcomingEvents table th.views-field-tid {
+  width: 120px;
+}
+
+.pastEvents table th.views-field-tid {
+  width: 120px;
+}
+
+/*Vor und Zurueck ueber Kalender*/
+#content .view-content .litecal-title .links .prev a {
+color: white;
+border-color: #fff;
+background-color: #84389C;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+}
+
+#content .view-content .litecal-title .links .next a {
+color: white;
+border-color: #fff;
+background-color: #84389C;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+}
+
+#content .view-content .litecal-title .links a:hover {
+color: #fff;
+}
+
+
+/* Zurueck zum Foederschwerpunkt Logo ALT!!!! */
+#header #block-block-8 {
+  margin-left: -845px;
+}
+
+
+
+/* Zurueck zum Foederschwerpunkt Logo Neu*/
+#header #block-boxes-zureuckzumfoerderschwerpunkt {
+  margin-left: -845px;
+}
+
+/* zurueck zum foerderschwerpunkt admin optionen anzeigen */
+#header #boxes-box-zurueckzufoerderschwerpunkt div.boxes-box-controls{
+  display: none;
+}
+
+
+/*Kalender fehlt Abstand nach unten*/
+.litecal-full {
+  padding-bottom: 20px;
+}
+
+div.tabletermin table {
+  display: table;
+}
+
+/*Kalender Anhang breitenanpassungen*/
+div.tabletermin thead th.field_eventteaser_fid {
+  width: 70px;
+}
+
+div.tabletermin thead th.views-field-tid tid {
+  width: 150px;
+}
+
+div.tabletermin thead th.views-field-date {
+  width:500px;
+}
+
+
+/*Projektinfo und Tags bei Fokusgruppe-Profil ausblenden
+*/
+.not-logged-in #page-tools .tabs.clear-block.features-menu {
+display: none;
+}
+
+#page .page-region .content .field.terms.clear-block {
+display: none;
+}
+
+div.content div.field-field-date {
+  /* macht probleme!!!!! TODO*/
+  margin: 0px !important;
+}
+
+
+div.content h2.node-title {
+  padding-bottom: 0px !important;
+}
+
+div.page-region div.view-content div.content div.field-field-date {
+  margin: 0 0 0 0 !important;
+}
+
+/*Vor und zurueck ausblenden, ueberschreiben von core.css*/
+.pager ul.pager-links {
+  float: right;
+  display: none;
+}
+
+/*Fokusgruppe-Profile Headlines*/
+.content .field.field-type-userreference.field-field-contactbalance .field-label {
+  color: #84389C;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: none;
+  margin-bottom: 10px;
+}
+
+.content .fieldgroup legend {
+  font-weight: bold;
+  color: #84389C;
+  margin-bottom: 10px;
+}
+
+/*Footer Benutzer Wechseln Schriftfarbe*/
+#footer .admin-panes ul.links a {
+	color: black; 
+}
+
+/*Project_profile Überschriftfarbe in Beteiligte Institutionen*/
+#content .page-region .fieldset-wrapper .field.field-type-nodereference.field-field-ref-projectinstitutions .field-label {
+color: #84389C;
+}
+
+/*Twitter Background-image*/
+#block-views-demoscreen_tweets-block_2 {
+background-image: url("/sites/all/themes/dlr_oa/img/twitter_background.jpg");
+height: 300px;
+background-repeat: no-repeat;
+}
+
+/*Twitter Headline */
+#block-views-demoscreen_tweets-block_2 .block-title {
+color: white !important;
+background-color: #84389C !important;
+text-align: center;
+}
+
+
+/*Project-Overview Border und Abstand*/
+.view-dlr-groups-fg-projects table.views-view-grid td {
+padding-bottom: 40px;
+}
+
+#content .attachment .view-dlr-groups-fg-projects .view-content .views-view-grid.grid-6 {
+margin-top: 25px;
+margin-left: 2px;
+border-bottom: solid 1px #ccc;
+}
+
+#content .attachment .view-dlr-groups-fg-projects .view-content .views-view-grid.grid-6:last-child {
+border-bottom: none;
+}
+
+/*Demoscreen margin Project-Overview*/
+#content .page-region .view-dlr-groups-fg-projects .view-content .views-view-grid.grid-6 {
+margin-left: 2px;
+}
+
+/*Termine Balken runtergesetzt*/
+.panel-pane.pane-views.pane-event-listing .views-table.cols-3 tbody .odd.views-row-first td.views-field {
+padding-top: 15px;
+}
+
+/*Location doppelt in Organisations*/
+.node-organisation .content .location-locations-header {
+display: none;
+}
+
+.node-organisation .content .location-locations-wrapper {
+display: none;
+}
+
+.field-field-org-location .location.vcard .map-link {
+margin-left: 85px;
+}
+
+/*User Login*/
+#page .page-content.content-wrapper #user-login {
+margin: 0px 185px 10px -162px;
+}
+
+/*Datei Upload - Drop Zone*/
 .atrium-folders-navigator .dropzone-upload .drop-zone {
 display: none;
 }
 
 /*Hide Formatierungshilfe bei edit profile #441*/
+/*Hide Formatierungshilfe bei edit profile*/
 #node-form .column-main .filter-options .filter-help {
 display: none;
 } 
@@ -369,10 +806,85 @@ margin: 0px 185px 10px -162px;
 }
 
 /*Newseintrag-Vorschau zu breit*/
+
+/*Social Media: formatted VOR und ZURÜCK Button*/
+/*VOR*/
+.view-id-demoscreen_tweets.view-dom-id-3 .views-mini-pager .pager-next.last.active {
+background-image: url("/sites/all/themes/dlr_oa/img/arrow-right.jpg");
+background-repeat: no-repeat;
+text-indent: -99999px;
+overflow: hidden;
+white-space: nowrap;
+margin-top: 8px;
+width: 13px;
+height: 12px;
+}
+
+.view-id-demoscreen_tweets.view-dom-id-3 .views-mini-pager .pager-next.last.active a:hover {
+background: transparent;
+}
+
+/*ZURÜCK*/
+.view-id-demoscreen_tweets.view-dom-id-3 .views-mini-pager .pager-previous.first.active {
+background-image: url("/sites/all/themes/dlr_oa/img/arrow-left.jpg");
+background-repeat: no-repeat;
+text-indent: -99999px;
+margin-top: 8px;
+overflow: hidden;
+white-space: nowrap;
+width: 13px;
+height: 12px;
+}
+
+.view-id-demoscreen_tweets.view-dom-id-3 .views-mini-pager .pager-previous.first.active a:hover {
+background: transparent;
+}
+
+/*Events: Verknüpfte Beiträge */
+.node-event .view-id-xref.view-dom-id-1 .views-table.cols-3 {
+display: block;
+margin-bottom: 5px;
+}
+
+.node-event .view-id-xref .views-table.cols-3 .views-field.views-field-title.title {
+width: 614px;
+}
+
+
+/*Vorschau Newseintrag-Block zu breit*/
 .column-main .node-preview.fieldset.titled.collapsible.tao-processed legend .fieldset-title {
 width: 610px;
 }
 
 .column-main .node-preview.fieldset.titled.collapsible.tao-processed .fieldset-content.clear-block {
 width: 600px;
+}
+
+
+/***********************Einträge am Migrationstag********************/
+/*Breadcrumb Controls und Position*/
+#boxes-box-zuruckzufoerderschwerpunkt .boxes-box-controls {
+display: none;
+}
+
+
+#header #block-boxes-zuruckzufoerderschwerpunkt {
+margin-left: -810px;
+}
+
+/*DemoScreen Banner Controls*/
+#boxes-box-dsbannertesttt .boxes-box-controls {
+display: none;
+}
+
+/*Submit buttons backgrounds*/
+input.teaser-button, input.form-submit {
+background: #4e2158;
+color: white;
+margin-bottom: 5px;
+}
+
+/*Attachement Kalender Breite fest*/
+.view-display-id-attachment_1 .view-content .views-field.views-field-date.date {
+white-space: normal;
 }
