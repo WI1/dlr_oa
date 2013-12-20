@@ -677,7 +677,11 @@ display: none;
 }
 
 #page .page-region .content .field.terms.clear-block {
-display: none;
+  /*display: none;*/
+}
+
+#page .page-region .content .field.terms.clear-block ul.links.inline  {
+display: table-cell;
 }
 
 div.content div.field-field-date {
