@@ -677,7 +677,7 @@ display: none;
 }
 
 #page .page-region .content .field.terms.clear-block {
-  padding-bottom: 0px;
+  padding-bottom: 0px !important;
   /*display: none;*/
 }
 
