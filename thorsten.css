@@ -893,4 +893,22 @@ margin-bottom: 5px;
 white-space: normal;
 }
 
+/*Untermenü Rahmen links*/
+.page-user #page-tools #secondary-tabs li:first-child {
+border-left: #bbb 1px solid !important;
+}
 
+/*Margin-left bei blauen Balken in Fokusgruppe*/
+.node-focusgroup .fieldset-wrapper .vcard {
+margin-left: 10px;
+}
+
+/*Logo entfernt bei Fokusgruppe Fokusgruppensprecher*/
+.fieldgroup.group-focusgroupspeaker.collapsible .logo {
+display: none;
+}
+
+/*Logo entfernt bei Fokusgruppe Projektträger*/
+.field.field-type-userreference.field-field-contactdlr-user .logo {
+display: none;
+}
