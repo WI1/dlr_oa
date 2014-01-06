@@ -13,7 +13,7 @@
 /* ========== NAVIGATION ========== */
 /*------ breadcrumb:; explicit width ----- */
 #global .breadcrumb {
-  width: 400px;
+  width: 230px;
 }
 
 /* ----- breadcrumb: hide of elements ----- */
@@ -140,6 +140,11 @@ input[value="Speichern"]:hover {
 .page-user #page-tools #secondary-tabs li a.active { text-decoration: underline; }
 
 /* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
+.page-content .content fieldset.collapsible legend a,
+.page-content .content fieldset.collapsible.collapsed legend a {
+    color: #84389C; /* TBS-CHANGE2013 */
+    font-weight: 800; /* TBS-CHANGE2013 */
+}
 .page-content .content fieldset.collapsible.collapsed legend a { display:inline-block; }
 .page-content .content fieldset.collapsible.collapsed legend a:after { content: " [+] "; }
 .page-content .content fieldset.collapsible legend a { display:inline-block; }
@@ -153,6 +158,10 @@ input[value="Speichern"]:hover {
     text-shadow: none;
     -webkit-border-radius: 0px;
 }
+
+
+
+
 
 /* ========================= PHILIPP ===================== */
 
@@ -198,9 +207,6 @@ div.content div.field-field-orglocation {
   padding: 0 0 0 0 !important;
 }
 
-div.content div.field-field-date {
-  margin: -1em 0 0 0 !important;
-}
 
 div.content div.field-field-participants .view-content {
   display: table-row-group !important;
@@ -242,16 +248,16 @@ div.content div.field-field-participants div.picture img {
   padding-bottom: 5px;
 }
 
-div.content div.views-row { 
- float: left;
- /* hat bei group-filesystem ansicht zerschossen quickfix untendrunter; beobachten ob es weiterhin probleme macht */
- } 
 
- /*quickfix group-filesystem*/
- div.content div.atrium-folders-navigator div.views-row {
- float: none;
- }
+div.content div.views-row {
+  float: left; /* hat bei group-filesystem ansicht zerschossen
+  quickfix untendrunter */
+}
 
+/*quickfix group-filesystem*/
+div.content div.atrium-folders-navigator div.views-row {
+  float: none;
+}
 
 div.content div.field-field-eventteaser {
   /* float: none; kann was kaputt machen*/ 
@@ -266,7 +272,7 @@ div.content div.field-field-participants .view-empty, .spaces-empty, p {
 }
 
 div.content .view-flag-termin-teilnahme .view-footer {
-  margin: 5px 0 5px 165px;
+  margin: 5px 0 5px 165px; 
 }
 
 /* div.content .flag.unflag-action.flag-link-normal ------ fuer unflag button */
@@ -274,7 +280,7 @@ div.content a.flag-link-normal {
   margin: 10px 0 0 170px;
   font-size: 11px;
   font-weight: bold;
-  color: #fff;
+  color: black;
   background: #666 url(images/sprite_bleeds.png) 0px -400px repeat-x;
   text-shadow: #444 0px 1px 0px;
   border: 1px solid #555;
@@ -285,6 +291,17 @@ div.content a.flag-link-normal {
   -webkit-border-radius: 5px;
   width: auto;
 }
+
+div.content .flag-eventteilnahme a.flag-link-normal {
+  color: white;
+  background: url("img/Button-Hintergrund.png") repeat scroll 0 0 transparent;
+  border-radius: 5px;
+}
+
+div.content .flag-eventteilnahme a.flag-link-normal:hover {
+  color: white !important;
+}
+
 
 /* -------- visibility for single users now hidden #367 ------------------ */
 #nodeaccess-grants-form div.search-form {
@@ -322,6 +339,7 @@ padding: 0px;
   line-height: 19.8px !important;
 }
 
+<<<<<<< HEAD
 /* Modification of Vor und Zurueck-Button at User-Activity*/
 .page-region .pager.minipager.clear-block .links .pager-next.last.active{
 background-image: url("img/arrow-right.jpg");
@@ -375,4 +393,294 @@ width: 610px;
 
 .column-main .node-preview.fieldset.titled.collapsible.tao-processed .fieldset-content.clear-block {
 width: 600px;
+=======
+
+
+/*==============Changes Waldemar==================== */
+
+#footer p { 		
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+#footer {
+	background-color: #441a4d;
+}
+
+#footer #block-block-5{			/*Verlaufsbild oberhalb*/
+	background: #84389C url("img/footer_verlauf.jpg") repeat-x scroll 0 0;	/*<--Adresse ändern*/
+	padding-top: 18px;
+	border-radius: 0;		
+}
+
+#footer #block-block-5 a {   
+	color: #FFFFFF;
+}
+
+#footer #block-block-5 img {		/*Icons nach oben und links verschieben*/
+	margin-top: -25px;  		
+	margin-right: 10px;  
+}
+
+#footer .block-content  a:hover{
+	color: #FFFFFF;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#block-boxes-foerderleiste{		
+	background-color: #84389C;
+	padding-bottom: 15px;
+}
+
+#footer #block-boxes-foerderleiste a { 
+    color: #FFFFFF;
+}
+
+.sponsoren {
+	background-color: #fff;
+	margin-top: -10px;
+	padding-top: 13px;	/*Padding um 20px erweitern damit Höhe von 80 auf 100px erhöht wird. Auswahl um mittig auszurichten. */
+	padding-bottom: 7px;	
+
+}
+
+#loginlink {
+  padding-top: 8px;
+}
+
+#loginlink a {
+  color: black !important;
+}
+
+#loginlink a:hover {
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+
+/*Termine lila Hintergrund*/
+.page-region .cols-3 thead th {
+background-color: #84389C;
+color: #fff;
+border-bottom: none;
+border-top: none;
+}
+
+/*Devel*/
+#block-admin-devel {
+border-radius: 0;
+}
+
+/* entfernt haarlinien unter h2 ueberschriften im blog*/
+div.view-content h2.node-title {
+  border: none !important;
+}
+
+/* mini logos ueber dem header*/
+#space-tools .block-widget .block-content {
+	background-color: transparent;
+}
+
+/* mini logos ueber dem header bugfix */
+.dropdown-blocks .block-toggle .block-content {
+  background: #F8F8F8 !important;
+}
+
+/* mini logos ueber dem header abstand zw. bildern*/
+#space-tools .field_projectlogo_fid img {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+/*Hintergrundbild Dashborad Button */
+#page-tools .context-links a {
+    background: url("img/Button-Hintergrund.png") repeat scroll 0 0 transparent;
+    border-radius: 5px;
+}
+
+
+/*Terminankuendigungen rechts Schriftfarbe */
+#block-views-event_listing-block_1 .views-field-date a {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*footer Background-color new*/
+#footer #block-views-footer_logos-block_1 {
+background-color: #84389C;
+}
+
+#footer .view-footer-logos.view-id-footer_logos {
+background-color: #ffffff;
+padding-left: 20px;
+}
+
+/* header correction, just group admin sees it.*/
+#block-domain_admin-0 {
+  margin-top: 3px !important;
+}
+
+
+/* Twitter-Block */
+#right .pager a:hover {
+background: transparent;
+}
+
+#right .view-demoscreen-tweets li.pager-previous {
+width: 35px;
+}
+
+#right .view-demoscreen-tweets li.pager-next {
+width: 35px;
+}
+
+#right #block-views-demoscreen_tweets-block_2 .block-content caption {
+display: none;
+}
+
+#right .view-demoscreen-tweets li.pager-previous {
+background-image: url("img/arrow-left.jpg");
+background-repeat: no-repeat;
+left: 11px;
+top: 3px;
+width: 13px;
+}
+/*  Muss nochmal durchgeschaut werden
+#right .view-demoscreen-tweets li.pager-previous.first {
+display: none;
+}
+*/
+#right .view-demoscreen-tweets li.pager-next {
+width: 13px;
+background-image: url("img/arrow-right.jpg");
+background-repeat: no-repeat;
+top: 3px;
+right: 0px;
+}
+
+.pager.minipager.clear-block {
+  border-color: #fff;
+  top: 4px;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
+.block .minipager li.pager-current {
+width: 60px;
+}
+
+#right .view-demoscreen-tweets {
+  margin-top: 50px;
+}
+
+/* Twitter Block End */
+
+/* aktuelle Termine / upcoming events */
+.upcomingEvents thead th, .pastEvents thead th {
+  padding-top: 7px;
+  font-weight: bold;
+}
+
+.upcomingEvents thead th.field_eventteaser_fid, .pastEvents thead th.field_eventteaser_fid {
+  padding-left: 15px;
+}
+
+.upcomingEvents table td.field_eventteaser_fid, .pastEvents table td.field_eventteaser_fid {
+  text-align: center;
+}
+
+
+.upcomingEvents table th.views-field-tid {
+  width: 120px;
+}
+
+.pastEvents table th.views-field-tid {
+  width: 120px;
+}
+
+/*Vor und Zurueck ueber Kalender*/
+#content .view-content .litecal-title .links .prev a {
+color: white;
+border-color: #fff;
+background-color: #84389C;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+}
+
+#content .view-content .litecal-title .links .next a {
+color: white;
+border-color: #fff;
+background-color: #84389C;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+}
+
+#content .view-content .litecal-title .links a:hover {
+color: #fff;
+}
+
+
+/* Zurueck zum Foederschwerpunkt Logo */
+#header #block-block-8 {
+  margin-left: -845px;
+}
+
+/*Kalender fehlt Abstand nach unten*/
+.litecal-full {
+  padding-bottom: 20px;
+}
+
+div.tabletermin table {
+  display: table;
+}
+
+/*Kalender Anhang breitenanpassungen*/
+div.tabletermin thead th.field_eventteaser_fid {
+  width: 70px;
+}
+
+div.tabletermin thead th.views-field-tid tid {
+  width: 150px;
+}
+
+div.tabletermin thead th.views-field-date {
+  width:500px;
+}
+
+
+/*Projektinfo und Tags bei Fokusgruppe-Profil ausblenden
+*/
+.not-logged-in #page-tools .tabs.clear-block.features-menu {
+display: none;
+}
+
+#page .page-region .content .field.terms.clear-block {
+display: none;
+}
+
+div.content div.field-field-date {
+  /* macht probleme!!!!! TODO*/
+  margin: 0px !important;
+}
+
+
+div.content h2.node-title {
+  padding-bottom: 0px !important;
+}
+
+div.page-region div.view-content div.content div.field-field-date {
+  margin: 0 0 0 0 !important;
+}
+
+/*Vor und zurueck ausblenden, ueberschreiben von core.css*/
+.pager ul.pager-links {
+float: right;
+display: none;
+>>>>>>> newdesign
 }

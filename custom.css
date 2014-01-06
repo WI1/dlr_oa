@@ -369,7 +369,7 @@ div.content .field-type-content-taxonomy ul li:last-child:after {
 /****************************/
 
  .og-context #page-tools .page-title, .og-context #page-tools .og-description {
-    width: 700px;
+    width: 840px;
     float: left;
     }
    
@@ -383,8 +383,21 @@ div.content .field-type-content-taxonomy ul li:last-child:after {
  
 
 .og-context #page-tools .group-logo {
- margin-top: 16px;
+   margin-top: -90px;
+   float: left;
+   margin-bottom: 30px;
 }
+
+.og-context #page-tools .og-description {
+  float: left;
+  margin-left: 120px;
+}
+
+.og-context #page-tools .page-title {
+  float: left;
+  margin-left: 120px;
+}
+
 
 /*****************************/
 /*   Content                */
@@ -1098,6 +1111,7 @@ padding: 0;
 
 #footer .limiter {
 	padding: 0;
+	background-color: #84389C;
 }
 
 #footer .block-content {
@@ -1743,10 +1757,37 @@ div.node {
 	border-radius: 5px 0 5px 5px;
 }
 
-body #header .block-widget .block-content, body #header .block .block-title {
+body #header .block-widget .block-content {
     background-color: #404040;
     color: white;
 }
+
+body #space-tools .block-title { background: transparent; border: none;}
+
+body #header .block-widget .block-content,
+body #header .block .block-title { background: transparent; border: none;}
+
+body #header .block .block-title, body #space-tools .block-title {
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    margin-left: 5px;
+}
+
+body #header .block .block-title {
+    height: 27px !important;
+}
+
+body #header .block .block-title div.picture img {
+  /* profilbild wenn logged in verkleinern*/
+    width: 18px !important;
+    height: 18px !important;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+
+
 
 /*************************/
 /***** BALANCE BAR  ******/
@@ -1754,7 +1795,9 @@ body #header .block-widget .block-content, body #header .block .block-title {
 
 #global {
 height: 42px;
-background: #404040 !important;
+background: #fff !important;
+color: #000 !important;
+font-weight: bold;
 }
 
 #global .breadcrumb {
@@ -1770,7 +1813,7 @@ background: #404040 !important;
   float: left;
   text-indent:-999px;
   overflow:hidden;
-  margin-top: -15px;
+  margin-top: -25px; /*vorher -15*/
 
   width: 200px;
   height:60px;
@@ -1785,13 +1828,12 @@ background: #404040 !important;
   float: left;
   text-indent:-999px;
   overflow:hidden;
-  margin-top: -15px;
-
-  width: 220px;
-  height:60px;
+  margin-top: -31px; /*vorher -15*/
+  width: 550px;     /*vorher 220px*/
+  height:73px;      /*vorher 60px*/
   background-image: url('images/sprite_skin.png');
   background-repeat:no-repeat;
-  background-position: -240px -420px;
+  background-position: -10px 0px; /*vorher -240px -420px*/
   }
   
 
@@ -1859,10 +1901,15 @@ h2.node-title {
 }
 
 body #space-tools .block-title, body #header .block-widget .block-content, body #header .block .block-title{
-	/*background-color: transparent!important;
-	color: #fff !important; */
-	font-size: 16px;
-	font-weight: normal!important;
+	background: transparent;
+	color: black;
+	font-size: 11px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .dropdown-blocks .block .block-title {
@@ -1924,7 +1971,7 @@ input.teaser-button, input.form-submit {
  }
 
 #right .page-region {
-	padding: 13px 0 0 20px;
+	padding: 0px 0 0 20px;
 }
 
 #page .limiter {
@@ -2000,7 +2047,7 @@ table th {
 
 #right .context-links a {
     font-size:11px;
-    font-weight:bold;
+    font-weight:bold;sprirte
     color:#fff;
     background:#666 url(images/sprite_bleeds.png) 0px -400px repeat-x;
     text-shadow:#444 0px 1px 0px;
@@ -2022,7 +2069,7 @@ table th {
 }
 
 #page-tools .context-links, a:active, #right .context-links a:active { background-position:0px 100%; }
-#page-tools .context-links, #right .context-links { padding: 0; } 
+#page-tools .context-links, #right .context-links { padding: 0; padding-bottom: 10px; } 
 #page-tools .context-links ul ,#right .context-links ul { margin-bottom: 0; }
 
 #right .page-region .block .block-title {
@@ -2143,11 +2190,35 @@ div.litecal .litecal-title {
 div.litecal .litecal-title h3.litecal-title { 
    font-size: 14px !important;
    border: none;
+   font-weight: bold !important;
+   color: #000 !important;
 }
 
 div.litecal .litecal-header { 
     margin-top: 8px;
+    background-color: #84389C !important;
+    color: white !important;
+    height: 35px;
 }
+
+div.litecal .litecal-slot .label:hover span {
+    background: #d6d6d6 !important;
+    color: black !important;
+}
+
+div.litecal .litecal-slot .label span.add {
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  border: 0px !important;
+  background-color: #d6d6d6;
+  font-size: 10px !important;
+}
+
+div.litecal .litecal-header .litecal-label {
+    margin-top: 10px;
+}
+
 
 html.js input.form-autocomplete {
   background-image: url(/misc/throbber.gif);
@@ -2203,20 +2274,32 @@ display: none;
   border-collapse: separate;
 }
 .block-content .view-event-listing td.views-field-title {
-  padding: 0 0 0 4px;
+  /*padding: 0 0 0 4px; VORHER*/
+  padding: 10px 0 0 7px;
   border-bottom: 10px solid #fff;
+  display: inline;
+  float: left;
 }
 
 .block-content .view-event-listing td.views-field-date {
-  width: 50px;
-  border-right: 1px solid #ccc;
-  padding: 0 6px 0 0;
-  border-bottom: 10px solid #fff;
+  /*width: 50px;*/
+  /*border-right: 1px solid #ccc;*/
+  /*padding: 0 6px 0 0; VORHER*/
+  padding: 3px 0px 2px 5px;
+  /*border-bottom: 10px solid #fff;*/
+  background-color: #84389C;
+  display: block;
+  width: 99%;
 }
 
 .block-content .view-event-listing .date-display-end {
-  display: block;
+  display: inline; /* Vorher block */
   clear: both;
+}
+
+/*****NEU links view-ebent-listing *******/
+#block-views-event_listing-block_1 .views-field-date a {
+color: white;
 }
 
 /* latest events on event page */
@@ -2253,8 +2336,13 @@ display: none;
 
 /* Theming the calendars*/
 div.litecal .litecal-slot-today {
-  background: #FFF8BB;
+  background: #84389C !important;
 }
+div.litecal .litecal-slot-today a {
+  color: white !important;
+}
+
+
 
 /*Modified the user menu 'mein gruppen' view to better format projects as well as focusgroups*/
 .dropdown-blocks .block-toggle .item-list {
@@ -2322,3 +2410,4 @@ div.exhibit-views-bubbleWithItems {
   height: 8em;
   overflow: auto;
 }
+
