@@ -168,7 +168,6 @@ input[value="Speichern"]:hover {
   text-shadow: none;
 }
 
-
 /* ===== efs 302 aufklappen und schlissen von collapsibles ===== */
 .page-content .content fieldset.collapsible legend a,
 .page-content .content fieldset.collapsible.collapsed legend a {
@@ -190,6 +189,7 @@ input[value="Speichern"]:hover {
     -webkit-border-radius: 0px;
     */
 }
+
 
 
 
@@ -396,7 +396,34 @@ background: transparent;
 }
 	
 /*Datei Upload - Drop Zone #393 */
-=======
+.atrium-folders-navigator .dropzone-upload .drop-zone {
+display: none;
+}
+
+/*Hide Formatierungshilfe bei edit profile #441*/
+#node-form .column-main .filter-options .filter-help {
+display: none;
+} 
+
+/*Projektgruppe	#400*/
+.fieldgroup.group-projectcontact .field-field-projectaccount .vcard {
+margin-bottom: 30px;
+}
+
+	
+/*User Login #339*/	
+#page .page-content.content-wrapper #user-login {
+margin: 0px 185px 10px -162px;
+}
+
+/*Newseintrag-Vorschau zu breit*/
+.column-main .node-preview.fieldset.titled.collapsible.tao-processed legend .fieldset-title {
+width: 610px;
+}
+
+.column-main .node-preview.fieldset.titled.collapsible.tao-processed .fieldset-content.clear-block {
+width: 600px;
+
 
 
 /*==============Changes Waldemar==================== */
@@ -892,5 +919,6 @@ margin-bottom: 5px;
 .view-display-id-attachment_1 .view-content .views-field.views-field-date.date {
 white-space: normal;
 }
+
 
 
