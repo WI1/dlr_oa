@@ -423,7 +423,7 @@ width: 610px;
 
 .column-main .node-preview.fieldset.titled.collapsible.tao-processed .fieldset-content.clear-block {
 width: 600px;
-
+}
 
 
 /*==============Changes Waldemar==================== */
@@ -499,7 +499,7 @@ border-top: none;
 
 /*Devel*/
 #block-admin-devel {
-border-radius: 0;
+  border-radius: 0;
 }
 
 /* entfernt haarlinien unter h2 ueberschriften im blog*/
@@ -708,7 +708,7 @@ display: none;
 }
 
 #page .page-region .content .field.terms.clear-block ul.links.inline  {
-display: table-cell;
+display: table-cell !important;
 }
 
 div.content div.field-field-date {
