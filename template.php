@@ -751,11 +751,3 @@ function reorder_links($links, $first_keys = array(), $last_keys = array()) {
   $links = array_merge($links, $last_links);
   return $links;
 }
-
-
-function phptemplate_tinymce_theme($init, $textarea_name, $theme_name, $is_running) {
-    echo "<script>alert('hola :)');</script>";
-    $init = theme_tinymce_theme($init, $textarea_name, $theme_name, $is_running);
-    $init['extended_valid_elements'][] = 'img[class|src|alt|title|hspace|vspace|width|height|align|onmouseover|onmouseout|name|style]';
-    return $init;
-}
