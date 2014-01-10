@@ -457,6 +457,10 @@ font-size: 11px;
 color: #666;
 }
 
+#user-login-form {
+  padding: 5px;
+}
+
 #user-login-form .block input.form-text {
   max-width: 100% !important;
 }
