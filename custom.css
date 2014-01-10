@@ -457,13 +457,36 @@ font-size: 11px;
 color: #666;
 }
 
+#user-login-form .block input.form-text {
+  max-width: 100% !important;
+}
+
+#user-login-form #edit-name-wrapper {
+  float: left;
+  padding: 0px;
+  width: 150px;
+}
+
+#user-login-form #edit-pass-wrapper {
+  margin-left: 160px;
+  width: 160px;
+  padding: 0px;
+}
+
 #user-login-form, #user-login-form input {
 text-align: left;
-width: 120px;
+width: inherit;
 }
 
 #user-login-form .form-submit {
 width: inherit;
+margin-top: 10px;
+float: left;
+}
+
+#user-login-form div.item-list {
+  margin-top: 13px;
+  margin-left: 80px;
 }
 
 #user-login-form label {
