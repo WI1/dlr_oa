@@ -156,6 +156,11 @@ input[value="Speichern"]:hover {
   background: url(/sites/all/themes/dlr_oa/img/bg/tabverlauf.jpg) repeat-x;
   width: auto;
 }
+
+.page-user #page-tools #secondary-tabs li:first-child {
+  border-left: #bbb 1px solid !important;
+}
+
 .page-user #page-tools #secondary-tabs li a {
   font-size: 14px; 
   font-weight: bold !important;
