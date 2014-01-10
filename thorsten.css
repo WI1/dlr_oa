@@ -576,7 +576,10 @@ display: none;
 }
 
 #right .view-demoscreen-tweets li.pager-previous {
-background-image: url("img/arrow-left.jpg");
+/* background-image: url("img/arrow-left.jpg");
+   needed to be removed to not show arrow left on the first page (to get to
+   the 0th page, which makes no sense
+*/
 background-repeat: no-repeat;
 left: 11px;
 top: 3px;
