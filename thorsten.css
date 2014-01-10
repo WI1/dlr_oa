@@ -613,6 +613,17 @@ width: 60px;
   margin-top: 50px;
 }
 
+#right .view-demoscreen-tweets div.view-content {
+  /* get more padding around tweets*/
+  padding: 5px;
+  margin-top: -10px;
+}
+
+#right .view-demoscreen-tweets table {
+  /* reconfigure table font size for twitter block*/
+  font-size: 13px !important;
+}
+
 /* Twitter Block End */
 
 /* aktuelle Termine / upcoming events */
