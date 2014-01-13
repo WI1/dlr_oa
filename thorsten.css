@@ -939,5 +939,64 @@ margin-bottom: 5px;
 white-space: normal;
 }
 
+/********************************/
+
+/*Tags bei Fokusgruppen entfernt*/
+.node-focusgroup.clear-block .content .field.terms.clear-block{
+  display: none;
+}
+
+/*padding eingefügt bei Fokusgruppe*/
+#content .node-focusgroup fieldset.collapsible {
+  padding: .6em 1em 1em 1em;
+}
+
+/*Logo entfernt bei Fokusgruppe Fokusgruppensprecher*/
+.fieldgroup.group-focusgroupspeaker.collapsible .logo {
+  display: none;
+}
+
+/*Logo entfernt bei Fokusgruppe Projektträger*/
+.field.field-type-userreference.field-field-contactdlr-user .logo {
+  display: none;
+}
+
+/********Tabs at Profile*********/
+.page-user #page-tools .links.primary-tabs li a.active {
+  background: #7E2B97 !important;
+  color: white !important;
+  text-shadow: none;
+}
+
+.page-user #page-tools .links.primary-tabs li a {
+  border: none !important;
+  font-weight: bold !important;
+  background: none !important;
+  padding: 1px 10px 0 10px !important;
+  margin: 0 !important;
+  height: 29px !important;
+  color: #404040 !important;
+  overflow: hidden;
+  display: block !important;
+  width: auto;
+  line-height: 30px;
+  font-size: 14px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+.page-user #page-tools .links.primary-tabs li {
+  font-weight: bold !important;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 !important;
+  border: #bbb 1px solid !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  height: 30px !important;
+  background: url(/sites/all/themes/dlr_oa/img/bg/tabverlauf.jpg) repeat-x;
+  width: auto;
+}
 
 
