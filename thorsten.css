@@ -999,4 +999,8 @@ white-space: normal;
   width: auto;
 }
 
+/*Seite Demoscreen-Termine über rechtes Menü*/
+.view-id-event_listing.view-display-id-page_3 .links.pager.pager-list li {
+  margin-left: 0px !important;
+}
 
